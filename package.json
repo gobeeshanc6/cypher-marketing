@@ -5,7 +5,9 @@
   "description": "TikTok + LinkedIn slideshow content pipeline for CypherJobs",
   "scripts": {
     "generate": "node generate-slides.js",
-    "batch": "node batch-schedule.js"
+    "generate:auto": "node generate-content.js",
+    "batch": "node batch-schedule.js",
+    "auto": "node generate-content.js && node batch-schedule.js"
   },
   "author": "",
   "license": "ISC",
