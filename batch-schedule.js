@@ -52,7 +52,7 @@ async function createPost(post, channelId, platform) {
       mode: POST_NOW ? 'shareNow' : (post.scheduledAt ? 'customScheduled' : 'addToQueue'),
       ...(!POST_NOW && post.scheduledAt && { dueAt: post.scheduledAt }),
       ...(DRAFT_MODE && { saveToDraft: true }),
-      ...(platform === 'instagram' && { postType: 'post' }),
+      ...(platform === 'instagram' && { metadata: { instagram: { type: 'post', shouldShareToFeed: true } } }),
       assets: { images: imageAssets },
     },
   }
