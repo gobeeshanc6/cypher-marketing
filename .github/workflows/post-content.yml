@@ -42,6 +42,6 @@ jobs:
         run: node batch-schedule.js
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+          BUFFER_CHANNELS: ${{ secrets.BUFFER_CHANNELS }}
           POST_NOW: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
           DRAFT_MODE: ${{ vars.DRAFT_MODE || 'false' }}

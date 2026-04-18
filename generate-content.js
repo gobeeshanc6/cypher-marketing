@@ -15,8 +15,12 @@ if (!OPENAI_API_KEY || !CLOUDFLARE_ACCOUNT_ID || !CLOUDFLARE_API_TOKEN) {
 const NICHE = process.env.NICHE || 'cybersecurity careers'
 const BRAND = process.env.BRAND || 'cypherjobs.io'
 const OUTPUT_DIR = './output'
-const CANVAS_W = 1080
-const CANVAS_H = 1920
+
+const PLATFORMS = {
+  tiktok:    { w: 1080, h: 1920 },
+  instagram: { w: 1080, h: 1350 },
+  linkedin:  { w: 1080, h: 1080 },
+}
 
 const FONT_PATH = './fonts/Inter-Bold.ttf'
 if (existsSync(FONT_PATH)) {
@@ -82,10 +86,10 @@ Output JSON:
   const content = JSON.parse(data.choices[0].message.content)
 
   for (const slide of content.slides) {
-    const match = slide.title?.match(/\*\*(.+?)\*\*/)
+    const match = slide.title?.match(/\*{1,2}(.+?)\*{1,2}/)
     if (match) {
       if (!slide.highlight) slide.highlight = match[1]
-      slide.title = slide.title.replace(/\*\*/g, '')
+      slide.title = slide.title.replace(/\*+/g, '')
     }
   }
 
@@ -246,27 +250,29 @@ function drawTitleWithHighlight(ctx, title, highlight, y, maxWidth) {
   return cy + TITLE_SIZE * 1.5 + 10
 }
 
-async function renderSlide(slide, imagePath, index, totalSlides) {
-  const canvas = createCanvas(CANVAS_W, CANVAS_H)
+async function renderSlide(slide, imagePath, index, totalSlides, platform, dims) {
+  const W = dims.w
+  const H = dims.h
+  const canvas = createCanvas(W, H)
   const ctx = canvas.getContext('2d')
 
   const img = await loadImage(imagePath)
-  const scale = Math.max(CANVAS_W / img.width, CANVAS_H / img.height)
+  const scale = Math.max(W / img.width, H / img.height)
   const drawW = img.width * scale
   const drawH = img.height * scale
-  const offsetX = (CANVAS_W - drawW) / 2
-  const offsetY = (CANVAS_H - drawH) / 2
+  const offsetX = (W - drawW) / 2
+  const offsetY = (H - drawH) / 2
   ctx.drawImage(img, offsetX, offsetY, drawW, drawH)
 
   ctx.fillStyle = COLORS.overlay
-  ctx.fillRect(0, 0, CANVAS_W, CANVAS_H)
+  ctx.fillRect(0, 0, W, H)
 
-  const gradient = ctx.createLinearGradient(0, CANVAS_H * 0.3, 0, CANVAS_H)
+  const gradient = ctx.createLinearGradient(0, H * 0.3, 0, H)
   gradient.addColorStop(0, 'rgba(20, 12, 8, 0)')
   gradient.addColorStop(0.5, 'rgba(20, 12, 8, 0.4)')
   gradient.addColorStop(1, 'rgba(20, 12, 8, 0.75)')
   ctx.fillStyle = gradient
-  ctx.fillRect(0, 0, CANVAS_W, CANVAS_H)
+  ctx.fillRect(0, 0, W, H)
 
   ctx.font = `bold 28px ${FONT_FAMILY}`
   ctx.fillStyle = COLORS.watermark
@@ -280,9 +286,9 @@ async function renderSlide(slide, imagePath, index, totalSlides) {
   ctx.shadowOffsetY = 0
 
   const PADDING = 80
-  const MAX_TEXT_W = CANVAS_W - PADDING * 2
+  const MAX_TEXT_W = W - PADDING * 2
   const hasBullets = slide.bullets && slide.bullets.length > 0
-  const startY = hasBullets ? CANVAS_H * 0.28 : CANVAS_H * 0.38
+  const startY = hasBullets ? H * 0.22 : H * 0.35
 
   let currentY = drawTitleWithHighlight(ctx, slide.title || '', slide.highlight, startY, MAX_TEXT_W)
 
@@ -340,8 +346,8 @@ async function renderSlide(slide, imagePath, index, totalSlides) {
   const dotRadius = 5
   const dotSpacing = 22
   const dotsWidth = (dotCount - 1) * dotSpacing
-  const dotsStartX = (CANVAS_W - dotsWidth) / 2
-  const dotsY = CANVAS_H - 80
+  const dotsStartX = (W - dotsWidth) / 2
+  const dotsY = H - 80
 
   for (let i = 0; i < dotCount; i++) {
     ctx.beginPath()
@@ -350,13 +356,16 @@ async function renderSlide(slide, imagePath, index, totalSlides) {
     ctx.fill()
   }
 
-  const outPath = join(OUTPUT_DIR, `slide_${String(index + 1).padStart(2, '0')}.png`)
+  const platformDir = join(OUTPUT_DIR, platform)
+  const outPath = join(platformDir, `slide_${String(index + 1).padStart(2, '0')}.png`)
   writeFileSync(outPath, canvas.toBuffer('image/png'))
-  console.log(`  ${outPath}`)
 }
 
 async function main() {
   mkdirSync(OUTPUT_DIR, { recursive: true })
+  for (const platform of Object.keys(PLATFORMS)) {
+    mkdirSync(join(OUTPUT_DIR, platform), { recursive: true })
+  }
 
   const content = await generateSlideContent()
   console.log(`\nGenerated ${content.slides.length} slides\n`)
@@ -371,24 +380,31 @@ async function main() {
     }
   }
 
-  console.log('\nRendering final slides...\n')
-  for (let i = 0; i < content.slides.length; i++) {
-    if (imagePaths[i]) {
-      await renderSlide(content.slides[i], imagePaths[i], i, content.slides.length)
-    } else {
-      console.error(`  Skipping slide ${i + 1} - no background image`)
+  console.log('\nRendering slides for all platforms...\n')
+  for (const [platform, dims] of Object.entries(PLATFORMS)) {
+    console.log(`  ${platform} (${dims.w}x${dims.h}):`)
+    for (let i = 0; i < content.slides.length; i++) {
+      if (imagePaths[i]) {
+        await renderSlide(content.slides[i], imagePaths[i], i, content.slides.length, platform, dims)
+      } else {
+        console.error(`    Skipping slide ${i + 1} - no background image`)
+      }
     }
+    console.log(`    ${content.slides.length} slides`)
   }
 
-  const schedule = [
-    {
-      slides: content.slides.map((_, i) => `./output/slide_${String(i + 1).padStart(2, '0')}.png`),
-      caption: content.caption,
-    },
-  ]
-  writeFileSync('./schedules/week.json', JSON.stringify(schedule, null, 2))
+  mkdirSync('./schedules', { recursive: true })
+  for (const platform of Object.keys(PLATFORMS)) {
+    const schedule = [
+      {
+        slides: content.slides.map((_, i) => `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`),
+        caption: content.caption,
+      },
+    ]
+    writeFileSync(`./schedules/${platform}.json`, JSON.stringify(schedule, null, 2))
+  }
 
-  console.log(`\nDone - ${content.slides.length} slides generated`)
+  console.log(`\nDone - ${content.slides.length} slides x ${Object.keys(PLATFORMS).length} platforms`)
   console.log(`Caption: ${content.caption}`)
 }
 
