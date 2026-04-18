@@ -37,3 +37,4 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+          POST_NOW: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
