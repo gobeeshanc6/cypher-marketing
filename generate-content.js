@@ -39,33 +39,34 @@ async function generateSlideContent() {
       messages: [
         {
           role: 'system',
-          content: `You create viral TikTok slideshow content for the ${NICHE} niche. Output JSON only.`,
+          content: `You create viral TikTok slideshow content for the ${NICHE} niche. Style: warm, cozy, approachable - like a friend giving career advice over coffee. NOT dark/hacker aesthetic. Output JSON only.`,
         },
         {
           role: 'user',
           content: `Create a TikTok slideshow with 8 slides about ${NICHE}.
 
-Rules:
-- Slide 1: Hook - under 10 words, must trigger curiosity or surprise
-- Slide 2: Agitate a pain point the audience feels
-- Slides 3-7: Value delivery - each slide reveals one insight, tip, or fact. Escalate interest.
-- Slide 8: CTA - mention ${BRAND} and "Follow for more"
-- Each slide needs an image_prompt for AI image generation (dark, moody, professional aesthetic)
-- Image prompts should describe realistic scenes (offices, screens, servers, people working) not abstract art
-- Caption should include 3-5 relevant hashtags
+Visual style: warm lifestyle aesthetic (think cozy desk setups, coffee shops, laptops with warm lighting). Each slide has a bold title with ONE highlighted keyword, an optional subtitle in parentheses, and bullet points for detail slides.
+
+Slide structure:
+- Slide 1 (hook): Bold title with one highlighted keyword. Under 10 words, trigger curiosity.
+- Slide 2 (agitate): Pain point the audience feels. Title + subtitle.
+- Slides 3-7 (value): Each has a title with highlighted keyword + 3-5 bullet points with actionable tips.
+- Slide 8 (CTA): Mention ${BRAND} and "Follow for more"
+
+Image prompts should describe WARM, COZY scenes: coffee cups on wooden desks, laptop screens with warm lighting, person coding at a cozy workspace, bookshelves with tech books, warm afternoon light through windows. NO dark/moody/neon. Think lifestyle photography.
 
 Output JSON:
 {
   "slides": [
     {
-      "lines": [
-        {"text": "slide text line 1", "size": 84, "weight": "bold"},
-        {"text": "slide text line 2", "size": 64, "weight": "normal"}
-      ],
-      "image_prompt": "description for AI image generation"
+      "title": "main title text",
+      "highlight": "one keyword from the title to highlight in a colored box",
+      "subtitle": "optional parenthetical subtitle or null",
+      "bullets": ["bullet point 1", "bullet point 2"] or null for hook/CTA slides,
+      "image_prompt": "warm cozy lifestyle scene description"
     }
   ],
-  "caption": "TikTok caption with hashtags"
+  "caption": "TikTok caption with 3-5 hashtags"
 }`,
         },
       ],
@@ -78,13 +79,23 @@ Output JSON:
     process.exit(1)
   }
 
-  return JSON.parse(data.choices[0].message.content)
+  const content = JSON.parse(data.choices[0].message.content)
+
+  for (const slide of content.slides) {
+    const match = slide.title?.match(/\*\*(.+?)\*\*/)
+    if (match) {
+      if (!slide.highlight) slide.highlight = match[1]
+      slide.title = slide.title.replace(/\*\*/g, '')
+    }
+  }
+
+  return content
 }
 
 async function generateImage(prompt, index) {
   console.log(`  Generating image ${index + 1}...`)
 
-  const fullPrompt = `${prompt}. Dark moody lighting, cinematic, high contrast, professional photography, 9:16 portrait orientation`
+  const fullPrompt = `${prompt}. Warm golden hour lighting, cozy atmosphere, soft bokeh background, lifestyle photography, 9:16 portrait orientation, shallow depth of field`
 
   const res = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
@@ -131,7 +142,111 @@ function wrapText(ctx, text, maxWidth) {
   return lines
 }
 
-async function renderSlide(slide, imagePath, index) {
+const COLORS = {
+  overlay: 'rgba(30, 20, 15, 0.45)',
+  highlight: '#D4845A',
+  highlightText: '#FFFFFF',
+  title: '#FFFFFF',
+  subtitle: 'rgba(255, 255, 255, 0.85)',
+  bullet: 'rgba(255, 255, 255, 0.9)',
+  bulletDot: '#D4845A',
+  watermark: 'rgba(255, 255, 255, 0.7)',
+}
+
+function drawRoundedRect(ctx, x, y, w, h, r) {
+  ctx.beginPath()
+  ctx.moveTo(x + r, y)
+  ctx.lineTo(x + w - r, y)
+  ctx.quadraticCurveTo(x + w, y, x + w, y + r)
+  ctx.lineTo(x + w, y + h - r)
+  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h)
+  ctx.lineTo(x + r, y + h)
+  ctx.quadraticCurveTo(x, y + h, x, y + h - r)
+  ctx.lineTo(x, y + r)
+  ctx.quadraticCurveTo(x, y, x + r, y)
+  ctx.closePath()
+  ctx.fill()
+}
+
+function drawTitleWithHighlight(ctx, title, highlight, y, maxWidth) {
+  const TITLE_SIZE = 72
+  const PADDING_X = 80
+
+  ctx.font = `bold ${TITLE_SIZE}px ${FONT_FAMILY}`
+  ctx.textAlign = 'left'
+  ctx.textBaseline = 'top'
+
+  if (!highlight) {
+    ctx.fillStyle = COLORS.title
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
+    ctx.shadowBlur = 8
+    ctx.shadowOffsetY = 3
+    const wrapped = wrapText(ctx, title, maxWidth)
+    let cy = y
+    for (const line of wrapped) {
+      ctx.fillText(line, PADDING_X, cy)
+      cy += TITLE_SIZE * 1.35
+    }
+    ctx.shadowBlur = 0
+    ctx.shadowOffsetY = 0
+    return cy + 10
+  }
+
+  const hlLower = highlight.toLowerCase()
+  const hlWords = new Set(hlLower.split(' '))
+  const allWords = title.split(' ')
+
+  let cx = PADDING_X
+  let cy = y
+
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
+  ctx.shadowBlur = 8
+  ctx.shadowOffsetY = 3
+
+  for (const word of allWords) {
+    ctx.font = `bold ${TITLE_SIZE}px ${FONT_FAMILY}`
+    const wordWidth = ctx.measureText(word).width
+    const spaceWidth = ctx.measureText(' ').width
+
+    if (cx + wordWidth > PADDING_X + maxWidth && cx > PADDING_X) {
+      cx = PADDING_X
+      cy += TITLE_SIZE * 1.4
+    }
+
+    if (hlWords.has(word.toLowerCase())) {
+      const padX = 14
+      const padY = 8
+      const boxW = wordWidth + padX * 2
+      const boxH = TITLE_SIZE + padY * 2
+
+      ctx.fillStyle = COLORS.highlight
+      ctx.shadowBlur = 0
+      ctx.shadowOffsetY = 0
+      drawRoundedRect(ctx, cx - padX, cy - padY + 2, boxW, boxH, 14)
+
+      ctx.fillStyle = COLORS.highlightText
+      ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'
+      ctx.shadowBlur = 4
+      ctx.shadowOffsetY = 2
+      ctx.fillText(word, cx, cy)
+
+      ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
+      ctx.shadowBlur = 8
+      ctx.shadowOffsetY = 3
+    } else {
+      ctx.fillStyle = COLORS.title
+      ctx.fillText(word, cx, cy)
+    }
+
+    cx += wordWidth + spaceWidth
+  }
+
+  ctx.shadowBlur = 0
+  ctx.shadowOffsetY = 0
+  return cy + TITLE_SIZE * 1.5 + 10
+}
+
+async function renderSlide(slide, imagePath, index, totalSlides) {
   const canvas = createCanvas(CANVAS_W, CANVAS_H)
   const ctx = canvas.getContext('2d')
 
@@ -143,34 +258,96 @@ async function renderSlide(slide, imagePath, index) {
   const offsetY = (CANVAS_H - drawH) / 2
   ctx.drawImage(img, offsetX, offsetY, drawW, drawH)
 
-  ctx.fillStyle = 'rgba(0, 0, 0, 0.55)'
+  ctx.fillStyle = COLORS.overlay
   ctx.fillRect(0, 0, CANVAS_W, CANVAS_H)
+
+  const gradient = ctx.createLinearGradient(0, CANVAS_H * 0.3, 0, CANVAS_H)
+  gradient.addColorStop(0, 'rgba(20, 12, 8, 0)')
+  gradient.addColorStop(0.5, 'rgba(20, 12, 8, 0.4)')
+  gradient.addColorStop(1, 'rgba(20, 12, 8, 0.75)')
+  ctx.fillStyle = gradient
+  ctx.fillRect(0, 0, CANVAS_W, CANVAS_H)
+
+  ctx.font = `bold 28px ${FONT_FAMILY}`
+  ctx.fillStyle = COLORS.watermark
+  ctx.textAlign = 'left'
+  ctx.textBaseline = 'top'
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
+  ctx.shadowBlur = 6
+  ctx.shadowOffsetY = 2
+  ctx.fillText(`@${BRAND.replace('.io', '')}`, 60, 60)
+  ctx.shadowBlur = 0
+  ctx.shadowOffsetY = 0
 
   const PADDING = 80
   const MAX_TEXT_W = CANVAS_W - PADDING * 2
-  const totalLines = slide.lines.length
-  const startY = CANVAS_H * 0.42
+  const hasBullets = slide.bullets && slide.bullets.length > 0
+  const startY = hasBullets ? CANVAS_H * 0.28 : CANVAS_H * 0.38
 
-  let currentY = startY
-  for (const line of slide.lines) {
-    const size = line.size || 64
-    const weight = line.weight || 'normal'
+  let currentY = drawTitleWithHighlight(ctx, slide.title || '', slide.highlight, startY, MAX_TEXT_W)
 
-    ctx.font = `${weight} ${size}px ${FONT_FAMILY}`
-    ctx.fillStyle = '#ffffff'
-    ctx.textAlign = 'center'
-    ctx.textBaseline = 'middle'
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.75)'
-    ctx.shadowBlur = 12
-    ctx.shadowOffsetY = 4
-
-    const wrapped = wrapText(ctx, line.text, MAX_TEXT_W)
-    const lineHeight = size * 1.3
-    for (const l of wrapped) {
-      ctx.fillText(l, CANVAS_W / 2, currentY)
-      currentY += lineHeight
+  if (slide.subtitle) {
+    ctx.font = `normal 44px ${FONT_FAMILY}`
+    ctx.fillStyle = COLORS.subtitle
+    ctx.textAlign = 'left'
+    ctx.textBaseline = 'top'
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+    ctx.shadowBlur = 6
+    ctx.shadowOffsetY = 2
+    const subText = `(${slide.subtitle.replace(/^\(|\)$/g, '')})`
+    const wrapped = wrapText(ctx, subText, MAX_TEXT_W)
+    for (const line of wrapped) {
+      ctx.fillText(line, PADDING, currentY)
+      currentY += 44 * 1.3
     }
+    ctx.shadowBlur = 0
+    ctx.shadowOffsetY = 0
+    currentY += 20
+  }
+
+  if (hasBullets) {
+    const BULLET_SIZE = 36
+    const DOT_RADIUS = 7
     currentY += 10
+
+    for (const bullet of slide.bullets) {
+      ctx.fillStyle = COLORS.bulletDot
+      ctx.beginPath()
+      ctx.arc(PADDING + DOT_RADIUS, currentY + BULLET_SIZE * 0.55, DOT_RADIUS, 0, Math.PI * 2)
+      ctx.fill()
+
+      ctx.font = `normal ${BULLET_SIZE}px ${FONT_FAMILY}`
+      ctx.fillStyle = COLORS.bullet
+      ctx.textAlign = 'left'
+      ctx.textBaseline = 'top'
+      ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+      ctx.shadowBlur = 4
+      ctx.shadowOffsetY = 2
+
+      const bulletX = PADDING + DOT_RADIUS * 2 + 16
+      const wrapped = wrapText(ctx, bullet, MAX_TEXT_W - DOT_RADIUS * 2 - 16)
+      for (const line of wrapped) {
+        ctx.fillText(line, bulletX, currentY)
+        currentY += BULLET_SIZE * 1.4
+      }
+      currentY += 8
+    }
+    ctx.shadowBlur = 0
+    ctx.shadowOffsetY = 0
+  }
+
+  const dotCount = totalSlides || 8
+  const dotRadius = 5
+  const dotSpacing = 22
+  const dotsWidth = (dotCount - 1) * dotSpacing
+  const dotsStartX = (CANVAS_W - dotsWidth) / 2
+  const dotsY = CANVAS_H - 80
+
+  for (let i = 0; i < dotCount; i++) {
+    ctx.beginPath()
+    ctx.arc(dotsStartX + i * dotSpacing, dotsY, dotRadius, 0, Math.PI * 2)
+    ctx.fillStyle = i === index ? '#FFFFFF' : 'rgba(255, 255, 255, 0.35)'
+    ctx.fill()
   }
 
   const outPath = join(OUTPUT_DIR, `slide_${String(index + 1).padStart(2, '0')}.png`)
@@ -197,7 +374,7 @@ async function main() {
   console.log('\nRendering final slides...\n')
   for (let i = 0; i < content.slides.length; i++) {
     if (imagePaths[i]) {
-      await renderSlide(content.slides[i], imagePaths[i], i)
+      await renderSlide(content.slides[i], imagePaths[i], i, content.slides.length)
     } else {
       console.error(`  Skipping slide ${i + 1} - no background image`)
     }
