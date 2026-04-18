@@ -1,0 +1,16 @@
+{
+  "name": "cypher-marketing",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TikTok + LinkedIn slideshow content pipeline for CypherJobs",
+  "scripts": {
+    "generate": "node generate-slides.js",
+    "batch": "node batch-schedule.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.99",
+    "sharp": "^0.34.5"
+  }
+}

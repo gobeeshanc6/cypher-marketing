@@ -1,0 +1,38 @@
+[
+  {
+    "slides": [
+      "./output/mon_01.png",
+      "./output/mon_02.png",
+      "./output/mon_03.png",
+      "./output/mon_04.png",
+      "./output/mon_05.png",
+      "./output/mon_06.png"
+    ],
+    "caption": "5 cyber roles that don't need a degree #cybersecurity #techjobs #cypherjobs",
+    "scheduledAt": "2026-04-21T17:00:00Z"
+  },
+  {
+    "slides": [
+      "./output/tue_01.png",
+      "./output/tue_02.png",
+      "./output/tue_03.png",
+      "./output/tue_04.png",
+      "./output/tue_05.png",
+      "./output/tue_06.png"
+    ],
+    "caption": "CISSP vs CEH - which cert gets you hired faster? #cybersecurity #certifications #infosec",
+    "scheduledAt": "2026-04-22T17:00:00Z"
+  },
+  {
+    "slides": [
+      "./output/wed_01.png",
+      "./output/wed_02.png",
+      "./output/wed_03.png",
+      "./output/wed_04.png",
+      "./output/wed_05.png",
+      "./output/wed_06.png"
+    ],
+    "caption": "SOC analyst salary by experience level - the jump from year 1 to 3 is wild #cybersecurity #salary #careertips",
+    "scheduledAt": "2026-04-23T17:00:00Z"
+  }
+]
