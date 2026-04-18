@@ -6,6 +6,7 @@ const BUFFER_CHANNEL_ID = process.env.BUFFER_CHANNEL_ID
 const GITHUB_REPO = process.env.GITHUB_REPO || 'gobeeshanc6/cypher-marketing'
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main'
 const POST_NOW = process.env.POST_NOW === 'true'
+const DRAFT_MODE = process.env.DRAFT_MODE === 'true'
 
 if (!BUFFER_API_KEY || !BUFFER_CHANNEL_ID) {
   console.error('Set BUFFER_API_KEY and BUFFER_CHANNEL_ID env vars first')
@@ -49,6 +50,7 @@ async function createPost(post) {
       schedulingType: 'automatic',
       mode: POST_NOW ? 'shareNow' : (post.scheduledAt ? 'customScheduled' : 'addToQueue'),
       ...(!POST_NOW && post.scheduledAt && { dueAt: post.scheduledAt }),
+      ...(DRAFT_MODE && { saveToDraft: true }),
       assets: { images: imageAssets },
     },
   }
