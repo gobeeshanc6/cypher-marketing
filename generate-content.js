@@ -28,7 +28,74 @@ if (existsSync(FONT_PATH)) {
 }
 const FONT_FAMILY = existsSync(FONT_PATH) ? 'InterBold' : 'sans-serif'
 
+const PILLARS = [
+  { name: 'career-advice', desc: 'breaking into cybersecurity, levelling up, career transitions, first job tips' },
+  { name: 'certs', desc: 'certification comparisons (CISSP vs CEH vs CompTIA), which certs matter, study tips, ROI of certs' },
+  { name: 'job-market', desc: 'hiring trends, salary ranges by role, in-demand skills, job market stats and data' },
+  { name: 'specialism-spotlight', desc: 'deep dive into one role: pentesting, GRC, threat intel, SOC analyst, cloud security, incident response' },
+  { name: 'tools-and-skills', desc: 'technical skills employers want, tools to learn, programming languages for security, hands-on labs' },
+  { name: 'myth-busting', desc: 'debunking myths: "you need a CS degree", "hacking is illegal", "cybersecurity is only for techies"' },
+  { name: 'community', desc: 'networking tips, conferences, communities to join, mentorship, share your story prompts' },
+]
+
+const HOOK_STYLES = [
+  'a surprising statistic or number',
+  'a counterintuitive claim that challenges assumptions',
+  'a direct question to the audience',
+  'a bold controversial opinion',
+  'a "stop doing X" warning',
+  'a "nobody talks about X" reveal',
+  'a salary or money figure',
+  'a "X things you need to know" list tease',
+]
+
+const POSTED_PATH = './content/posted.json'
+
+function getPostedHistory() {
+  if (!existsSync(POSTED_PATH)) return []
+  return JSON.parse(readFileSync(POSTED_PATH, 'utf-8'))
+}
+
+function savePostedEntry(entry) {
+  const history = getPostedHistory()
+  history.push(entry)
+  mkdirSync('./content', { recursive: true })
+  writeFileSync(POSTED_PATH, JSON.stringify(history, null, 2))
+}
+
+function getTodaysPillar() {
+  const history = getPostedHistory()
+  const usedPillars = history.slice(-PILLARS.length).map(h => h.pillar)
+  for (const pillar of PILLARS) {
+    if (!usedPillars.includes(pillar.name)) return pillar
+  }
+  const lastPillar = history.length > 0 ? history[history.length - 1].pillar : null
+  const lastIndex = PILLARS.findIndex(p => p.name === lastPillar)
+  return PILLARS[(lastIndex + 1) % PILLARS.length]
+}
+
+function getTodaysHookStyle() {
+  const history = getPostedHistory()
+  const usedHooks = history.slice(-HOOK_STYLES.length).map(h => h.hookStyle)
+  const available = HOOK_STYLES.filter(h => !usedHooks.includes(h))
+  if (available.length === 0) return HOOK_STYLES[Math.floor(Math.random() * HOOK_STYLES.length)]
+  return available[Math.floor(Math.random() * available.length)]
+}
+
+function getRecentTopicsSummary() {
+  const history = getPostedHistory().slice(-7)
+  if (history.length === 0) return ''
+  const lines = history.map(h => `- [${h.pillar}] "${h.hook}"`)
+  return `\n\nIMPORTANT - These topics were posted recently. Do NOT repeat or closely resemble any of them:\n${lines.join('\n')}`
+}
+
 async function generateSlideContent() {
+  const pillar = getTodaysPillar()
+  const hookStyle = getTodaysHookStyle()
+  const recentTopics = getRecentTopicsSummary()
+
+  console.log(`Content pillar: ${pillar.name}`)
+  console.log(`Hook style: ${hookStyle}`)
   console.log('Generating slide content with GPT-4o-mini...')
 
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -48,6 +115,12 @@ async function generateSlideContent() {
         {
           role: 'user',
           content: `Create a TikTok slideshow with 8 slides about ${NICHE}.
+
+TODAY'S CONTENT PILLAR: "${pillar.name}" - ${pillar.desc}
+Focus the entire post on this specific topic area. Be specific and actionable, not generic.
+
+HOOK STYLE: The first slide must open with ${hookStyle}. Make it scroll-stopping.
+${recentTopics}
 
 Visual style: warm lifestyle aesthetic (think cozy desk setups, coffee shops, laptops with warm lighting). Each slide has a bold title with ONE highlighted keyword, an optional subtitle in parentheses, and bullet points for detail slides.
 
@@ -93,7 +166,7 @@ Output JSON:
     }
   }
 
-  return content
+  return { content, pillar: pillar.name, hookStyle }
 }
 
 async function generateImage(prompt, index) {
@@ -367,7 +440,7 @@ async function main() {
     mkdirSync(join(OUTPUT_DIR, platform), { recursive: true })
   }
 
-  const content = await generateSlideContent()
+  const { content, pillar, hookStyle } = await generateSlideContent()
   console.log(`\nGenerated ${content.slides.length} slides\n`)
 
   console.log('Generating background images with FLUX...\n')
@@ -404,7 +477,16 @@ async function main() {
     writeFileSync(`./schedules/${platform}.json`, JSON.stringify(schedule, null, 2))
   }
 
+  savePostedEntry({
+    date: new Date().toISOString().split('T')[0],
+    pillar,
+    hookStyle,
+    hook: content.slides[0]?.title || '',
+    caption: content.caption,
+  })
+
   console.log(`\nDone - ${content.slides.length} slides x ${Object.keys(PLATFORMS).length} platforms`)
+  console.log(`Pillar: ${pillar} | Hook: ${hookStyle}`)
   console.log(`Caption: ${content.caption}`)
 }
 
