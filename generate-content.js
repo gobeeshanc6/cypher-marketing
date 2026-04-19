@@ -22,6 +22,12 @@ const PLATFORMS = {
   linkedin:  { w: 1080, h: 1080 },
 }
 
+const POST_HOURS_UTC = {
+  tiktok: 23,
+  instagram: 17,
+  linkedin: 15,
+}
+
 const FONT_PATH = './fonts/Inter-Bold.ttf'
 if (existsSync(FONT_PATH)) {
   GlobalFonts.registerFromPath(FONT_PATH, 'InterBold')
@@ -467,11 +473,21 @@ async function main() {
   }
 
   mkdirSync('./schedules', { recursive: true })
+  const now = new Date()
   for (const platform of Object.keys(PLATFORMS)) {
+    const scheduledAt = new Date(Date.UTC(
+      now.getUTCFullYear(),
+      now.getUTCMonth(),
+      now.getUTCDate(),
+      POST_HOURS_UTC[platform],
+      0,
+      0,
+    )).toISOString()
     const schedule = [
       {
         slides: content.slides.map((_, i) => `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`),
         caption: content.caption,
+        scheduledAt,
       },
     ]
     writeFileSync(`./schedules/${platform}.json`, JSON.stringify(schedule, null, 2))
