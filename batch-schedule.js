@@ -6,6 +6,7 @@ const GITHUB_REPO = process.env.GITHUB_REPO || 'gobeeshanc6/cypher-marketing'
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main'
 const POST_NOW = process.env.POST_NOW === 'true'
 const DRAFT_MODE = process.env.DRAFT_MODE === 'true'
+const PLATFORM_FILTER = (process.env.PLATFORM || '').trim().toLowerCase()
 
 // Format: "tiktok:channel_id,instagram:channel_id,linkedin:channel_id"
 const BUFFER_CHANNELS = {}
@@ -83,13 +84,23 @@ async function createPost(post, channelId, platform) {
 }
 
 async function main() {
-  const platforms = Object.keys(BUFFER_CHANNELS)
+  const allPlatforms = Object.keys(BUFFER_CHANNELS)
+  const platforms = PLATFORM_FILTER
+    ? allPlatforms.filter(p => p === PLATFORM_FILTER)
+    : allPlatforms
+
+  if (platforms.length === 0) {
+    console.error(`Platform "${PLATFORM_FILTER}" not found in channels: ${allPlatforms.join(', ')}`)
+    process.exit(1)
+  }
+
   console.log(`Posting to ${platforms.length} channel(s): ${platforms.join(', ')}\n`)
 
   let success = 0
   let total = 0
 
-  for (const [platform, channelId] of Object.entries(BUFFER_CHANNELS)) {
+  for (const platform of platforms) {
+    const channelId = BUFFER_CHANNELS[platform]
     const schedulePath = `./schedules/${platform}.json`
     if (!existsSync(schedulePath)) {
       console.error(`  No schedule found: ${schedulePath} - skipping ${platform}`)

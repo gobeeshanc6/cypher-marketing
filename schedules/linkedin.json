@@ -2,13 +2,9 @@
   {
     "slides": [
       "./output/linkedin/slide_01.png",
-      "./output/linkedin/slide_02.png",
       "./output/linkedin/slide_03.png",
-      "./output/linkedin/slide_04.png",
       "./output/linkedin/slide_05.png",
-      "./output/linkedin/slide_06.png",
-      "./output/linkedin/slide_07.png",
-      "./output/linkedin/slide_08.png"
+      "./output/linkedin/slide_07.png"
     ],
     "caption": "Curious about the cybersecurity job market? Let's explore together! #Cybersecurity #CareerGrowth #JobMarket #TechCareers #Explore",
     "scheduledAt": "2026-04-20T15:00:00.000Z"

@@ -472,6 +472,8 @@ async function main() {
     console.log(`    ${content.slides.length} slides`)
   }
 
+  const MAX_SLIDES = { linkedin: 4 }
+
   mkdirSync('./schedules', { recursive: true })
   const now = new Date()
   for (const platform of Object.keys(PLATFORMS)) {
@@ -483,9 +485,14 @@ async function main() {
       0,
       0,
     )).toISOString()
+    const allSlides = content.slides.map((_, i) => `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`)
+    const max = MAX_SLIDES[platform]
+    const selectedSlides = max && allSlides.length > max
+      ? [allSlides[0], ...allSlides.slice(1, -1).filter((_, i) => i % Math.ceil((allSlides.length - 2) / (max - 2)) === 0).slice(0, max - 2), allSlides[allSlides.length - 1]]
+      : allSlides
     const schedule = [
       {
-        slides: content.slides.map((_, i) => `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`),
+        slides: selectedSlides,
         caption: content.caption,
         scheduledAt,
       },
