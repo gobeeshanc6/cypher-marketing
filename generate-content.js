@@ -1,20 +1,20 @@
 import 'dotenv/config'
-import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'fs'
+import { writeFileSync, mkdirSync, readFileSync, existsSync, readdirSync } from 'fs'
 import { createCanvas, loadImage, GlobalFonts } from '@napi-rs/canvas'
 import { join } from 'path'
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
-const CLOUDFLARE_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID
-const CLOUDFLARE_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN
 
-if (!OPENAI_API_KEY || !CLOUDFLARE_ACCOUNT_ID || !CLOUDFLARE_API_TOKEN) {
-  console.error('Set OPENAI_API_KEY, CLOUDFLARE_ACCOUNT_ID, and CLOUDFLARE_API_TOKEN env vars')
+if (!OPENAI_API_KEY) {
+  console.error('Set OPENAI_API_KEY env var')
   process.exit(1)
 }
 
 const NICHE = process.env.NICHE || 'cybersecurity careers'
 const BRAND = process.env.BRAND || 'cypherjobs.io'
+const HANDLE = BRAND.replace('.io', '')
 const OUTPUT_DIR = './output'
+const STOCK_DIR = './images/stock'
 
 const PLATFORMS = {
   tiktok:    { w: 1080, h: 1920 },
@@ -28,11 +28,26 @@ const POST_HOURS_UTC = {
   linkedin: 15,
 }
 
-const FONT_PATH = './fonts/Inter-Bold.ttf'
-if (existsSync(FONT_PATH)) {
-  GlobalFonts.registerFromPath(FONT_PATH, 'InterBold')
+const FONT_BOLD_PATH = './fonts/Inter-Bold.ttf'
+const FONT_REGULAR_PATH = './fonts/Inter-Regular.ttf'
+if (existsSync(FONT_BOLD_PATH)) GlobalFonts.registerFromPath(FONT_BOLD_PATH, 'InterBold')
+if (existsSync(FONT_REGULAR_PATH)) GlobalFonts.registerFromPath(FONT_REGULAR_PATH, 'InterRegular')
+const FONT_BOLD = existsSync(FONT_BOLD_PATH) ? 'InterBold' : 'sans-serif'
+const FONT_REGULAR = existsSync(FONT_REGULAR_PATH) ? 'InterRegular' : 'sans-serif'
+
+const COLORS = {
+  overlay: 'rgba(20, 15, 10, 0.30)',
+  gradientStart: 'rgba(20, 12, 8, 0)',
+  gradientMid: 'rgba(20, 12, 8, 0.35)',
+  gradientEnd: 'rgba(20, 12, 8, 0.65)',
+  highlight: '#C4956A',
+  highlightText: '#FFFFFF',
+  title: '#FFFFFF',
+  subtitle: 'rgba(255, 255, 255, 0.80)',
+  bullet: 'rgba(255, 255, 255, 0.85)',
+  bulletDot: '#C4956A',
+  watermark: 'rgba(255, 255, 255, 0.60)',
 }
-const FONT_FAMILY = existsSync(FONT_PATH) ? 'InterBold' : 'sans-serif'
 
 const PILLARS = [
   { name: 'career-advice', desc: 'breaking into cybersecurity, levelling up, career transitions, first job tips' },
@@ -92,7 +107,17 @@ function getRecentTopicsSummary() {
   const history = getPostedHistory().slice(-7)
   if (history.length === 0) return ''
   const lines = history.map(h => `- [${h.pillar}] "${h.hook}"`)
-  return `\n\nIMPORTANT - These topics were posted recently. Do NOT repeat or closely resemble any of them:\n${lines.join('\n')}`
+  return `\n\nDo NOT repeat or closely resemble these recent topics:\n${lines.join('\n')}`
+}
+
+function pickStockPhotos(count) {
+  const allPhotos = readdirSync(STOCK_DIR).filter(f => /\.(jpg|jpeg|png)$/i.test(f))
+  const history = getPostedHistory()
+  const recentPhotos = new Set(history.slice(-allPhotos.length).flatMap(h => h.photos || []))
+  const unused = allPhotos.filter(p => !recentPhotos.has(p))
+  const pool = unused.length >= count ? unused : allPhotos
+  const shuffled = pool.sort(() => Math.random() - 0.5)
+  return shuffled.slice(0, count).map(f => join(STOCK_DIR, f))
 }
 
 async function generateSlideContent() {
@@ -116,40 +141,45 @@ async function generateSlideContent() {
       messages: [
         {
           role: 'system',
-          content: `You create viral TikTok slideshow content for the ${NICHE} niche. Style: warm, cozy, approachable - like a friend giving career advice over coffee. NOT dark/hacker aesthetic. Output JSON only.`,
+          content: `You create short, casual TikTok slideshow content for the ${NICHE} niche. Tone: like a friend giving advice over coffee. Direct, warm, no corporate speak. Output JSON only.`,
         },
         {
           role: 'user',
-          content: `Create a TikTok slideshow with 8 slides about ${NICHE}.
+          content: `Create a TikTok post with 1-2 slides about ${NICHE}.
 
-TODAY'S CONTENT PILLAR: "${pillar.name}" - ${pillar.desc}
-Focus the entire post on this specific topic area. Be specific and actionable, not generic.
+CONTENT PILLAR: "${pillar.name}" - ${pillar.desc}
 
-HOOK STYLE: The first slide must open with ${hookStyle}. Make it scroll-stopping.
+HOOK STYLE: Open with ${hookStyle}. Make it scroll-stopping.
 ${recentTopics}
 
-Visual style: warm lifestyle aesthetic (think cozy desk setups, coffee shops, laptops with warm lighting). Each slide has a bold title with ONE highlighted keyword, an optional subtitle in parentheses, and bullet points for detail slides.
+Format:
+- Slide 1: A bold, short title (under 8 words). One keyword to highlight. Optional short subtitle.
+- Slide 2 (optional, only if the topic needs tips/steps): 3-5 short bullet points. No title needed.
 
-Slide structure:
-- Slide 1 (hook): Bold title with one highlighted keyword. Under 10 words, trigger curiosity.
-- Slide 2 (agitate): Pain point the audience feels. Title + subtitle.
-- Slides 3-7 (value): Each has a title with highlighted keyword + 3-5 bullet points with actionable tips.
-- Slide 8 (CTA): Mention ${BRAND} and "Follow for more"
+Good title examples: "How to build a career in tech", "Code daily (even 30-60 minutes)", "Build REAL projects", "Pick ONE clear tech direction", "Prepare specifically for interviews"
 
-Image prompts should describe WARM, COZY scenes: coffee cups on wooden desks, laptop screens with warm lighting, person coding at a cozy workspace, bookshelves with tech books, warm afternoon light through windows. NO dark/moody/neon. Think lifestyle photography.
+Use plain hyphens (-) instead of em dashes. Keep everything casual and direct.
 
 Output JSON:
 {
   "slides": [
     {
-      "title": "main title text",
-      "highlight": "one keyword from the title to highlight in a colored box",
-      "subtitle": "optional parenthetical subtitle or null",
-      "bullets": ["bullet point 1", "bullet point 2"] or null for hook/CTA slides,
-      "image_prompt": "warm cozy lifestyle scene description"
+      "title": "short punchy title",
+      "highlight": "ONE keyword from the title",
+      "subtitle": "optional short subtitle or null",
+      "bullets": null
     }
   ],
-  "caption": "TikTok caption with 3-5 hashtags"
+  "caption": "short caption with 3-5 hashtags"
+}
+
+If adding a second slide with bullets:
+{
+  "slides": [
+    { "title": "...", "highlight": "...", "subtitle": "...", "bullets": null },
+    { "title": null, "highlight": null, "subtitle": null, "bullets": ["tip 1", "tip 2", "tip 3"] }
+  ],
+  "caption": "..."
 }`,
         },
       ],
@@ -175,39 +205,6 @@ Output JSON:
   return { content, pillar: pillar.name, hookStyle }
 }
 
-async function generateImage(prompt, index) {
-  console.log(`  Generating image ${index + 1}...`)
-
-  const fullPrompt = `${prompt}. Warm golden hour lighting, cozy atmosphere, soft bokeh background, lifestyle photography, 9:16 portrait orientation, shallow depth of field`
-
-  const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
-    {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        prompt: fullPrompt,
-        steps: 8,
-      }),
-    }
-  )
-
-  const data = await res.json()
-
-  if (!data.result?.image) {
-    console.error(`  Image generation failed for slide ${index + 1}:`, data.errors || 'unknown error')
-    return null
-  }
-
-  const buffer = Buffer.from(data.result.image, 'base64')
-  const imagePath = join(OUTPUT_DIR, `bg_${String(index + 1).padStart(2, '0')}.png`)
-  writeFileSync(imagePath, buffer)
-  return imagePath
-}
-
 function wrapText(ctx, text, maxWidth) {
   const words = text.split(' ')
   const lines = []
@@ -225,17 +222,6 @@ function wrapText(ctx, text, maxWidth) {
   return lines
 }
 
-const COLORS = {
-  overlay: 'rgba(30, 20, 15, 0.45)',
-  highlight: '#D4845A',
-  highlightText: '#FFFFFF',
-  title: '#FFFFFF',
-  subtitle: 'rgba(255, 255, 255, 0.85)',
-  bullet: 'rgba(255, 255, 255, 0.9)',
-  bulletDot: '#D4845A',
-  watermark: 'rgba(255, 255, 255, 0.7)',
-}
-
 function drawRoundedRect(ctx, x, y, w, h, r) {
   ctx.beginPath()
   ctx.moveTo(x + r, y)
@@ -251,85 +237,7 @@ function drawRoundedRect(ctx, x, y, w, h, r) {
   ctx.fill()
 }
 
-function drawTitleWithHighlight(ctx, title, highlight, y, maxWidth) {
-  const TITLE_SIZE = 72
-  const PADDING_X = 80
-
-  ctx.font = `bold ${TITLE_SIZE}px ${FONT_FAMILY}`
-  ctx.textAlign = 'left'
-  ctx.textBaseline = 'top'
-
-  if (!highlight) {
-    ctx.fillStyle = COLORS.title
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
-    ctx.shadowBlur = 8
-    ctx.shadowOffsetY = 3
-    const wrapped = wrapText(ctx, title, maxWidth)
-    let cy = y
-    for (const line of wrapped) {
-      ctx.fillText(line, PADDING_X, cy)
-      cy += TITLE_SIZE * 1.35
-    }
-    ctx.shadowBlur = 0
-    ctx.shadowOffsetY = 0
-    return cy + 10
-  }
-
-  const hlLower = highlight.toLowerCase()
-  const hlWords = new Set(hlLower.split(' '))
-  const allWords = title.split(' ')
-
-  let cx = PADDING_X
-  let cy = y
-
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
-  ctx.shadowBlur = 8
-  ctx.shadowOffsetY = 3
-
-  for (const word of allWords) {
-    ctx.font = `bold ${TITLE_SIZE}px ${FONT_FAMILY}`
-    const wordWidth = ctx.measureText(word).width
-    const spaceWidth = ctx.measureText(' ').width
-
-    if (cx + wordWidth > PADDING_X + maxWidth && cx > PADDING_X) {
-      cx = PADDING_X
-      cy += TITLE_SIZE * 1.4
-    }
-
-    if (hlWords.has(word.toLowerCase())) {
-      const padX = 14
-      const padY = 8
-      const boxW = wordWidth + padX * 2
-      const boxH = TITLE_SIZE + padY * 2
-
-      ctx.fillStyle = COLORS.highlight
-      ctx.shadowBlur = 0
-      ctx.shadowOffsetY = 0
-      drawRoundedRect(ctx, cx - padX, cy - padY + 2, boxW, boxH, 14)
-
-      ctx.fillStyle = COLORS.highlightText
-      ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'
-      ctx.shadowBlur = 4
-      ctx.shadowOffsetY = 2
-      ctx.fillText(word, cx, cy)
-
-      ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
-      ctx.shadowBlur = 8
-      ctx.shadowOffsetY = 3
-    } else {
-      ctx.fillStyle = COLORS.title
-      ctx.fillText(word, cx, cy)
-    }
-
-    cx += wordWidth + spaceWidth
-  }
-
-  ctx.shadowBlur = 0
-  ctx.shadowOffsetY = 0
-  return cy + TITLE_SIZE * 1.5 + 10
-}
-
-async function renderSlide(slide, imagePath, index, totalSlides, platform, dims) {
+async function renderSlide(slide, imagePath, platform, dims, index) {
   const W = dims.w
   const H = dims.h
   const canvas = createCanvas(W, H)
@@ -339,78 +247,127 @@ async function renderSlide(slide, imagePath, index, totalSlides, platform, dims)
   const scale = Math.max(W / img.width, H / img.height)
   const drawW = img.width * scale
   const drawH = img.height * scale
-  const offsetX = (W - drawW) / 2
-  const offsetY = (H - drawH) / 2
-  ctx.drawImage(img, offsetX, offsetY, drawW, drawH)
+  ctx.drawImage(img, (W - drawW) / 2, (H - drawH) / 2, drawW, drawH)
 
   ctx.fillStyle = COLORS.overlay
   ctx.fillRect(0, 0, W, H)
 
   const gradient = ctx.createLinearGradient(0, H * 0.3, 0, H)
-  gradient.addColorStop(0, 'rgba(20, 12, 8, 0)')
-  gradient.addColorStop(0.5, 'rgba(20, 12, 8, 0.4)')
-  gradient.addColorStop(1, 'rgba(20, 12, 8, 0.75)')
+  gradient.addColorStop(0, COLORS.gradientStart)
+  gradient.addColorStop(0.5, COLORS.gradientMid)
+  gradient.addColorStop(1, COLORS.gradientEnd)
   ctx.fillStyle = gradient
   ctx.fillRect(0, 0, W, H)
 
-  ctx.font = `bold 28px ${FONT_FAMILY}`
+  const PAD = 70
+  const MAX_W = W - PAD * 2
+
+  ctx.font = `600 26px ${FONT_BOLD}`
   ctx.fillStyle = COLORS.watermark
   ctx.textAlign = 'left'
   ctx.textBaseline = 'top'
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.5)'
-  ctx.shadowBlur = 6
-  ctx.shadowOffsetY = 2
-  ctx.fillText(`@${BRAND.replace('.io', '')}`, 60, 60)
-  ctx.shadowBlur = 0
-  ctx.shadowOffsetY = 0
+  ctx.fillText(`@${HANDLE}`, PAD, 55)
 
-  const PADDING = 80
-  const MAX_TEXT_W = W - PADDING * 2
   const hasBullets = slide.bullets && slide.bullets.length > 0
-  const startY = hasBullets ? H * 0.22 : H * 0.35
+  const hasTitle = slide.title && slide.title.trim().length > 0
+  let currentY = hasBullets && !hasTitle ? H * 0.18 : H * 0.35
 
-  let currentY = drawTitleWithHighlight(ctx, slide.title || '', slide.highlight, startY, MAX_TEXT_W)
+  if (hasTitle) {
+    const TITLE_SIZE = 68
+    ctx.font = `bold ${TITLE_SIZE}px ${FONT_BOLD}`
+    ctx.textAlign = 'left'
+    ctx.textBaseline = 'top'
+
+    const hlWord = slide.highlight?.toLowerCase()
+    const words = slide.title.split(' ')
+
+    let cx = PAD
+    let cy = currentY
+
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+    ctx.shadowBlur = 8
+    ctx.shadowOffsetY = 3
+
+    for (const word of words) {
+      ctx.font = `bold ${TITLE_SIZE}px ${FONT_BOLD}`
+      const wordW = ctx.measureText(word).width
+      const spaceW = ctx.measureText(' ').width
+
+      if (cx + wordW > PAD + MAX_W && cx > PAD) {
+        cx = PAD
+        cy += TITLE_SIZE * 1.4
+      }
+
+      if (hlWord && word.toLowerCase().replace(/[^a-z]/g, '') === hlWord.toLowerCase().replace(/[^a-z]/g, '')) {
+        const px = 14
+        const py = 8
+        ctx.fillStyle = COLORS.highlight
+        ctx.shadowBlur = 0
+        ctx.shadowOffsetY = 0
+        drawRoundedRect(ctx, cx - px, cy - py + 2, wordW + px * 2, TITLE_SIZE + py * 2, 12)
+
+        ctx.fillStyle = COLORS.highlightText
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'
+        ctx.shadowBlur = 4
+        ctx.shadowOffsetY = 2
+        ctx.fillText(word, cx, cy)
+
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+        ctx.shadowBlur = 8
+        ctx.shadowOffsetY = 3
+      } else {
+        ctx.fillStyle = COLORS.title
+        ctx.fillText(word, cx, cy)
+      }
+
+      cx += wordW + spaceW
+    }
+
+    ctx.shadowBlur = 0
+    ctx.shadowOffsetY = 0
+    currentY = cy + TITLE_SIZE * 1.5 + 10
+  }
 
   if (slide.subtitle) {
-    ctx.font = `normal 44px ${FONT_FAMILY}`
+    ctx.font = `normal 40px ${FONT_REGULAR}`
     ctx.fillStyle = COLORS.subtitle
     ctx.textAlign = 'left'
     ctx.textBaseline = 'top'
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'
     ctx.shadowBlur = 6
     ctx.shadowOffsetY = 2
-    const subText = `(${slide.subtitle.replace(/^\(|\)$/g, '')})`
-    const wrapped = wrapText(ctx, subText, MAX_TEXT_W)
+    const subText = slide.subtitle.startsWith('(') ? slide.subtitle : `(${slide.subtitle})`
+    const wrapped = wrapText(ctx, subText, MAX_W)
     for (const line of wrapped) {
-      ctx.fillText(line, PADDING, currentY)
-      currentY += 44 * 1.3
+      ctx.fillText(line, PAD, currentY)
+      currentY += 40 * 1.35
     }
     ctx.shadowBlur = 0
     ctx.shadowOffsetY = 0
-    currentY += 20
+    currentY += 15
   }
 
   if (hasBullets) {
-    const BULLET_SIZE = 36
-    const DOT_RADIUS = 7
+    const BULLET_SIZE = 34
+    const DOT_R = 6
     currentY += 10
 
     for (const bullet of slide.bullets) {
       ctx.fillStyle = COLORS.bulletDot
       ctx.beginPath()
-      ctx.arc(PADDING + DOT_RADIUS, currentY + BULLET_SIZE * 0.55, DOT_RADIUS, 0, Math.PI * 2)
+      ctx.arc(PAD + DOT_R, currentY + BULLET_SIZE * 0.55, DOT_R, 0, Math.PI * 2)
       ctx.fill()
 
-      ctx.font = `normal ${BULLET_SIZE}px ${FONT_FAMILY}`
+      ctx.font = `normal ${BULLET_SIZE}px ${FONT_REGULAR}`
       ctx.fillStyle = COLORS.bullet
       ctx.textAlign = 'left'
       ctx.textBaseline = 'top'
-      ctx.shadowColor = 'rgba(0, 0, 0, 0.4)'
+      ctx.shadowColor = 'rgba(0, 0, 0, 0.3)'
       ctx.shadowBlur = 4
       ctx.shadowOffsetY = 2
 
-      const bulletX = PADDING + DOT_RADIUS * 2 + 16
-      const wrapped = wrapText(ctx, bullet, MAX_TEXT_W - DOT_RADIUS * 2 - 16)
+      const bulletX = PAD + DOT_R * 2 + 14
+      const wrapped = wrapText(ctx, bullet, MAX_W - DOT_R * 2 - 14)
       for (const line of wrapped) {
         ctx.fillText(line, bulletX, currentY)
         currentY += BULLET_SIZE * 1.4
@@ -419,20 +376,6 @@ async function renderSlide(slide, imagePath, index, totalSlides, platform, dims)
     }
     ctx.shadowBlur = 0
     ctx.shadowOffsetY = 0
-  }
-
-  const dotCount = totalSlides || 8
-  const dotRadius = 5
-  const dotSpacing = 22
-  const dotsWidth = (dotCount - 1) * dotSpacing
-  const dotsStartX = (W - dotsWidth) / 2
-  const dotsY = H - 80
-
-  for (let i = 0; i < dotCount; i++) {
-    ctx.beginPath()
-    ctx.arc(dotsStartX + i * dotSpacing, dotsY, dotRadius, 0, Math.PI * 2)
-    ctx.fillStyle = i === index ? '#FFFFFF' : 'rgba(255, 255, 255, 0.35)'
-    ctx.fill()
   }
 
   const platformDir = join(OUTPUT_DIR, platform)
@@ -447,32 +390,20 @@ async function main() {
   }
 
   const { content, pillar, hookStyle } = await generateSlideContent()
-  console.log(`\nGenerated ${content.slides.length} slides\n`)
+  const slideCount = content.slides.length
+  console.log(`\nGenerated ${slideCount} slide(s)\n`)
 
-  console.log('Generating background images with FLUX...\n')
-  const imagePaths = []
-  for (let i = 0; i < content.slides.length; i++) {
-    const path = await generateImage(content.slides[i].image_prompt, i)
-    imagePaths.push(path)
-    if (i < content.slides.length - 1) {
-      await new Promise(r => setTimeout(r, 500))
-    }
-  }
+  const photos = pickStockPhotos(slideCount)
+  console.log(`Selected photos: ${photos.map(p => p.split('/').pop()).join(', ')}\n`)
 
-  console.log('\nRendering slides for all platforms...\n')
+  console.log('Rendering slides for all platforms...\n')
   for (const [platform, dims] of Object.entries(PLATFORMS)) {
     console.log(`  ${platform} (${dims.w}x${dims.h}):`)
-    for (let i = 0; i < content.slides.length; i++) {
-      if (imagePaths[i]) {
-        await renderSlide(content.slides[i], imagePaths[i], i, content.slides.length, platform, dims)
-      } else {
-        console.error(`    Skipping slide ${i + 1} - no background image`)
-      }
+    for (let i = 0; i < slideCount; i++) {
+      await renderSlide(content.slides[i], photos[i], platform, dims, i)
     }
-    console.log(`    ${content.slides.length} slides`)
+    console.log(`    ${slideCount} slide(s)`)
   }
-
-  const MAX_SLIDES = { linkedin: 4 }
 
   mkdirSync('./schedules', { recursive: true })
   const now = new Date()
@@ -485,19 +416,14 @@ async function main() {
       0,
       0,
     )).toISOString()
-    const allSlides = content.slides.map((_, i) => `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`)
-    const max = MAX_SLIDES[platform]
-    const selectedSlides = max && allSlides.length > max
-      ? [allSlides[0], ...allSlides.slice(1, -1).filter((_, i) => i % Math.ceil((allSlides.length - 2) / (max - 2)) === 0).slice(0, max - 2), allSlides[allSlides.length - 1]]
-      : allSlides
-    const schedule = [
-      {
-        slides: selectedSlides,
-        caption: content.caption,
-        scheduledAt,
-      },
-    ]
-    writeFileSync(`./schedules/${platform}.json`, JSON.stringify(schedule, null, 2))
+    const slides = content.slides.map((_, i) =>
+      `./output/${platform}/slide_${String(i + 1).padStart(2, '0')}.png`
+    )
+    writeFileSync(`./schedules/${platform}.json`, JSON.stringify([{
+      slides,
+      caption: content.caption,
+      scheduledAt,
+    }], null, 2))
   }
 
   savePostedEntry({
@@ -506,9 +432,10 @@ async function main() {
     hookStyle,
     hook: content.slides[0]?.title || '',
     caption: content.caption,
+    photos: photos.map(p => p.split('/').pop()),
   })
 
-  console.log(`\nDone - ${content.slides.length} slides x ${Object.keys(PLATFORMS).length} platforms`)
+  console.log(`\nDone - ${slideCount} slide(s) x ${Object.keys(PLATFORMS).length} platforms`)
   console.log(`Pillar: ${pillar} | Hook: ${hookStyle}`)
   console.log(`Caption: ${content.caption}`)
 }
