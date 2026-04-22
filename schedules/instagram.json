@@ -2,15 +2,9 @@
   {
     "slides": [
       "./output/instagram/slide_01.png",
-      "./output/instagram/slide_02.png",
-      "./output/instagram/slide_03.png",
-      "./output/instagram/slide_04.png",
-      "./output/instagram/slide_05.png",
-      "./output/instagram/slide_06.png",
-      "./output/instagram/slide_07.png",
-      "./output/instagram/slide_08.png"
+      "./output/instagram/slide_02.png"
     ],
-    "caption": "Unlock your potential in cybersecurity! Start with these essential skills and tools. #Cybersecurity #CareerTips #TechSkills #HandsOnLearning #CypherJobs",
+    "caption": "You don’t need to follow the traditional path to thrive in cybersecurity! 💻✨ #CybersecurityMyths #CareerAdvice #TechTalks #CyberCareer #MythBusting",
     "scheduledAt": "2026-04-22T17:00:00.000Z"
   }
 ]

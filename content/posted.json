@@ -33,5 +33,16 @@
     "hookStyle": "a \"X things you need to know\" list tease",
     "hook": "5 Must-Know Skills for Cybersecurity",
     "caption": "Unlock your potential in cybersecurity! Start with these essential skills and tools. #Cybersecurity #CareerTips #TechSkills #HandsOnLearning #CypherJobs"
+  },
+  {
+    "date": "2026-04-22",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Myth: You Need a CS Degree",
+    "caption": "You don’t need to follow the traditional path to thrive in cybersecurity! 💻✨ #CybersecurityMyths #CareerAdvice #TechTalks #CyberCareer #MythBusting",
+    "photos": [
+      "laptop-warm-04.jpg",
+      "coffee-desk-03.jpg"
+    ]
   }
 ]
