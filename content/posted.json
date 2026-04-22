@@ -44,5 +44,16 @@
       "coffee-desk-01.jpg",
       "laptop-warm-06.jpg"
     ]
+  },
+  {
+    "date": "2026-04-22",
+    "pillar": "community",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Join Our Cybersecurity Community!",
+    "caption": "Networking is key in cybersecurity! Let's connect and learn together! #CybersecurityCommunity #Networking #Mentorship #GrowTogether #Inspiration",
+    "photos": [
+      "coffee-desk-05.jpg",
+      "cozy-interior-06.jpg"
+    ]
   }
 ]
