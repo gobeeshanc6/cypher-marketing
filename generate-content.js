@@ -270,10 +270,10 @@ async function renderSlide(slide, imagePath, platform, dims, index) {
 
   const hasBullets = slide.bullets && slide.bullets.length > 0
   const hasTitle = slide.title && slide.title.trim().length > 0
-  let currentY = hasBullets && !hasTitle ? H * 0.18 : H * 0.35
+  let currentY = hasBullets && !hasTitle ? H * 0.28 : H * 0.35
 
   if (hasTitle) {
-    const TITLE_SIZE = 68
+    const TITLE_SIZE = 72
     ctx.font = `bold ${TITLE_SIZE}px ${FONT_BOLD}`
     ctx.textAlign = 'left'
     ctx.textBaseline = 'top'
@@ -329,7 +329,7 @@ async function renderSlide(slide, imagePath, platform, dims, index) {
   }
 
   if (slide.subtitle) {
-    ctx.font = `normal 40px ${FONT_REGULAR}`
+    ctx.font = `normal 42px ${FONT_REGULAR}`
     ctx.fillStyle = COLORS.subtitle
     ctx.textAlign = 'left'
     ctx.textBaseline = 'top'
@@ -340,7 +340,7 @@ async function renderSlide(slide, imagePath, platform, dims, index) {
     const wrapped = wrapText(ctx, subText, MAX_W)
     for (const line of wrapped) {
       ctx.fillText(line, PAD, currentY)
-      currentY += 40 * 1.35
+      currentY += 42 * 1.35
     }
     ctx.shadowBlur = 0
     ctx.shadowOffsetY = 0
@@ -348,7 +348,7 @@ async function renderSlide(slide, imagePath, platform, dims, index) {
   }
 
   if (hasBullets) {
-    const BULLET_SIZE = 34
+    const BULLET_SIZE = 36
     const DOT_R = 6
     currentY += 10
 
