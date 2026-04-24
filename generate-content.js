@@ -4,11 +4,7 @@ import { createCanvas, loadImage, GlobalFonts } from '@napi-rs/canvas'
 import { join } from 'path'
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY
-
-if (!OPENAI_API_KEY) {
-  console.error('Set OPENAI_API_KEY env var')
-  process.exit(1)
-}
+const CONTENT_INPUT = './content-input.json'
 
 const NICHE = process.env.NICHE || 'cybersecurity careers'
 const BRAND = process.env.BRAND || 'cypherjobs.io'
@@ -124,6 +120,18 @@ async function generateSlideContent() {
   const pillar = getTodaysPillar()
   const hookStyle = getTodaysHookStyle()
   const recentTopics = getRecentTopicsSummary()
+
+  if (existsSync(CONTENT_INPUT)) {
+    console.log('Using pre-generated content from content-input.json')
+    const content = JSON.parse(readFileSync(CONTENT_INPUT, 'utf-8'))
+    return { content, pillar: pillar.name, hookStyle }
+  }
+
+  if (!OPENAI_API_KEY) {
+    console.error('No content-input.json and no OPENAI_API_KEY set.')
+    console.error('Either provide content-input.json or set OPENAI_API_KEY.')
+    process.exit(1)
+  }
 
   console.log(`Content pillar: ${pillar.name}`)
   console.log(`Hook style: ${hookStyle}`)
