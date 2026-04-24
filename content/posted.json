@@ -66,5 +66,16 @@
       "coffee-desk-08.jpg",
       "coffee-desk-07.jpg"
     ]
+  },
+  {
+    "date": "2026-04-24",
+    "pillar": "certs",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "CISSP vs CEH: Choose Wisely!",
+    "caption": "Choosing the right cert can change your game! 🎓💻 #Cybersecurity #Certs #CareerTips #CISSP #CEH",
+    "photos": [
+      "coffee-desk-04.jpg",
+      "person-coding-04.jpg"
+    ]
   }
 ]
