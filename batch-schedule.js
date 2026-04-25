@@ -58,7 +58,7 @@ async function createPost(post, channelId, platform) {
     },
   }
 
-  const res = await fetch('https://api.buffer.com', {
+  const res = await fetch('https://api.buffer.com/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
