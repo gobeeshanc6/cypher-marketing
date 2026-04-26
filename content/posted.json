@@ -121,5 +121,16 @@
       "laptop-warm-07.jpg",
       "laptop-warm-03.jpg"
     ]
+  },
+  {
+    "date": "2026-04-26",
+    "pillar": "community",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "You Don't Need IT Experience First",
+    "caption": "Everyone says 'start in helpdesk first.' That's not always true anymore. Here are the entry points nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel",
+    "photos": [
+      "keyboard-08.jpg",
+      "cozy-interior-02.jpg"
+    ]
   }
 ]
