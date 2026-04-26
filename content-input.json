@@ -1,9 +1,11 @@
 {
+  "pillar": "myth-busting",
+  "hookStyle": "counterintuitive claim",
   "slides": [
     {
-      "title": "Cloud Security Pays $160K+",
-      "highlight": "$160K+",
-      "subtitle": "and barely anyone's chasing it",
+      "title": "You Don't Need IT Experience First",
+      "highlight": "Don't",
+      "subtitle": "The real entry points nobody tells you",
       "bullets": null
     },
     {
@@ -11,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Secure AWS, Azure, GCP - skills every company needs",
-        "Rare dev + security combo = premium pay",
-        "AWS Security Specialty cert opens a lot of doors",
-        "Demand exploding as everything moves to the cloud"
+        "GRC roles hire directly from non-IT backgrounds",
+        "Security+ can replace years of helpdesk time",
+        "Dedicated junior analyst programs exist - find them",
+        "Your soft skills are an underrated hiring edge"
       ]
     }
   ],
-  "caption": "Cloud security is one of the highest-paid paths in cyber - and most people still sleep on it. Are you? #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #techjobs"
+  "caption": "Everyone says 'start in helpdesk first.' That's not always true anymore. Here are the entry points nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel"
 }
