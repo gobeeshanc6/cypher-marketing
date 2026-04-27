@@ -1,11 +1,11 @@
 {
-  "pillar": "myth-busting",
-  "hookStyle": "counterintuitive claim",
+  "pillar": "career-advice",
+  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "You Don't Need IT Experience First",
-      "highlight": "Don't",
-      "subtitle": "The real entry points nobody tells you",
+      "title": "3.5M Cyber Jobs. Not Enough People.",
+      "highlight": "3.5M",
+      "subtitle": "The shortage that works in your favor",
       "bullets": null
     },
     {
@@ -13,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "GRC roles hire directly from non-IT backgrounds",
-        "Security+ can replace years of helpdesk time",
-        "Dedicated junior analyst programs exist - find them",
-        "Your soft skills are an underrated hiring edge"
+        "Employers are lowering entry requirements",
+        "Entry-level roles are multiplying fast",
+        "Remote positions now span every timezone",
+        "The best time to start is right now"
       ]
     }
   ],
-  "caption": "Everyone says 'start in helpdesk first.' That's not always true anymore. Here are the entry points nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel"
+  "caption": "3.5 million cybersecurity jobs sit unfilled globally - and that number keeps climbing. The talent gap is actually your opportunity. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #techjobs"
 }
