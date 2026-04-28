@@ -165,5 +165,16 @@
       "keyboard-01.jpg",
       "keyboard-02.jpg"
     ]
+  },
+  {
+    "date": "2026-04-28",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "Nobody Talks About Scripting",
+    "caption": "Most cyber job listings won't say 'must know Python' - but the people who get hired usually do. Start scripting. Even a little goes a long way. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-04.jpg",
+      "person-coding-01.jpg"
+    ]
   }
 ]
