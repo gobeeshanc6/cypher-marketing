@@ -154,5 +154,16 @@
       "laptop-warm-01.jpg",
       "keyboard-05.jpg"
     ]
+  },
+  {
+    "date": "2026-04-28",
+    "pillar": "job-market",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Nobody Talks About Scripting",
+    "caption": "Most cyber job listings won't say 'must know Python' - but the people who get hired usually do. Start scripting. Even a little goes a long way. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "keyboard-01.jpg",
+      "keyboard-02.jpg"
+    ]
   }
 ]
