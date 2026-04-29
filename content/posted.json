@@ -187,5 +187,16 @@
       "keyboard-07.jpg",
       "cozy-interior-07.jpg"
     ]
+  },
+  {
+    "date": "2026-04-29",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Can You Afford to Skip Python?",
+    "caption": "You don't need to be a dev. But a little Python changes everything in cyber. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-03.jpg",
+      "person-coding-07.jpg"
+    ]
   }
 ]
