@@ -1,11 +1,11 @@
 {
   "pillar": "tools-and-skills",
-  "hookStyle": "nobody talks about X",
+  "hookStyle": "direct question",
   "slides": [
     {
-      "title": "Nobody Talks About Scripting",
-      "highlight": "Scripting",
-      "subtitle": "It's the skill that gets you promoted.",
+      "title": "Can You Afford to Skip Python?",
+      "highlight": "Python",
+      "subtitle": "Cyber jobs don't require it. But the best ones do.",
       "bullets": null
     },
     {
@@ -13,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Python and Bash automate what others do by hand",
-        "Scripting knowledge puts you in the top 20%",
-        "It shows up in almost every senior job post",
-        "You don't need to be a developer to start"
+        "Automate repetitive security tasks",
+        "Write custom scripts for threat hunting",
+        "Parse and analyse log files faster",
+        "Stand out in 90% of SOC interviews"
       ]
     }
   ],
-  "caption": "Most cyber job listings won't say 'must know Python' - but the people who get hired usually do. Start scripting. Even a little goes a long way. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs"
+  "caption": "You don't need to be a dev. But a little Python changes everything in cyber. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs"
 }

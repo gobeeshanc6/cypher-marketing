@@ -176,5 +176,16 @@
       "cozy-interior-04.jpg",
       "person-coding-01.jpg"
     ]
+  },
+  {
+    "date": "2026-04-29",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a direct question to the audience",
+    "hook": "Can You Afford to Skip Python?",
+    "caption": "You don't need to be a dev. But a little Python changes everything in cyber. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "keyboard-07.jpg",
+      "cozy-interior-07.jpg"
+    ]
   }
 ]
