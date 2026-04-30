@@ -1,11 +1,9 @@
 {
-  "pillar": "tools-and-skills",
-  "hookStyle": "direct question",
   "slides": [
     {
-      "title": "Can You Afford to Skip Python?",
-      "highlight": "Python",
-      "subtitle": "Cyber jobs don't require it. But the best ones do.",
+      "title": "Your Network Adds $10K to Every Offer",
+      "highlight": "Network",
+      "subtitle": "no cert does that",
       "bullets": null
     },
     {
@@ -13,12 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Automate repetitive security tasks",
-        "Write custom scripts for threat hunting",
-        "Parse and analyse log files faster",
-        "Stand out in 90% of SOC interviews"
+        "Join 2-3 active communities in your niche",
+        "Hiring managers hire people they recognise",
+        "Coffee chats beat cold applications every time",
+        "Your peers today are your references tomorrow",
+        "One right connection beats 100 applications"
       ]
     }
   ],
-  "caption": "You don't need to be a dev. But a little Python changes everything in cyber. #cybersecurity #infosec #python #cybersecuritycareers #cypherjobs"
+  "caption": "Referrals land faster and pay better. Your community is your unfair advantage in cyber. #cybersecurity #cybersecuritycareers #networking #cypherjobs #infosec"
 }
