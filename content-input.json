@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your Network Adds $10K to Every Offer",
-      "highlight": "Network",
-      "subtitle": "no cert does that",
+      "title": "Stop Sending Generic Cyber CVs",
+      "highlight": "Generic",
+      "subtitle": "Here's what actually gets you hired",
       "bullets": null
     },
     {
@@ -11,13 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Join 2-3 active communities in your niche",
-        "Hiring managers hire people they recognise",
-        "Coffee chats beat cold applications every time",
-        "Your peers today are your references tomorrow",
-        "One right connection beats 100 applications"
+        "Link your GitHub, TryHackMe, or home lab",
+        "Mirror the job description's exact language",
+        "Write 2 lines about why that company - most don't",
+        "Quantify everything - labs done, CVEs found, certs earned"
       ]
     }
   ],
-  "caption": "Referrals land faster and pay better. Your community is your unfair advantage in cyber. #cybersecurity #cybersecuritycareers #networking #cypherjobs #infosec"
+  "caption": "Your CV is not your portfolio. Build one and watch your response rate change. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
 }
