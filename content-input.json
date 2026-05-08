@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Sending Generic Cyber CVs",
-      "highlight": "Generic",
-      "subtitle": "Here's what actually gets you hired",
+      "title": "Most Cyber Jobs Never Get Posted",
+      "highlight": "Never",
+      "subtitle": "The hidden job market is bigger than you think",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Link your GitHub, TryHackMe, or home lab",
-        "Mirror the job description's exact language",
-        "Write 2 lines about why that company - most don't",
-        "Quantify everything - labs done, CVEs found, certs earned"
+        "60-80% of roles fill via referrals",
+        "Job boards show what's left over",
+        "Your network IS the job board",
+        "Connect before you need the job"
       ]
     }
   ],
-  "caption": "Your CV is not your portfolio. Build one and watch your response rate change. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
+  "caption": "The apply button is the slowest path to a cyber job. Here's what actually works. #cybersecurity #cybersecuritycareers #jobsearch #infosec #cypherjobs"
 }
