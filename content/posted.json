@@ -352,5 +352,16 @@
       "cozy-interior-02.jpg",
       "laptop-warm-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-10",
+    "pillar": "community",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "80% of Cyber Roles Don't Touch Exploitation",
+    "caption": "Everyone thinks cyber means ethical hacking. Most jobs don't work that way - and that's actually good news. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips",
+    "photos": [
+      "coffee-desk-01.jpg",
+      "coffee-desk-02.jpg"
+    ]
   }
 ]
