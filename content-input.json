@@ -1,9 +1,11 @@
 {
+  "pillar": "myth-busting",
+  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "1 in 5 Cyber Pros Know Splunk",
-      "highlight": "Splunk",
-      "subtitle": "Be in the 20% - employers notice",
+      "title": "80% of Cyber Roles Don't Touch Exploitation",
+      "highlight": "80%",
+      "subtitle": "The roles actually hiring",
       "bullets": null
     },
     {
@@ -11,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Free training at Splunk Education",
-        "Practice with the free Splunk trial",
-        "Learn SPL - the SIEM query language",
-        "Target the Splunk Core Certified User cert"
+        "GRC analysts earn $85K+ without hacking",
+        "SOC analysts monitor - not exploit",
+        "Cloud security is config and compliance",
+        "Compliance roles are growing 3x faster"
       ]
     }
   ],
-  "caption": "Splunk shows up in nearly every SOC job listing - but most candidates can't actually use it. That gap is your opportunity. Start free today. #cybersecurity #splunk #siem #cybersecuritycareers #cypherjobs"
+  "caption": "Everyone thinks cyber means ethical hacking. Most jobs don't work that way - and that's actually good news. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
