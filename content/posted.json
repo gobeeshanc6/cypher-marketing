@@ -363,5 +363,16 @@
       "coffee-desk-01.jpg",
       "coffee-desk-02.jpg"
     ]
+  },
+  {
+    "date": "2026-05-11",
+    "pillar": "career-advice",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "GRC Beats Pentesting for Most People",
+    "caption": "Hot take - GRC is a better career choice than pentesting for most people. Less glamorous, way more stable, and pays just as well. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-01.jpg",
+      "person-coding-02.jpg"
+    ]
   }
 ]
