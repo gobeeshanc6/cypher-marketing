@@ -1,11 +1,11 @@
 {
   "pillar": "specialism-spotlight",
-  "hookStyle": "bold opinion",
+  "hookStyle": "stop doing X warning",
   "slides": [
     {
-      "title": "GRC Beats Pentesting for Most People",
-      "highlight": "GRC",
-      "subtitle": "Here's why compliance pays",
+      "title": "Stop Sleeping on DFIR Jobs",
+      "highlight": "DFIR",
+      "subtitle": "Digital forensics is quietly booming",
       "bullets": null
     },
     {
@@ -13,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "$90K-$140K without writing a line of code",
-        "Every company must comply - demand never drops",
-        "Clear cert path: Security+, CISM, CRISC",
-        "Better hours than SOC or red team"
+        "Every breach needs a forensics analyst",
+        "Salaries hitting $130K+ at mid level",
+        "Way less competition than pentesting",
+        "Skills transfer into SOC, IR, and threat intel"
       ]
     }
   ],
-  "caption": "Hot take - GRC is a better career choice than pentesting for most people. Less glamorous, way more stable, and pays just as well. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "DFIR is one of the most underrated paths in cyber - and hiring managers know its value. Are you overlooking it? #cybersecurity #DFIR #cybersecuritycareers #cypherjobs #infosec"
 }
