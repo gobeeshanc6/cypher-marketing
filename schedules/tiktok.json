@@ -1,8 +1,8 @@
 [
   {
     "slides": [
-      "./output/tiktok/slide_01.jpg",
-      "./output/tiktok/slide_02.jpg"
+      "./output/tiktok/slide_01.png",
+      "./output/tiktok/slide_02.png"
     ],
     "caption": "DFIR is one of the most underrated paths in cyber - and hiring managers know its value. Are you overlooking it? #cybersecurity #DFIR #cybersecuritycareers #cypherjobs #infosec",
     "scheduledAt": "2026-05-12T23:00:00.000Z"
