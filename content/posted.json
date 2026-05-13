@@ -407,5 +407,16 @@
       "cozy-interior-03.jpg",
       "person-coding-07.jpg"
     ]
+  },
+  {
+    "date": "2026-05-13",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Stop Sleeping on DFIR Jobs",
+    "caption": "DFIR is one of the most underrated paths in cyber - and hiring managers know its value. Are you overlooking it? #cybersecurity #DFIR #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-05.jpg",
+      "keyboard-04.jpg"
+    ]
   }
 ]
