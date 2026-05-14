@@ -1,11 +1,9 @@
 {
-  "pillar": "specialism-spotlight",
-  "hookStyle": "stop doing X warning",
   "slides": [
     {
-      "title": "Stop Sleeping on DFIR Jobs",
-      "highlight": "DFIR",
-      "subtitle": "Digital forensics is quietly booming",
+      "title": "Generalists Get Hired Faster Than Specialists",
+      "highlight": "Generalists",
+      "subtitle": "Specialize later - not before day one",
       "bullets": null
     },
     {
@@ -13,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Every breach needs a forensics analyst",
-        "Salaries hitting $130K+ at mid level",
-        "Way less competition than pentesting",
-        "Skills transfer into SOC, IR, and threat intel"
+        "Entry roles want broad awareness, not hyper-niche skills",
+        "Specializing too early boxes you out of more jobs",
+        "Get your foot in the door first, then go deep",
+        "Cyber rewards flexibility at the junior level"
       ]
     }
   ],
-  "caption": "DFIR is one of the most underrated paths in cyber - and hiring managers know its value. Are you overlooking it? #cybersecurity #DFIR #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - generalists land cyber jobs faster than over-specialized candidates at the entry level. Get in first, specialize later. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
