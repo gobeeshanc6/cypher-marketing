@@ -429,5 +429,16 @@
       "laptop-warm-05.jpg",
       "coffee-desk-03.jpg"
     ]
+  },
+  {
+    "date": "2026-05-14",
+    "pillar": "community",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Generalists Get Hired Faster Than Specialists",
+    "caption": "Hot take - generalists land cyber jobs faster than over-specialized candidates at the entry level. Get in first, specialize later. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips",
+    "photos": [
+      "cozy-interior-05.jpg",
+      "laptop-warm-02.jpg"
+    ]
   }
 ]
