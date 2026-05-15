@@ -1,9 +1,11 @@
 {
+  "pillar": "career-advice",
+  "hookStyle": "a \"nobody talks about X\" reveal",
   "slides": [
     {
-      "title": "Generalists Get Hired Faster Than Specialists",
-      "highlight": "Generalists",
-      "subtitle": "Specialize later - not before day one",
+      "title": "Nobody Warns You About the Experience Trap",
+      "highlight": "Experience",
+      "subtitle": "How to break the catch-22",
       "bullets": null
     },
     {
@@ -11,12 +13,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Entry roles want broad awareness, not hyper-niche skills",
-        "Specializing too early boxes you out of more jobs",
-        "Get your foot in the door first, then go deep",
-        "Cyber rewards flexibility at the junior level"
+        "Bug bounties count as real experience on your CV",
+        "A documented home lab speaks louder than a cert",
+        "Small charities need cyber help - volunteer"
       ]
     }
   ],
-  "caption": "Hot take - generalists land cyber jobs faster than over-specialized candidates at the entry level. Get in first, specialize later. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "Can't get a job without experience. Can't get experience without a job. Here's how to skip the line. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
