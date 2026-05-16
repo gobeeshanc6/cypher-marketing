@@ -462,5 +462,16 @@
       "laptop-warm-07.jpg",
       "keyboard-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-16",
+    "pillar": "job-market",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "AI Won't Kill Cyber Jobs",
+    "caption": "Hot take - AI is one of the best things to happen to cybersecurity careers. The threat surface just got bigger and companies need people who get it. #cybersecurity #AIjobs #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-06.jpg",
+      "person-coding-06.jpg"
+    ]
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "pillar": "career-advice",
-  "hookStyle": "a \"nobody talks about X\" reveal",
+  "pillar": "job-market",
+  "hookStyle": "a bold controversial opinion",
   "slides": [
     {
-      "title": "Nobody Warns You About the Experience Trap",
-      "highlight": "Experience",
-      "subtitle": "How to break the catch-22",
+      "title": "AI Won't Kill Cyber Jobs",
+      "highlight": "AI",
+      "subtitle": "It's creating them.",
       "bullets": null
     },
     {
@@ -13,11 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Bug bounties count as real experience on your CV",
-        "A documented home lab speaks louder than a cert",
-        "Small charities need cyber help - volunteer"
+        "AI tools create new attack surfaces that need securing",
+        "AI security engineer roles are up 300%+ since 2024",
+        "Prompt injection, model theft, AI red-teaming - new specialisms",
+        "Every AI rollout needs a human who understands the risk"
       ]
     }
   ],
-  "caption": "Can't get a job without experience. Can't get experience without a job. Here's how to skip the line. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "Hot take - AI is one of the best things to happen to cybersecurity careers. The threat surface just got bigger and companies need people who get it. #cybersecurity #AIjobs #cybersecuritycareers #cypherjobs #infosec"
 }
