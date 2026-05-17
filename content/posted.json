@@ -484,5 +484,16 @@
       "cozy-interior-05.jpg",
       "coffee-desk-07.jpg"
     ]
+  },
+  {
+    "date": "2026-05-17",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Only 1 in 10 Analysts Knows Regex",
+    "caption": "Regex isn't glamorous - but it separates good analysts from great ones. Start today, thank yourself later. #cybersecurity #soc #threatintel #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "laptop-warm-01.jpg",
+      "laptop-warm-07.jpg"
+    ]
   }
 ]

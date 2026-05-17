@@ -1,11 +1,9 @@
 {
-  "pillar": "job-market",
-  "hookStyle": "a bold controversial opinion",
   "slides": [
     {
-      "title": "AI Won't Kill Cyber Jobs",
-      "highlight": "AI",
-      "subtitle": "It's creating them.",
+      "title": "Only 1 in 10 Analysts Knows Regex",
+      "highlight": "Regex",
+      "subtitle": "The skill hiding in plain sight",
       "bullets": null
     },
     {
@@ -13,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AI tools create new attack surfaces that need securing",
-        "AI security engineer roles are up 300%+ since 2024",
-        "Prompt injection, model theft, AI red-teaming - new specialisms",
-        "Every AI rollout needs a human who understands the risk"
+        "Regex shows up in SIEM queries, log analysis, and threat hunting",
+        "15 mins a day for 2 weeks is all it takes to get started",
+        "Free practice: regex101.com - try it right now",
+        "Add it to your CV - most candidates don't bother"
       ]
     }
   ],
-  "caption": "Hot take - AI is one of the best things to happen to cybersecurity careers. The threat surface just got bigger and companies need people who get it. #cybersecurity #AIjobs #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Regex isn't glamorous - but it separates good analysts from great ones. Start today, thank yourself later. #cybersecurity #soc #threatintel #cybersecuritycareers #cypherjobs"
 }
