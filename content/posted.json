@@ -495,5 +495,16 @@
       "laptop-warm-01.jpg",
       "laptop-warm-07.jpg"
     ]
+  },
+  {
+    "date": "2026-05-17",
+    "pillar": "myth-busting",
+    "hookStyle": "a salary or money figure",
+    "hook": "Only 1 in 10 Analysts Knows Regex",
+    "caption": "Regex isn't glamorous - but it separates good analysts from great ones. Start today, thank yourself later. #cybersecurity #soc #threatintel #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "coffee-desk-04.jpg",
+      "cozy-interior-06.jpg"
+    ]
   }
 ]
