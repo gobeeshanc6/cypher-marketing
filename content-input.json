@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Only 1 in 10 Analysts Knows Regex",
-      "highlight": "Regex",
-      "subtitle": "The skill hiding in plain sight",
+      "title": "4 Communities That Get You Hired",
+      "highlight": "Communities",
+      "subtitle": "Your network beats your resume",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Regex shows up in SIEM queries, log analysis, and threat hunting",
-        "15 mins a day for 2 weeks is all it takes to get started",
-        "Free practice: regex101.com - try it right now",
-        "Add it to your CV - most candidates don't bother"
+        "SANS Community - mentors who've done the job",
+        "r/cybersecurity - where hiring managers actually lurk",
+        "CTF Discord servers - build skills people can see",
+        "LinkedIn cyber groups - warm intros, not cold apps"
       ]
     }
   ],
-  "caption": "Regex isn't glamorous - but it separates good analysts from great ones. Start today, thank yourself later. #cybersecurity #soc #threatintel #cybersecuritycareers #cypherjobs"
+  "caption": "The job boards show you what's left. Your community shows you what's coming. Start building yours. #cybersecurity #cybersecuritycareers #networking #community #cypherjobs"
 }
