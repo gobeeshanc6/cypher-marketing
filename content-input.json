@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "4 Communities That Get You Hired",
-      "highlight": "Communities",
-      "subtitle": "Your network beats your resume",
+      "title": "Nobody Mentions This Cert Path",
+      "highlight": "Nobody",
+      "subtitle": "But it's getting people hired",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "SANS Community - mentors who've done the job",
-        "r/cybersecurity - where hiring managers actually lurk",
-        "CTF Discord servers - build skills people can see",
-        "LinkedIn cyber groups - warm intros, not cold apps"
+        "ISC2 CC is free to sit - a real credential, zero exam cost",
+        "Google Cybersecurity cert is cheap and employer-recognized",
+        "Pair either with a home lab and you beat most applicants",
+        "Stop chasing Security+ before you have any context"
       ]
     }
   ],
-  "caption": "The job boards show you what's left. Your community shows you what's coming. Start building yours. #cybersecurity #cybersecuritycareers #networking #community #cypherjobs"
+  "caption": "The certs that actually get people hired aren't always the loudest ones. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec"
 }
