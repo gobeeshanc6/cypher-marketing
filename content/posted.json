@@ -539,5 +539,16 @@
       "cozy-interior-06.jpg",
       "coffee-desk-06.jpg"
     ]
+  },
+  {
+    "date": "2026-05-19",
+    "pillar": "job-market",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Nobody Mentions This Cert Path",
+    "caption": "The certs that actually get people hired aren't always the loudest ones. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-01.jpg",
+      "person-coding-05.jpg"
+    ]
   }
 ]
