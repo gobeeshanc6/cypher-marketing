@@ -550,5 +550,16 @@
       "coffee-desk-01.jpg",
       "person-coding-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-20",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Threat Intel Jobs Up 35% Since Last Year",
+    "caption": "Threat intelligence is one of the fastest-growing specs in cyber - and most people scroll right past it. The analysts who map adversary behaviour are in serious demand right now. #cybersecurity #threatintel #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-08.jpg",
+      "laptop-warm-03.jpg"
+    ]
   }
 ]

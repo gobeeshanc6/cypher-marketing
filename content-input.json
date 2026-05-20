@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Mentions This Cert Path",
-      "highlight": "Nobody",
-      "subtitle": "But it's getting people hired",
+      "title": "Threat Intel Jobs Up 35% Since Last Year",
+      "highlight": "35%",
+      "subtitle": "Most people still don't know what it pays",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "ISC2 CC is free to sit - a real credential, zero exam cost",
-        "Google Cybersecurity cert is cheap and employer-recognized",
-        "Pair either with a home lab and you beat most applicants",
-        "Stop chasing Security+ before you have any context"
+        "You analyse adversary tactics - not code",
+        "Tools: MISP, OpenCTI, MITRE ATT&CK",
+        "Avg salary: $95K-$130K",
+        "Cert to start: CTIA or GCTI"
       ]
     }
   ],
-  "caption": "The certs that actually get people hired aren't always the loudest ones. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Threat intelligence is one of the fastest-growing specs in cyber - and most people scroll right past it. The analysts who map adversary behaviour are in serious demand right now. #cybersecurity #threatintel #cybersecuritycareers #cypherjobs #infosec"
 }
