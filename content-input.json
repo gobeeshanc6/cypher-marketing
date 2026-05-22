@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Threat Intel Jobs Up 35% Since Last Year",
-      "highlight": "35%",
-      "subtitle": "Most people still don't know what it pays",
+      "title": "Stop Job Hunting Alone in Cyber",
+      "highlight": "Alone",
+      "subtitle": "Your network is your unfair edge",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "You analyse adversary tactics - not code",
-        "Tools: MISP, OpenCTI, MITRE ATT&CK",
-        "Avg salary: $95K-$130K",
-        "Cert to start: CTIA or GCTI"
+        "Most roles get filled before they're posted",
+        "Join Discord and Slack communities in your niche",
+        "Comment, not just lurk - people remember names",
+        "One meetup a month compounds fast"
       ]
     }
   ],
-  "caption": "Threat intelligence is one of the fastest-growing specs in cyber - and most people scroll right past it. The analysts who map adversary behaviour are in serious demand right now. #cybersecurity #threatintel #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Solo job hunting in cyber is the slow road. Most roles fill before they're posted - through people who already know someone. Start showing up where your people are. #cybersecurity #cybersecuritycareers #networking #community #cypherjobs"
 }
