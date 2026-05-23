@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Job Hunting Alone in Cyber",
-      "highlight": "Alone",
-      "subtitle": "Your network is your unfair edge",
+      "title": "More Certs Won't Get You Hired Faster",
+      "highlight": "Certs",
+      "subtitle": "Here's what actually moves the needle",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most roles get filled before they're posted",
-        "Join Discord and Slack communities in your niche",
-        "Comment, not just lurk - people remember names",
-        "One meetup a month compounds fast"
+        "Build a home lab - not a cert collection",
+        "Projects prove skills, certs prove studying",
+        "One cert + hands-on beats five certs cold",
+        "Apply while you're still building"
       ]
     }
   ],
-  "caption": "Solo job hunting in cyber is the slow road. Most roles fill before they're posted - through people who already know someone. Start showing up where your people are. #cybersecurity #cybersecuritycareers #networking #community #cypherjobs"
+  "caption": "The candidates landing cyber jobs aren't the most certified - they're the most prepared. Stop stacking, start building. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec"
 }

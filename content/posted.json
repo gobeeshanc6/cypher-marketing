@@ -605,5 +605,16 @@
       "keyboard-04.jpg",
       "laptop-warm-04.jpg"
     ]
+  },
+  {
+    "date": "2026-05-23",
+    "pillar": "certs",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "More Certs Won't Get You Hired Faster",
+    "caption": "The candidates landing cyber jobs aren't the most certified - they're the most prepared. Stop stacking, start building. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "cozy-interior-07.jpg",
+      "keyboard-07.jpg"
+    ]
   }
 ]
