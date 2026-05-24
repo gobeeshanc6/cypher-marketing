@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "More Certs Won't Get You Hired Faster",
-      "highlight": "Certs",
-      "subtitle": "Here's what actually moves the needle",
+      "title": "Identity Security Is Boring. It Pays $140K.",
+      "highlight": "Identity",
+      "subtitle": "The quiet specialisation nobody is chasing",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Build a home lab - not a cert collection",
-        "Projects prove skills, certs prove studying",
-        "One cert + hands-on beats five certs cold",
-        "Apply while you're still building"
+        "IAM roles average $135K-$155K in the US",
+        "Zero Trust mandates are driving demand up fast",
+        "Most orgs have huge identity gaps and no one to fill them",
+        "No exploitation skills needed - policy and logic win here"
       ]
     }
   ],
-  "caption": "The candidates landing cyber jobs aren't the most certified - they're the most prepared. Stop stacking, start building. #cybersecurity #certs #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - identity security is one of the dullest-sounding paths in cyber. And one of the most in-demand. If you want to get hired fast, start here. #cybersecurity #identitysecurity #IAM #cybersecuritycareers #cypherjobs"
 }
