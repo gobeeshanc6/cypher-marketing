@@ -638,5 +638,16 @@
       "coffee-desk-01.jpg",
       "person-coding-01.jpg"
     ]
+  },
+  {
+    "date": "2026-05-24",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "Identity Security Is Boring. It Pays $140K.",
+    "caption": "Hot take - identity security is one of the dullest-sounding paths in cyber. And one of the most in-demand. If you want to get hired fast, start here. #cybersecurity #identitysecurity #IAM #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "coffee-desk-06.jpg",
+      "cozy-interior-05.jpg"
+    ]
   }
 ]
