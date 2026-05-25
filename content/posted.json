@@ -649,5 +649,16 @@
       "coffee-desk-06.jpg",
       "cozy-interior-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-25",
+    "pillar": "myth-busting",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "65% Started With Zero Security Experience",
+    "caption": "The data doesn't lie - most people breaking into cyber didn't have a security background before day one. You don't need to be ready. You need to start. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel",
+    "photos": [
+      "coffee-desk-03.jpg",
+      "coffee-desk-11.jpg"
+    ]
   }
 ]

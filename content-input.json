@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Identity Security Is Boring. It Pays $140K.",
-      "highlight": "Identity",
-      "subtitle": "The quiet specialisation nobody is chasing",
+      "title": "65% Started With Zero Security Experience",
+      "highlight": "65%",
+      "subtitle": "Your background matters less than you think",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "IAM roles average $135K-$155K in the US",
-        "Zero Trust mandates are driving demand up fast",
-        "Most orgs have huge identity gaps and no one to fill them",
-        "No exploitation skills needed - policy and logic win here"
+        "Transfer skills count - comms, analysis, project mgmt",
+        "Your first role teaches you most of the tech",
+        "Curiosity and mindset beat credentials at entry level"
       ]
     }
   ],
-  "caption": "Hot take - identity security is one of the dullest-sounding paths in cyber. And one of the most in-demand. If you want to get hired fast, start here. #cybersecurity #identitysecurity #IAM #cybersecuritycareers #cypherjobs"
+  "caption": "The data doesn't lie - most people breaking into cyber didn't have a security background before day one. You don't need to be ready. You need to start. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel"
 }
