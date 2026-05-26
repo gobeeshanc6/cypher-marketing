@@ -682,5 +682,16 @@
       "coffee-desk-04.jpg",
       "keyboard-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-26",
+    "pillar": "certs",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "What Hiring Managers Actually Look For",
+    "caption": "Most cyber candidates look identical on paper. The ones who get hired show their thinking - not just their cert list. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch",
+    "photos": [
+      "cozy-interior-06.jpg",
+      "person-coding-02.jpg"
+    ]
   }
 ]
