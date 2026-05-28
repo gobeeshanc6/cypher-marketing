@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cyber Entry Salaries Hit $75K+",
-      "highlight": "$75K+",
-      "subtitle": "And companies still can't fill the roles",
+      "title": "Bash Skills Beat Certs in Most Interviews",
+      "highlight": "Bash",
+      "subtitle": "What hiring managers actually test",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "US entry-level cyber roles avg $70-85K",
-        "Many go unfilled for 6+ months",
-        "Companies pay more just to compete",
-        "The shortage is your negotiating power"
+        "Certs prove you studied - scripts prove you can do",
+        "Most SOC tasks can be automated with 10 lines of Bash",
+        "Interviewers notice when you can demo something real"
       ]
     }
   ],
-  "caption": "Entry-level cybersecurity pays more than most people realise - and companies are literally struggling to find candidates. The demand is real. Are you ready? #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #techjobs"
+  "caption": "Plenty of candidates show up with certs. Few can actually write a log parser or automate a task on the spot. Bash skills speak louder. #cybersecurity #bash #cybersecuritycareers #cypherjobs #infosec"
 }

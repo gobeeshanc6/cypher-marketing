@@ -715,5 +715,16 @@
       "coffee-desk-07.jpg",
       "coffee-desk-01.jpg"
     ]
+  },
+  {
+    "date": "2026-05-28",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a counterintuitive claim that challenges assumptions",
+    "hook": "Bash Skills Beat Certs in Most Interviews",
+    "caption": "Plenty of candidates show up with certs. Few can actually write a log parser or automate a task on the spot. Bash skills speak louder. #cybersecurity #bash #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "cozy-interior-06.jpg",
+      "cozy-interior-04.jpg"
+    ]
   }
 ]
