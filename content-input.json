@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Bash Skills Beat Certs in Most Interviews",
-      "highlight": "Bash",
-      "subtitle": "What hiring managers actually test",
+      "title": "Referrals Are 9x Faster Than Applying",
+      "highlight": "9x",
+      "subtitle": "Your network is your fast lane",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Certs prove you studied - scripts prove you can do",
-        "Most SOC tasks can be automated with 10 lines of Bash",
-        "Interviewers notice when you can demo something real"
+        "Show up in Discord servers and forums consistently",
+        "Comment on write-ups and open-source projects",
+        "Share your learning - labs, blogs, and repos",
+        "One real connection beats 50 cold applications"
       ]
     }
   ],
-  "caption": "Plenty of candidates show up with certs. Few can actually write a log parser or automate a task on the spot. Bash skills speak louder. #cybersecurity #bash #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Referrals in cyber don't just happen - they're built. The candidates who build community early almost always land faster. Start showing up. #cybersecurity #cybersecuritycareers #community #networking #cypherjobs"
 }
