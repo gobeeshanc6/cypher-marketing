@@ -759,5 +759,16 @@
       "laptop-warm-06.jpg",
       "coffee-desk-05.jpg"
     ]
+  },
+  {
+    "date": "2026-05-30",
+    "pillar": "certs",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "3 Signs a Cert Is Worth It",
+    "caption": "Chasing certs without a filter is how people spend thousands and still don't get hired. Here's what actually separates a smart cert choice from a badge on your CV. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-06.jpg",
+      "coffee-desk-04.jpg"
+    ]
   }
 ]
