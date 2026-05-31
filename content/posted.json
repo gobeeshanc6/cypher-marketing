@@ -781,5 +781,16 @@
       "cozy-interior-07.jpg",
       "cozy-interior-01.jpg"
     ]
+  },
+  {
+    "date": "2026-05-31",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Ignoring AppSec Roles",
+    "caption": "Application security is one of the fastest-growing paths in cyber - and most job seekers scroll right past the roles. You don't need a dev background to start. #cybersecurity #appsec #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-05.jpg",
+      "coffee-desk-04.jpg"
+    ]
   }
 ]

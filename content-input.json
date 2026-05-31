@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "3 Signs a Cert Is Worth It",
-      "highlight": "Cert",
-      "subtitle": "Not all certs are created equal",
+      "title": "Stop Ignoring AppSec Roles",
+      "highlight": "AppSec",
+      "subtitle": "application security is quietly hiring everywhere",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "It shows up in jobs you actually want",
-        "Your employer will cover the exam fee",
-        "It unlocks a clear salary band - not just a title"
+        "AppSec engineers earn $110K-$150K+ at most tech companies",
+        "You don't need to be a dev - just learn to read code",
+        "OWASP Top 10 knowledge gets you through most interviews",
+        "Almost every product company is actively hiring AppSec right now"
       ]
     }
   ],
-  "caption": "Chasing certs without a filter is how people spend thousands and still don't get hired. Here's what actually separates a smart cert choice from a badge on your CV. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Application security is one of the fastest-growing paths in cyber - and most job seekers scroll right past the roles. You don't need a dev background to start. #cybersecurity #appsec #cybersecuritycareers #cypherjobs #infosec"
 }
