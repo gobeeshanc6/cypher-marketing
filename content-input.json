@@ -1,9 +1,11 @@
 {
+  "pillar": "myth-busting",
+  "hookStyle": "nobody talks about X reveal",
   "slides": [
     {
-      "title": "Stop Ignoring AppSec Roles",
-      "highlight": "AppSec",
-      "subtitle": "application security is quietly hiring everywhere",
+      "title": "The Promotion Wall Nobody Talks About",
+      "highlight": "Promotion",
+      "subtitle": "Your first cyber role might be a ceiling",
       "bullets": null
     },
     {
@@ -11,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AppSec engineers earn $110K-$150K+ at most tech companies",
-        "You don't need to be a dev - just learn to read code",
-        "OWASP Top 10 knowledge gets you through most interviews",
-        "Almost every product company is actively hiring AppSec right now"
+        "Most entry cyber teams have no real promotion path",
+        "Staying loyal rarely pays off after year one",
+        "Job-hopping between companies is how salaries actually grow",
+        "Plan your next move before the 12-month mark"
       ]
     }
   ],
-  "caption": "Application security is one of the fastest-growing paths in cyber - and most job seekers scroll right past the roles. You don't need a dev background to start. #cybersecurity #appsec #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - your first cybersecurity job is a launchpad, not a ladder. The people who grow fastest plan their next move early. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
