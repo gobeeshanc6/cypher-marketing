@@ -1,11 +1,11 @@
 {
-  "pillar": "myth-busting",
-  "hookStyle": "nobody talks about X reveal",
+  "pillar": "certs",
+  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "The Promotion Wall Nobody Talks About",
-      "highlight": "Promotion",
-      "subtitle": "Your first cyber role might be a ceiling",
+      "title": "Security+ Opens 70% of Entry Doors",
+      "highlight": "70%",
+      "subtitle": "The fastest path to your first cyber job",
       "bullets": null
     },
     {
@@ -13,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most entry cyber teams have no real promotion path",
-        "Staying loyal rarely pays off after year one",
-        "Job-hopping between companies is how salaries actually grow",
-        "Plan your next move before the 12-month mark"
+        "Takes 3-6 months to prep from scratch",
+        "DoD-approved and globally recognised",
+        "Avg Security+ salary: $75K+",
+        "Pair it with TryHackMe to stand out"
       ]
     }
   ],
-  "caption": "Hot take - your first cybersecurity job is a launchpad, not a ladder. The people who grow fastest plan their next move early. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "Most entry-level cyber roles will hire you with just Security+ - and that cert takes 3 months to earn. The gap between where you are and your first job is smaller than you think. #cybersecurity #comptia #securityplus #cybersecuritycareers #cypherjobs"
 }
