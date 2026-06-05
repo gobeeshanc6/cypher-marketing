@@ -880,5 +880,16 @@
       "coffee-desk-08.jpg",
       "laptop-warm-02.jpg"
     ]
+  },
+  {
+    "date": "2026-06-05",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Bug Bounty Pays Less Than GRC",
+    "caption": "Hot take - everyone chases the hacker dream but GRC quietly pays some of the best salaries in cyber. Work smarter, not cooler. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-04.jpg",
+      "person-coding-07.jpg"
+    ]
   }
 ]

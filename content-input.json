@@ -1,11 +1,11 @@
 {
-  "pillar": "specialism-spotlight",
-  "hookStyle": "direct question",
+  "pillar": "myth-busting",
+  "hookStyle": "salary figure",
   "slides": [
     {
-      "title": "Is OT Security Cyber's Best Kept Secret?",
-      "highlight": "OT Security",
-      "subtitle": "The niche paying $120K+ that most people skip",
+      "title": "Bug Bounty Pays Less Than GRC",
+      "highlight": "GRC",
+      "subtitle": "The hacker path isn't the highest-paid.",
       "bullets": null
     },
     {
@@ -13,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Critical infrastructure attacks up 300% in 3 years",
-        "Less than 5% of cyber pros have OT skills",
-        "Junior OT roles regularly start at $90K+",
-        "Most companies genuinely can't find candidates"
+        "GRC analysts average $115K+ in the US",
+        "Most bug hunters earn under $50K a year",
+        "Governance roles are remote-friendly and in demand",
+        "The quiet paths pay the loudest salaries"
       ]
     }
   ],
-  "caption": "Most cyber professionals have never even considered OT security - and that's exactly why it's such a smart move right now. Critical infrastructure is under attack and the talent just isn't there yet. #cybersecurity #OTsecurity #ICS #cybersecuritycareers #cypherjobs"
+  "caption": "Hot take - everyone chases the hacker dream but GRC quietly pays some of the best salaries in cyber. Work smarter, not cooler. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec"
 }
