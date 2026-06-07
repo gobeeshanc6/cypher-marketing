@@ -1,11 +1,9 @@
 {
-  "pillar": "career-advice",
-  "hookStyle": "nobody talks about X",
   "slides": [
     {
-      "title": "Nobody Maps Your First 3 Years",
-      "highlight": "3 Years",
-      "subtitle": "This is why most analysts plateau at $70K",
+      "title": "The Right Job Is Killing Your Career",
+      "highlight": "Right",
+      "subtitle": "Get in. Level up from there.",
       "bullets": null
     },
     {
@@ -13,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Year 1: Get breadth - touch every alert type you can",
-        "Year 2: Go deep - own one domain completely",
-        "Year 3: Talk risk - learn to brief non-technical stakeholders"
+        "Most cyber skills come from doing, not waiting",
+        "Entry roles build the network that gets you ahead",
+        "Your dream role needs experience you don't have yet"
       ]
     }
   ],
-  "caption": "Most people treat their first cyber job as the finish line. The ones who move fast treat it as the starting block. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "Holding out for the 'perfect' cyber role is how careers stall before they start. Get in, build your credibility, then aim higher. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
 }
