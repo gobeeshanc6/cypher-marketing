@@ -946,5 +946,16 @@
       "laptop-warm-07.jpg",
       "coffee-desk-03.jpg"
     ]
+  },
+  {
+    "date": "2026-06-08",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a direct question to the audience",
+    "hook": "9 in 10 Cyber Jobs Expect Linux Skills",
+    "caption": "Linux is in almost every cyber job spec - yet most candidates have never touched a terminal. Close that gap before your next application. #cybersecurity #linux #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-08.jpg",
+      "laptop-warm-01.jpg"
+    ]
   }
 ]

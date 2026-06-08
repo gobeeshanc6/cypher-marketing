@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "The Right Job Is Killing Your Career",
-      "highlight": "Right",
-      "subtitle": "Get in. Level up from there.",
+      "title": "9 in 10 Cyber Jobs Expect Linux Skills",
+      "highlight": "Linux",
+      "subtitle": "Most candidates can't pass a basic CLI test",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most cyber skills come from doing, not waiting",
-        "Entry roles build the network that gets you ahead",
-        "Your dream role needs experience you don't have yet"
+        "Learn the 10 commands that appear in every cyber interview",
+        "Spin up a free VM - Ubuntu or Kali both work",
+        "TryHackMe and HackTheBox teach faster than any book",
+        "Practice daily for 2 weeks - it compounds fast"
       ]
     }
   ],
-  "caption": "Holding out for the 'perfect' cyber role is how careers stall before they start. Get in, build your credibility, then aim higher. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Linux is in almost every cyber job spec - yet most candidates have never touched a terminal. Close that gap before your next application. #cybersecurity #linux #cybersecuritycareers #cypherjobs #infosec"
 }
