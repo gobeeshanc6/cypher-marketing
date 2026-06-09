@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "9 in 10 Cyber Jobs Expect Linux Skills",
-      "highlight": "Linux",
-      "subtitle": "Most candidates can't pass a basic CLI test",
+      "title": "1 in 3 Cyber Hires Is a Referral",
+      "highlight": "Referral",
+      "subtitle": "Your network is your job board",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Learn the 10 commands that appear in every cyber interview",
-        "Spin up a free VM - Ubuntu or Kali both work",
-        "TryHackMe and HackTheBox teach faster than any book",
-        "Practice daily for 2 weeks - it compounds fast"
+        "Join at least one active cyber community",
+        "Post and engage - don't just lurk",
+        "One connection can change everything"
       ]
     }
   ],
-  "caption": "Linux is in almost every cyber job spec - yet most candidates have never touched a terminal. Close that gap before your next application. #cybersecurity #linux #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Job boards show you what's left. Community shows you what's coming. Be where your people are. #cybersecurity #cybersecuritycareers #community #networking #cypherjobs"
 }
