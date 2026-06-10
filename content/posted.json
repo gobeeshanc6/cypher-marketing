@@ -1001,5 +1001,16 @@
       "laptop-warm-06.jpg",
       "keyboard-08.jpg"
     ]
+  },
+  {
+    "date": "2026-06-10",
+    "pillar": "job-market",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "OSCP Holders Earn $105K on Average",
+    "caption": "OSCP isn't for everyone - but if you want to stand out in offensive security, the salary gap is real. Worth the grind? #cybersecurity #OSCP #pentesting #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-02.jpg",
+      "person-coding-05.jpg"
+    ]
   }
 ]
