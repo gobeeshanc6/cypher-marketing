@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "1 in 3 Cyber Hires Is a Referral",
-      "highlight": "Referral",
-      "subtitle": "Your network is your job board",
+      "title": "OSCP Holders Earn $105K on Average",
+      "highlight": "OSCP",
+      "subtitle": "Is the brutal cert actually worth it?",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Join at least one active cyber community",
-        "Post and engage - don't just lurk",
-        "One connection can change everything"
+        "24-hour exam on real machines - no multiple choice",
+        "Hiring managers pay a clear premium for it",
+        "It proves you can do the job, not just pass a test"
       ]
     }
   ],
-  "caption": "Job boards show you what's left. Community shows you what's coming. Be where your people are. #cybersecurity #cybersecuritycareers #community #networking #cypherjobs"
+  "caption": "OSCP isn't for everyone - but if you want to stand out in offensive security, the salary gap is real. Worth the grind? #cybersecurity #OSCP #pentesting #cybersecuritycareers #cypherjobs"
 }
