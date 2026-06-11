@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "OSCP Holders Earn $105K on Average",
-      "highlight": "OSCP",
-      "subtitle": "Is the brutal cert actually worth it?",
+      "title": "DevSecOps Roles Up 40% This Year",
+      "highlight": "40%",
+      "subtitle": "and most companies still can't fill them",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "24-hour exam on real machines - no multiple choice",
-        "Hiring managers pay a clear premium for it",
-        "It proves you can do the job, not just pass a test"
+        "No dev background needed - just curiosity",
+        "Learn Docker + basic scripting first",
+        "Average salary: $120K-$145K",
+        "Bridge the gap others avoid"
       ]
     }
   ],
-  "caption": "OSCP isn't for everyone - but if you want to stand out in offensive security, the salary gap is real. Worth the grind? #cybersecurity #OSCP #pentesting #cybersecuritycareers #cypherjobs"
+  "caption": "DevSecOps is one of the fastest-growing paths in cyber right now - and most candidates still walk straight past it. If you can connect dev and security, companies will fight over you. #cybersecurity #DevSecOps #cybersecuritycareers #cypherjobs #infosec"
 }
