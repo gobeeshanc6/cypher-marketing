@@ -1023,5 +1023,16 @@
       "coffee-desk-01.jpg",
       "person-coding-05.jpg"
     ]
+  },
+  {
+    "date": "2026-06-11",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "DevSecOps Roles Up 40% This Year",
+    "caption": "DevSecOps is one of the fastest-growing paths in cyber right now - and most candidates still walk straight past it. If you can connect dev and security, companies will fight over you. #cybersecurity #DevSecOps #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "laptop-warm-01.jpg",
+      "keyboard-07.jpg"
+    ]
   }
 ]
