@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "DevSecOps Roles Up 40% This Year",
-      "highlight": "40%",
-      "subtitle": "and most companies still can't fill them",
+      "title": "Soft Skills Win Cyber Interviews",
+      "highlight": "Soft Skills",
+      "subtitle": "Nobody prepares for the part that actually matters",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "No dev background needed - just curiosity",
-        "Learn Docker + basic scripting first",
-        "Average salary: $120K-$145K",
-        "Bridge the gap others avoid"
+        "Explain a threat to a non-technical exec",
+        "Walk through your process under pressure",
+        "Show you can write a clear incident report",
+        "Technical knowledge is assumed - clarity wins"
       ]
     }
   ],
-  "caption": "DevSecOps is one of the fastest-growing paths in cyber right now - and most candidates still walk straight past it. If you can connect dev and security, companies will fight over you. #cybersecurity #DevSecOps #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone grinds the technical prep. But the question that trips most cyber candidates? 'Explain this risk to a board member.' Soft skills are the real filter nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
 }

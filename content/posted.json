@@ -1034,5 +1034,16 @@
       "laptop-warm-01.jpg",
       "keyboard-07.jpg"
     ]
+  },
+  {
+    "date": "2026-06-12",
+    "pillar": "myth-busting",
+    "hookStyle": "a counterintuitive claim that challenges assumptions",
+    "hook": "Soft Skills Win Cyber Interviews",
+    "caption": "Everyone grinds the technical prep. But the question that trips most cyber candidates? 'Explain this risk to a board member.' Soft skills are the real filter nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch",
+    "photos": [
+      "cozy-interior-02.jpg",
+      "person-coding-02.jpg"
+    ]
   }
 ]
