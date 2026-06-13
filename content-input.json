@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Soft Skills Win Cyber Interviews",
-      "highlight": "Soft Skills",
-      "subtitle": "Nobody prepares for the part that actually matters",
+      "title": "3 Habits That Get You Hired Faster",
+      "highlight": "Habits",
+      "subtitle": "Most cyber candidates skip all three",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Explain a threat to a non-technical exec",
-        "Walk through your process under pressure",
-        "Show you can write a clear incident report",
-        "Technical knowledge is assumed - clarity wins"
+        "Build a home lab - document every project you run",
+        "Write about what you learn - even short LinkedIn posts",
+        "Reach out to 3 people in cyber every single week"
       ]
     }
   ],
-  "caption": "Everyone grinds the technical prep. But the question that trips most cyber candidates? 'Explain this risk to a board member.' Soft skills are the real filter nobody talks about. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
+  "caption": "Stop waiting to feel ready. These three habits separate the people who get hired from the ones still preparing. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
 }
