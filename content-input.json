@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "3 Habits That Get You Hired Faster",
-      "highlight": "Habits",
-      "subtitle": "Most cyber candidates skip all three",
+      "title": "Why Aren't Cyber Jobs Replying?",
+      "highlight": "Replying",
+      "subtitle": "It's not your certs. It's your approach.",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Build a home lab - document every project you run",
-        "Write about what you learn - even short LinkedIn posts",
-        "Reach out to 3 people in cyber every single week"
+        "Job specs ask for 5+ years - apply anyway",
+        "Show what you built, not just what you studied",
+        "One tailored app beats ten generic ones"
       ]
     }
   ],
-  "caption": "Stop waiting to feel ready. These three habits separate the people who get hired from the ones still preparing. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "Getting ghosted by cyber job listings? It's rarely about your qualifications - it's about how you're applying. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
 }
