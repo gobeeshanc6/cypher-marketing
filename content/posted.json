@@ -1111,5 +1111,16 @@
       "cozy-interior-03.jpg",
       "coffee-desk-08.jpg"
     ]
+  },
+  {
+    "date": "2026-06-15",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Nobody Teaches AD Skills",
+    "caption": "Active Directory is in almost every enterprise cyber role - but most courses never mention it. Close this gap before your next interview. #cybersecurity #activedirectory #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "person-coding-02.jpg",
+      "coffee-desk-01.jpg"
+    ]
   }
 ]
