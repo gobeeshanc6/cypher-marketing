@@ -1122,5 +1122,16 @@
       "person-coding-02.jpg",
       "coffee-desk-01.jpg"
     ]
+  },
+  {
+    "date": "2026-06-16",
+    "pillar": "community",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "CTF Teams Beat Any Bootcamp",
+    "caption": "Hot take - one CTF weekend with the right team teaches more than any bootcamp. Find your people and start competing. #cybersecurity #CTF #community #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "keyboard-05.jpg",
+      "keyboard-03.jpg"
+    ]
   }
 ]

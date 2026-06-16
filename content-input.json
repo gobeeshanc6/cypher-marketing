@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Teaches AD Skills",
-      "highlight": "AD",
-      "subtitle": "But it shows up in almost every enterprise interview.",
+      "title": "CTF Teams Beat Any Bootcamp",
+      "highlight": "CTF",
+      "subtitle": "community > courses",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AD is the backbone of 90% of enterprise environments",
-        "SOC, pentest, and GRC roles all expect it",
-        "Start with TryHackMe's AD path - it's free"
+        "Real pressure builds real skills",
+        "Teammates fill gaps no course covers",
+        "Writeups become your public portfolio",
+        "Recruiters follow CTF leaderboards"
       ]
     }
   ],
-  "caption": "Active Directory is in almost every enterprise cyber role - but most courses never mention it. Close this gap before your next interview. #cybersecurity #activedirectory #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - one CTF weekend with the right team teaches more than any bootcamp. Find your people and start competing. #cybersecurity #CTF #community #cybersecuritycareers #cypherjobs"
 }
