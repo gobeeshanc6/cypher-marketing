@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "CTF Teams Beat Any Bootcamp",
-      "highlight": "CTF",
-      "subtitle": "community > courses",
+      "title": "Nobody Talks About Zero Trust Careers",
+      "highlight": "Zero Trust",
+      "subtitle": "One of the fastest-hiring niches in cyber right now",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Real pressure builds real skills",
-        "Teammates fill gaps no course covers",
-        "Writeups become your public portfolio",
-        "Recruiters follow CTF leaderboards"
+        "Zero Trust roles up 60% since 2024",
+        "Average salary: $115K-$130K",
+        "No exotic certs required to start",
+        "Every enterprise is rebuilding - they need people"
       ]
     }
   ],
-  "caption": "Hot take - one CTF weekend with the right team teaches more than any bootcamp. Find your people and start competing. #cybersecurity #CTF #community #cybersecuritycareers #cypherjobs"
+  "caption": "Zero Trust is reshaping how every company handles security - but barely anyone is positioning themselves for the roles. Are you? #cybersecurity #zerotrust #cybersecuritycareers #cypherjobs #infosec"
 }
