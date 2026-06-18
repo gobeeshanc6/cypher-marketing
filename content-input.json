@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About Zero Trust Careers",
-      "highlight": "Zero Trust",
-      "subtitle": "One of the fastest-hiring niches in cyber right now",
+      "title": "Stop Sleeping on Privacy Engineering",
+      "highlight": "Privacy",
+      "subtitle": "The $115K career hiding in plain sight",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Zero Trust roles up 60% since 2024",
-        "Average salary: $115K-$130K",
-        "No exotic certs required to start",
-        "Every enterprise is rebuilding - they need people"
+        "DPOs now legally required in most companies",
+        "Privacy engineers earn $110K+ at entry level",
+        "No hacking skills needed - law meets tech",
+        "Regulation is only getting tighter"
       ]
     }
   ],
-  "caption": "Zero Trust is reshaping how every company handles security - but barely anyone is positioning themselves for the roles. Are you? #cybersecurity #zerotrust #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone chases red team and SOC roles - but privacy engineering is quietly becoming one of the most in-demand paths in cyber. Regulation isn't slowing down. Are you positioned for it? #cybersecurity #privacy #cybersecuritycareers #cypherjobs #infosec"
 }

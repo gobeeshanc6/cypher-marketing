@@ -1166,5 +1166,16 @@
       "cozy-interior-01.jpg",
       "coffee-desk-02.jpg"
     ]
+  },
+  {
+    "date": "2026-06-18",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Sleeping on Privacy Engineering",
+    "caption": "Everyone chases red team and SOC roles - but privacy engineering is quietly becoming one of the most in-demand paths in cyber. Regulation isn't slowing down. Are you positioned for it? #cybersecurity #privacy #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "laptop-warm-05.jpg",
+      "coffee-desk-09.jpg"
+    ]
   }
 ]
