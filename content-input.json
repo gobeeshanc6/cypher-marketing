@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Sleeping on Privacy Engineering",
-      "highlight": "Privacy",
-      "subtitle": "The $115K career hiding in plain sight",
+      "title": "$130K Without Hacking a Single Thing",
+      "highlight": "$130K",
+      "subtitle": "Security architects quietly out-earn most red teamers",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "DPOs now legally required in most companies",
-        "Privacy engineers earn $110K+ at entry level",
-        "No hacking skills needed - law meets tech",
-        "Regulation is only getting tighter"
+        "Security architects avg $130K-150K",
+        "GRC directors regularly hit $160K+",
+        "Senior red team tops out ~$120K",
+        "Income follows complexity, not cool"
       ]
     }
   ],
-  "caption": "Everyone chases red team and SOC roles - but privacy engineering is quietly becoming one of the most in-demand paths in cyber. Regulation isn't slowing down. Are you positioned for it? #cybersecurity #privacy #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The loudest path in cyber isn't the most lucrative. Architects and GRC leaders out-earn red teamers at almost every level - and nobody talks about it. #cybersecurity #cybersecuritycareers #salary #infosec #cypherjobs"
 }
