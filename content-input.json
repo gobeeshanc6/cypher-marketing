@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Waiting for the Perfect Cyber Role",
-      "highlight": "Perfect",
-      "subtitle": "The door you walk through matters less than you think.",
+      "title": "Architects Don't Need 10 Years Experience",
+      "highlight": "Architects",
+      "subtitle": "The fastest overlooked move in cyber",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Any foot in the door beats another month of prep",
-        "Internal moves happen 3x faster than external hires",
-        "Hiring managers hire potential - not the finished article"
+        "Learn a risk framework - SABSA or TOGAF",
+        "Document the 'why' behind security decisions",
+        "Join architecture reviews in your current role",
+        "Mid-level architects average $130K+"
       ]
     }
   ],
-  "caption": "The candidates who land fastest aren't the most ready - they're the most decisive. Stop waiting. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #careertips"
+  "caption": "Most people think security architecture is reserved for veterans. The ones moving into it at year 3 are proving that wrong. #cybersecurity #securityarchitecture #cybersecuritycareers #cypherjobs #infosec"
 }
