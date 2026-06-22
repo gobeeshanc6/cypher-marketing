@@ -1265,5 +1265,16 @@
       "cozy-interior-01.jpg",
       "cozy-interior-03.jpg"
     ]
+  },
+  {
+    "date": "2026-06-22",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Can You Read a Packet Capture?",
+    "caption": "Wireshark is free, widely used, and comes up in SOC interviews constantly - yet most candidates have never opened it. That gap is your edge. #cybersecurity #wireshark #soc #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-07.jpg",
+      "cozy-interior-06.jpg"
+    ]
   }
 ]
