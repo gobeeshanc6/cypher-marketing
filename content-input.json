@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Architects Don't Need 10 Years Experience",
-      "highlight": "Architects",
-      "subtitle": "The fastest overlooked move in cyber",
+      "title": "Can You Read a Packet Capture?",
+      "highlight": "Packet Capture",
+      "subtitle": "Most SOC candidates can't",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Learn a risk framework - SABSA or TOGAF",
-        "Document the 'why' behind security decisions",
-        "Join architecture reviews in your current role",
-        "Mid-level architects average $130K+"
+        "Wireshark is free - no excuse not to know it",
+        "Filter by protocol to spot suspicious traffic fast",
+        "SOC interviews often include live packet analysis",
+        "It shows you can think, not just memorise"
       ]
     }
   ],
-  "caption": "Most people think security architecture is reserved for veterans. The ones moving into it at year 3 are proving that wrong. #cybersecurity #securityarchitecture #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Wireshark is free, widely used, and comes up in SOC interviews constantly - yet most candidates have never opened it. That gap is your edge. #cybersecurity #wireshark #soc #cybersecuritycareers #cypherjobs"
 }
