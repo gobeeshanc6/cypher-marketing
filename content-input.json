@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Can You Read a Packet Capture?",
-      "highlight": "Packet Capture",
-      "subtitle": "Most SOC candidates can't",
+      "title": "Who's in Your Cyber Corner?",
+      "highlight": "Corner",
+      "subtitle": "The people around you decide how fast you grow.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Wireshark is free - no excuse not to know it",
-        "Filter by protocol to spot suspicious traffic fast",
-        "SOC interviews often include live packet analysis",
-        "It shows you can think, not just memorise"
+        "Find 2-3 cyber communities you actually show up in",
+        "Share wins, questions, and leads - not just lurk",
+        "Your next referral is a relationship you haven't built yet"
       ]
     }
   ],
-  "caption": "Wireshark is free, widely used, and comes up in SOC interviews constantly - yet most candidates have never opened it. That gap is your edge. #cybersecurity #wireshark #soc #cybersecuritycareers #cypherjobs"
+  "caption": "Most people consume cyber content. The ones who get hired create conversations. Who's in your corner? #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
