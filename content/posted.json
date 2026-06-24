@@ -1309,5 +1309,16 @@
       "laptop-warm-04.jpg",
       "coffee-desk-01.jpg"
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "pillar": "job-market",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "3 Cert Red Flags Most People Miss",
+    "caption": "Not all certs are created equal. Check these before you commit. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-03.jpg",
+      "coffee-desk-06.jpg"
+    ]
   }
 ]
