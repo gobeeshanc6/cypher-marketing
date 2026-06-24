@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Who's in Your Cyber Corner?",
-      "highlight": "Corner",
-      "subtitle": "The people around you decide how fast you grow.",
+      "title": "3 Cert Red Flags Most People Miss",
+      "highlight": "Red Flags",
+      "subtitle": "Before you spend another $300",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Find 2-3 cyber communities you actually show up in",
-        "Share wins, questions, and leads - not just lurk",
-        "Your next referral is a relationship you haven't built yet"
+        "No employer recognition in job listings",
+        "Passes easily with zero hands-on practice",
+        "Has no renewal - signals no ongoing value"
       ]
     }
   ],
-  "caption": "Most people consume cyber content. The ones who get hired create conversations. Who's in your corner? #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
+  "caption": "Not all certs are created equal. Check these before you commit. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }

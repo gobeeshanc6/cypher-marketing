@@ -1298,5 +1298,16 @@
       "coffee-desk-01.jpg",
       "keyboard-07.jpg"
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "pillar": "certs",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "3 Cert Red Flags Most People Miss",
+    "caption": "Not all certs are created equal. Check these before you commit. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "laptop-warm-04.jpg",
+      "coffee-desk-01.jpg"
+    ]
   }
 ]
