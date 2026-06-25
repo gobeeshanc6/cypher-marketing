@@ -1331,5 +1331,16 @@
       "keyboard-06.jpg",
       "laptop-warm-02.jpg"
     ]
+  },
+  {
+    "date": "2026-06-25",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a counterintuitive claim that challenges assumptions",
+    "hook": "700 New CVEs Drop Every Week",
+    "caption": "700 new CVEs drop every week - and most companies have fewer than 3 people managing them. Vulnerability management is one of the most underrated, in-demand paths in cyber right now. #cybersecurity #vulnerabilitymanagement #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-03.jpg",
+      "cozy-interior-02.jpg"
+    ]
   }
 ]
