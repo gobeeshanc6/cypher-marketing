@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "3 Cert Red Flags Most People Miss",
-      "highlight": "Red Flags",
-      "subtitle": "Before you spend another $300",
+      "title": "700 New CVEs Drop Every Week",
+      "highlight": "700",
+      "subtitle": "And most companies have 3 people managing them",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "No employer recognition in job listings",
-        "Passes easily with zero hands-on practice",
-        "Has no renewal - signals no ongoing value"
+        "Average org sits on 1,200+ open vulns right now",
+        "VM roles pay $90-130K - no hacking required",
+        "Tools to learn: Qualys, Tenable, Rapid7",
+        "Path in: Security+, a home lab, keep going"
       ]
     }
   ],
-  "caption": "Not all certs are created equal. Check these before you commit. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "700 new CVEs drop every week - and most companies have fewer than 3 people managing them. Vulnerability management is one of the most underrated, in-demand paths in cyber right now. #cybersecurity #vulnerabilitymanagement #cybersecuritycareers #cypherjobs #infosec"
 }
