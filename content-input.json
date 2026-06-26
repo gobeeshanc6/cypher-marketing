@@ -1,9 +1,11 @@
 {
+  "pillar": "myth-busting",
+  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "700 New CVEs Drop Every Week",
-      "highlight": "700",
-      "subtitle": "And most companies have 3 people managing them",
+      "title": "Half of Cyber Roles Stay Unfilled",
+      "highlight": "Half",
+      "subtitle": "The market isn't too competitive. It's too empty.",
       "bullets": null
     },
     {
@@ -11,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Average org sits on 1,200+ open vulns right now",
-        "VM roles pay $90-130K - no hacking required",
-        "Tools to learn: Qualys, Tenable, Rapid7",
-        "Path in: Security+, a home lab, keep going"
+        "Most listings sit open for 3-6 months",
+        "Companies lower requirements over time",
+        "The talent gap is your window - not a wall",
+        "Get in before it fills up"
       ]
     }
   ],
-  "caption": "700 new CVEs drop every week - and most companies have fewer than 3 people managing them. Vulnerability management is one of the most underrated, in-demand paths in cyber right now. #cybersecurity #vulnerabilitymanagement #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Half of open cyber roles stay unfilled for 6+ months. Not because candidates aren't out there - because companies can't find people who are ready. The job market isn't too competitive. It's too empty. That gap is yours. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
 }
