@@ -1,11 +1,9 @@
 {
-  "pillar": "myth-busting",
-  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "Half of Cyber Roles Stay Unfilled",
-      "highlight": "Half",
-      "subtitle": "The market isn't too competitive. It's too empty.",
+      "title": "Stop Applying to Cyber Jobs Cold",
+      "highlight": "Cold",
+      "subtitle": "Warm outreach gets replies. Cold apps get silence.",
       "bullets": null
     },
     {
@@ -13,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most listings sit open for 3-6 months",
-        "Companies lower requirements over time",
-        "The talent gap is your window - not a wall",
-        "Get in before it fills up"
+        "Find the hiring manager on LinkedIn first",
+        "Engage with their posts for a week",
+        "Email them before you hit apply",
+        "Referrals close the gap cold apps can't"
       ]
     }
   ],
-  "caption": "Half of open cyber roles stay unfilled for 6+ months. Not because candidates aren't out there - because companies can't find people who are ready. The job market isn't too competitive. It's too empty. That gap is yours. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Cold applications go into a black hole. The candidates getting interviews are going in warm. Here's how to flip your approach. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
 }
