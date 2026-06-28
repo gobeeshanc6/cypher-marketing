@@ -1397,5 +1397,16 @@
       "coffee-desk-07.jpg",
       "coffee-desk-01.jpg"
     ]
+  },
+  {
+    "date": "2026-06-28",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "The IR Career Nobody Talks About",
+    "caption": "Incident response is one of the best career paths in cyber - and most people scroll right past the job listings. That gap is your advantage. #cybersecurity #incidentresponse #infosec #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "person-coding-01.jpg",
+      "keyboard-06.jpg"
+    ]
   }
 ]
