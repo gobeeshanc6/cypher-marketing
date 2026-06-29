@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "The IR Career Nobody Talks About",
-      "highlight": "IR",
-      "subtitle": "Incident response is always hiring - and almost nobody applies for it",
+      "title": "Only 1 in 5 Analysts Writes Detections",
+      "highlight": "1 in 5",
+      "subtitle": "Be in the 20%.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "IR roles pay $90K-$130K at all levels",
-        "Every breach needs a team - demand is constant",
-        "SOC analyst is the fastest entry point",
-        "Remote-friendly and almost always open"
+        "Start with Sigma rules - vendor-neutral and widely supported",
+        "Practice on free SIEM labs before job hunting",
+        "Detection skills appear in 40% of senior SOC job specs"
       ]
     }
   ],
-  "caption": "Incident response is one of the best career paths in cyber - and most people scroll right past the job listings. That gap is your advantage. #cybersecurity #incidentresponse #infosec #cybersecuritycareers #cypherjobs"
+  "caption": "Most SOC analysts can triage alerts. Very few can actually write the rules that generate them. Detection engineering is the gap - and it's wide open. #cybersecurity #soc #detectionengineering #cybersecuritycareers #cypherjobs"
 }

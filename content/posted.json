@@ -1408,5 +1408,16 @@
       "person-coding-01.jpg",
       "keyboard-06.jpg"
     ]
+  },
+  {
+    "date": "2026-06-29",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Only 1 in 5 Analysts Writes Detections",
+    "caption": "Most SOC analysts can triage alerts. Very few can actually write the rules that generate them. Detection engineering is the gap - and it's wide open. #cybersecurity #soc #detectionengineering #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "laptop-warm-01.jpg",
+      "keyboard-06.jpg"
+    ]
   }
 ]
