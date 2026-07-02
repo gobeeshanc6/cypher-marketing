@@ -4,14 +4,14 @@
     "pillar": "career-advice",
     "hookStyle": "a direct question to the audience",
     "hook": "Thinking of a Career in Cybersecurity?",
-    "caption": "Ready to break into cybersecurity? Let's get started! 💻☕️ #CybersecurityCareers #CareerAdvice #TechJobs #JobSearch #CypherJobs"
+    "caption": "Ready to break into cybersecurity? Let's get started! \ud83d\udcbb\u2615\ufe0f #CybersecurityCareers #CareerAdvice #TechJobs #JobSearch #CypherJobs"
   },
   {
     "date": "2026-04-19",
     "pillar": "certs",
     "hookStyle": "a \"stop doing X\" warning",
     "hook": "Stop Wasting Time on the Wrong Certs!",
-    "caption": "Feeling lost choosing the right cybersecurity cert? ☕️ Let's break it down together! #Cybersecurity #CareerAdvice #Certifications #StudyTips #TechCareers"
+    "caption": "Feeling lost choosing the right cybersecurity cert? \u2615\ufe0f Let's break it down together! #Cybersecurity #CareerAdvice #Certifications #StudyTips #TechCareers"
   },
   {
     "date": "2026-04-20",
@@ -25,7 +25,7 @@
     "pillar": "specialism-spotlight",
     "hookStyle": "a counterintuitive claim that challenges assumptions",
     "hook": "Pentesters Don't Just Hack: They Build Trust!",
-    "caption": "Curious about #Pentesting? Dive in with us! 🌟💻 #CybersecurityCareers #CareerAdvice #TechJobs #Network"
+    "caption": "Curious about #Pentesting? Dive in with us! \ud83c\udf1f\ud83d\udcbb #CybersecurityCareers #CareerAdvice #TechJobs #Network"
   },
   {
     "date": "2026-04-22",
@@ -39,7 +39,7 @@
     "pillar": "myth-busting",
     "hookStyle": "a bold controversial opinion",
     "hook": "You DON'T Need a CS Degree!",
-    "caption": "Myth-busting on your cybersecurity path! 🚀💻 #Cybersecurity #CareerAdvice #MythBusting #TechCareers #DigitalSecurity",
+    "caption": "Myth-busting on your cybersecurity path! \ud83d\ude80\ud83d\udcbb #Cybersecurity #CareerAdvice #MythBusting #TechCareers #DigitalSecurity",
     "photos": [
       "coffee-desk-01.jpg",
       "laptop-warm-06.jpg"
@@ -72,7 +72,7 @@
     "pillar": "certs",
     "hookStyle": "a bold controversial opinion",
     "hook": "CISSP vs CEH: Choose Wisely!",
-    "caption": "Choosing the right cert can change your game! 🎓💻 #Cybersecurity #Certs #CareerTips #CISSP #CEH",
+    "caption": "Choosing the right cert can change your game! \ud83c\udf93\ud83d\udcbb #Cybersecurity #Certs #CareerTips #CISSP #CEH",
     "photos": [
       "coffee-desk-04.jpg",
       "person-coding-04.jpg"
@@ -1473,6 +1473,17 @@
     "photos": [
       "cozy-interior-06.jpg",
       "coffee-desk-03.jpg"
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "pillar": "community",
+    "hookStyle": "a counterintuitive claim that challenges assumptions",
+    "hook": "Discord Gets You Hired Faster Than LinkedIn",
+    "caption": "The people landing cyber jobs fastest aren't grinding LinkedIn - they're showing up in Discord servers, Slack groups and community spaces where hiring managers actually hang out. #cybersecurity #community #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "person-coding-05.jpg",
+      "cozy-interior-06.jpg"
     ]
   }
 ]

@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your Employer Will Pay for Certs",
-      "highlight": "Employer",
-      "subtitle": "Most people never ask",
+      "title": "Discord Gets You Hired Faster Than LinkedIn",
+      "highlight": "Discord",
+      "subtitle": "The hidden job market is in your community",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "80%+ of cyber employers offer cert reimbursement",
-        "Most employees never claim it",
-        "Pick a role with strong L&D - upskill on their budget",
-        "Get in the door first, then stack the certs"
+        "Most cyber roles fill through community before they're posted",
+        "Discord servers put you in rooms with hiring managers",
+        "Visibility beats applications - show up and contribute",
+        "Start with TryHackMe, BlueTeamLabs or NahamSec communities"
       ]
     }
   ],
-  "caption": "Your next cert doesn't have to cost you a thing - if you pick the right employer. Most people never even ask. #cybersecurity #certifications #careertips #cybersecuritycareers #cypherjobs"
+  "caption": "The people landing cyber jobs fastest aren't grinding LinkedIn - they're showing up in Discord servers, Slack groups and community spaces where hiring managers actually hang out. #cybersecurity #community #cybersecuritycareers #cypherjobs #infosec"
 }
