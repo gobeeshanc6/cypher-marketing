@@ -1496,5 +1496,16 @@
       "keyboard-04.jpg",
       "person-coding-07.jpg"
     ]
+  },
+  {
+    "date": "2026-07-03",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Only 12% of Teams Run Threat Hunts",
+    "caption": "Threat hunting is one of the most in-demand skills in cyber right now - and barely anyone is doing it proactively. That gap is your edge. #cybersecurity #threathunting #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "cozy-interior-06.jpg",
+      "cozy-interior-04.jpg"
+    ]
   }
 ]

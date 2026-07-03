@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Discord Gets You Hired Faster Than LinkedIn",
-      "highlight": "Discord",
-      "subtitle": "The hidden job market is in your community",
+      "title": "Only 12% of Teams Run Threat Hunts",
+      "highlight": "12%",
+      "subtitle": "The skill that sets you apart",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most cyber roles fill through community before they're posted",
-        "Discord servers put you in rooms with hiring managers",
-        "Visibility beats applications - show up and contribute",
-        "Start with TryHackMe, BlueTeamLabs or NahamSec communities"
+        "Most teams only react - hunters go looking first",
+        "You don't need a senior title to start practicing",
+        "TryHackMe and HELK make it free to learn today"
       ]
     }
   ],
-  "caption": "The people landing cyber jobs fastest aren't grinding LinkedIn - they're showing up in Discord servers, Slack groups and community spaces where hiring managers actually hang out. #cybersecurity #community #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Threat hunting is one of the most in-demand skills in cyber right now - and barely anyone is doing it proactively. That gap is your edge. #cybersecurity #threathunting #cybersecuritycareers #cypherjobs #infosec"
 }
