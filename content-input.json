@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Only 12% of Teams Run Threat Hunts",
-      "highlight": "12%",
-      "subtitle": "The skill that sets you apart",
+      "title": "Is a Home Lab Worth Your Time?",
+      "highlight": "Home Lab",
+      "subtitle": "The honest answer might surprise you.",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most teams only react - hunters go looking first",
-        "You don't need a senior title to start practicing",
-        "TryHackMe and HELK make it free to learn today"
+        "Free options exist - TryHackMe, HackTheBox",
+        "Real labs prove you build, not just study",
+        "One VM is enough to start today",
+        "Document it on GitHub - hiring managers look"
       ]
     }
   ],
-  "caption": "Threat hunting is one of the most in-demand skills in cyber right now - and barely anyone is doing it proactively. That gap is your edge. #cybersecurity #threathunting #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hiring managers notice when you've actually built something. Here's the honest take on home labs in cyber. #cybersecurity #homelab #cybersecuritycareers #cypherjobs #infosec"
 }
