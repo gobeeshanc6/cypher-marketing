@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Is a Home Lab Worth Your Time?",
-      "highlight": "Home Lab",
-      "subtitle": "The honest answer might surprise you.",
+      "title": "Vendor Certs Beat CISSP in Job Listings",
+      "highlight": "Vendor",
+      "subtitle": "The job market already shifted",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Free options exist - TryHackMe, HackTheBox",
-        "Real labs prove you build, not just study",
-        "One VM is enough to start today",
-        "Document it on GitHub - hiring managers look"
+        "SC-200 appears in 3x more Azure SOC roles than CISSP",
+        "AWS Security Specialty tied to $115K+ starting salaries",
+        "Google PCSAE is the fastest-growing cloud security cert",
+        "Vendor certs take weeks - not months - to earn"
       ]
     }
   ],
-  "caption": "Hiring managers notice when you've actually built something. Here's the honest take on home labs in cyber. #cybersecurity #homelab #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone grinds for CISSP while employers are posting for vendor certs. The shift already happened - are you keeping up? #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
