@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Vendor Certs Beat CISSP in Job Listings",
-      "highlight": "Vendor",
-      "subtitle": "The job market already shifted",
+      "title": "Stop Sleeping on Malware Analysis",
+      "highlight": "Malware",
+      "subtitle": "The cyber niche nobody's competing for",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "SC-200 appears in 3x more Azure SOC roles than CISSP",
-        "AWS Security Specialty tied to $115K+ starting salaries",
-        "Google PCSAE is the fastest-growing cloud security cert",
-        "Vendor certs take weeks - not months - to earn"
+        "Malware analyst roles grew 28% last year",
+        "Average salary sits at $95K-$130K",
+        "Most candidates avoid it - that's your edge",
+        "Free tools to start: Ghidra, Any.run, Cuckoo"
       ]
     }
   ],
-  "caption": "Everyone grinds for CISSP while employers are posting for vendor certs. The shift already happened - are you keeping up? #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Malware analysis is one of the most technical, best-paid paths in cyber - and barely anyone is training for it. Your competition just got smaller. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec"
 }

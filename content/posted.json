@@ -1562,5 +1562,16 @@
       "cozy-interior-05.jpg",
       "laptop-warm-02.jpg"
     ]
+  },
+  {
+    "date": "2026-07-06",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Sleeping on Malware Analysis",
+    "caption": "Malware analysis is one of the most technical, best-paid paths in cyber - and barely anyone is training for it. Your competition just got smaller. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-04.jpg",
+      "coffee-desk-07.jpg"
+    ]
   }
 ]
