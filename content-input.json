@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Sleeping on Malware Analysis",
-      "highlight": "Malware",
-      "subtitle": "The cyber niche nobody's competing for",
+      "title": "Your GitHub Beats Your CV Every Time",
+      "highlight": "GitHub",
+      "subtitle": "What hiring managers really check first",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Malware analyst roles grew 28% last year",
-        "Average salary sits at $95K-$130K",
-        "Most candidates avoid it - that's your edge",
-        "Free tools to start: Ghidra, Any.run, Cuckoo"
+        "Pin 2-3 real cyber projects to your profile",
+        "Document your home lab setup publicly",
+        "One scripted tool beats a cert stack",
+        "Recruiters Google you before they call"
       ]
     }
   ],
-  "caption": "Malware analysis is one of the most technical, best-paid paths in cyber - and barely anyone is training for it. Your competition just got smaller. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Your CV lists what you know. Your GitHub shows what you've built. The callback goes to whoever has evidence. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
 }
