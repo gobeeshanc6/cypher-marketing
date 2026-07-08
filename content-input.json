@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your GitHub Beats Your CV Every Time",
-      "highlight": "GitHub",
-      "subtitle": "What hiring managers really check first",
+      "title": "Nobody Negotiates Their First Cyber Offer",
+      "highlight": "Negotiates",
+      "subtitle": "It's costing you more than you think",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Pin 2-3 real cyber projects to your profile",
-        "Document your home lab setup publicly",
-        "One scripted tool beats a cert stack",
-        "Recruiters Google you before they call"
+        "70% of employers expect you to negotiate",
+        "Average cyber uplift is $8-15K when you ask",
+        "Research comp bands before interview day",
+        "Silence after their number is your best tool"
       ]
     }
   ],
-  "caption": "Your CV lists what you know. Your GitHub shows what you've built. The callback goes to whoever has evidence. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
+  "caption": "Your first offer is rarely their best offer - and most people just say yes. In cyber, where demand outstrips supply, you have more leverage than you think. Use it. #cybersecurity #cybersecuritycareers #salarychat #negotiation #cypherjobs"
 }
