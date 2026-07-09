@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Negotiates Their First Cyber Offer",
-      "highlight": "Negotiates",
-      "subtitle": "It's costing you more than you think",
+      "title": "AI Security Roles Up 300% Since 2024",
+      "highlight": "300%",
+      "subtitle": "And most people aren't positioned for it yet",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "70% of employers expect you to negotiate",
-        "Average cyber uplift is $8-15K when you ask",
-        "Research comp bands before interview day",
-        "Silence after their number is your best tool"
+        "AI isn't replacing cyber jobs - it's creating new ones",
+        "Prompt injection and LLM abuse are live attack vectors now",
+        "Companies urgently need defenders who understand AI"
       ]
     }
   ],
-  "caption": "Your first offer is rarely their best offer - and most people just say yes. In cyber, where demand outstrips supply, you have more leverage than you think. Use it. #cybersecurity #cybersecuritycareers #salarychat #negotiation #cypherjobs"
+  "caption": "AI didn't kill cybersecurity jobs - it created a whole new category. Are you positioning for it? #cybersecurity #AIcareers #cybersecuritycareers #cypherjobs #infosec"
 }
