@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Security Roles Up 300% Since 2024",
-      "highlight": "300%",
-      "subtitle": "And most people aren't positioned for it yet",
+      "title": "Most Analysts Can't Actually Use Their SIEM",
+      "highlight": "SIEM",
+      "subtitle": "The hands-on gap nobody admits.",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AI isn't replacing cyber jobs - it's creating new ones",
-        "Prompt injection and LLM abuse are live attack vectors now",
-        "Companies urgently need defenders who understand AI"
+        "Job specs demand SIEM - but most candidates only watched tutorials",
+        "Hands-on Splunk or Sentinel separates you from every other CV",
+        "Even 10 hours of real query writing changes how you interview",
+        "Free tiers exist - there's no excuse not to start today"
       ]
     }
   ],
-  "caption": "AI didn't kill cybersecurity jobs - it created a whole new category. Are you positioning for it? #cybersecurity #AIcareers #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "SIEM experience on your CV means nothing if you can't demo it in an interview. Get hands-on - even a weekend changes everything. #cybersecurity #siem #splunk #cybersecuritycareers #cypherjobs"
 }

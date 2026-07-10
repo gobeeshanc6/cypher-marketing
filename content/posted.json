@@ -1639,5 +1639,16 @@
       "coffee-desk-09.jpg",
       "person-coding-04.jpg"
     ]
+  },
+  {
+    "date": "2026-07-10",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "Most Analysts Can't Actually Use Their SIEM",
+    "caption": "SIEM experience on your CV means nothing if you can't demo it in an interview. Get hands-on - even a weekend changes everything. #cybersecurity #siem #splunk #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "coffee-desk-04.jpg",
+      "coffee-desk-11.jpg"
+    ]
   }
 ]
