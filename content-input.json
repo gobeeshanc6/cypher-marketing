@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Most Analysts Can't Actually Use Their SIEM",
-      "highlight": "SIEM",
-      "subtitle": "The hands-on gap nobody admits.",
+      "title": "Stop Underselling Your Background",
+      "highlight": "Background",
+      "subtitle": "Your past career is a cyber asset",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Job specs demand SIEM - but most candidates only watched tutorials",
-        "Hands-on Splunk or Sentinel separates you from every other CV",
-        "Even 10 hours of real query writing changes how you interview",
-        "Free tiers exist - there's no excuse not to start today"
+        "Healthcare and finance pros become compliance leads",
+        "Teachers make brilliant security awareness trainers",
+        "DevOps engineers shift into DevSecOps in months",
+        "Your domain knowledge is rare in a cyber team"
       ]
     }
   ],
-  "caption": "SIEM experience on your CV means nothing if you can't demo it in an interview. Get hands-on - even a weekend changes everything. #cybersecurity #siem #splunk #cybersecuritycareers #cypherjobs"
+  "caption": "The people transitioning into cyber from other industries aren't starting over - they're doubling up. Stop discounting what you already know. #cybersecurity #cybersecuritycareers #careertransition #infosec #cypherjobs"
 }
