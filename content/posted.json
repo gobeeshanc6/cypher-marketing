@@ -1694,5 +1694,16 @@
       "coffee-desk-02.jpg",
       "cozy-interior-03.jpg"
     ]
+  },
+  {
+    "date": "2026-07-12",
+    "pillar": "certs",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Only 1 in 4 Analysts Has CySA+",
+    "caption": "CySA+ sits right between Security+ and CISSP - and most candidates skip straight past it. That gap is your opening. #cybersecurity #certifications #CySA #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-04.jpg",
+      "coffee-desk-01.jpg"
+    ]
   }
 ]

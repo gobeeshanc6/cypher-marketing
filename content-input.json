@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Underselling Your Background",
-      "highlight": "Background",
-      "subtitle": "Your past career is a cyber asset",
+      "title": "Only 1 in 4 Analysts Has CySA+",
+      "highlight": "CySA+",
+      "subtitle": "The mid-level cert most people skip",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Healthcare and finance pros become compliance leads",
-        "Teachers make brilliant security awareness trainers",
-        "DevOps engineers shift into DevSecOps in months",
-        "Your domain knowledge is rare in a cyber team"
+        "Shows up in nearly half of all SOC analyst job listings",
+        "Employers use it to filter for real defensive skills",
+        "Most candidates jump from Security+ straight to CISSP",
+        "2-3 months to prep - often employer-funded"
       ]
     }
   ],
-  "caption": "The people transitioning into cyber from other industries aren't starting over - they're doubling up. Stop discounting what you already know. #cybersecurity #cybersecuritycareers #careertransition #infosec #cypherjobs"
+  "caption": "CySA+ sits right between Security+ and CISSP - and most candidates skip straight past it. That gap is your opening. #cybersecurity #certifications #CySA #cybersecuritycareers #cypherjobs"
 }
