@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Only 1 in 4 Analysts Has CySA+",
-      "highlight": "CySA+",
-      "subtitle": "The mid-level cert most people skip",
+      "title": "4 Underrated Cyber Roles Hiring Now",
+      "highlight": "Underrated",
+      "subtitle": "most candidates walk straight past these",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Shows up in nearly half of all SOC analyst job listings",
-        "Employers use it to filter for real defensive skills",
-        "Most candidates jump from Security+ straight to CISSP",
-        "2-3 months to prep - often employer-funded"
+        "Cloud IAM engineer - identity is everywhere, candidates aren't",
+        "Security automation - scripting skills give you a real edge",
+        "GRC analyst - steady hiring, way less competition than SOC",
+        "Vuln management - most teams are critically short-staffed"
       ]
     }
   ],
-  "caption": "CySA+ sits right between Security+ and CISSP - and most candidates skip straight past it. That gap is your opening. #cybersecurity #certifications #CySA #cybersecuritycareers #cypherjobs"
+  "caption": "Most people are chasing the same SOC roles. These four paths have real demand and far fewer people applying. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
 }
