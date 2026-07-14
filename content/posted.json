@@ -1727,5 +1727,16 @@
       "cozy-interior-06.jpg",
       "keyboard-08.jpg"
     ]
+  },
+  {
+    "date": "2026-07-14",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "KQL Skills Are in 40% of Azure Sec Jobs",
+    "caption": "Azure security roles keep asking for KQL - and most candidates have never written a single query. That gap is yours to close. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "coffee-desk-11.jpg",
+      "coffee-desk-07.jpg"
+    ]
   }
 ]
