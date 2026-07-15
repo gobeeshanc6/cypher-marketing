@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "KQL Skills Are in 40% of Azure Sec Jobs",
-      "highlight": "KQL",
-      "subtitle": "And barely anyone is learning it",
+      "title": "Answering Questions Gets You Hired",
+      "highlight": "Answering",
+      "subtitle": "The community move nobody makes",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Microsoft Sentinel is in most enterprise environments now",
-        "KQL is how you actually use it - and most candidates can't",
-        "1 weekend of practice puts you ahead of the field"
+        "Hiring managers lurk in the same Discord servers",
+        "Helping others is a public portfolio",
+        "One solved problem beats ten 'open to work' posts",
+        "Be the person with answers, not just questions"
       ]
     }
   ],
-  "caption": "Azure security roles keep asking for KQL - and most candidates have never written a single query. That gap is yours to close. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs"
+  "caption": "The candidates getting hired from community spaces aren't the ones asking for jobs - they're the ones giving answers. Start there. #cybersecurity #cybersecuritycareers #community #cypherjobs #infosec"
 }
