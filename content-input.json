@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Answering Questions Gets You Hired",
-      "highlight": "Answering",
-      "subtitle": "The community move nobody makes",
+      "title": "Is Your Cert Actually Getting You Interviews?",
+      "highlight": "Interviews",
+      "subtitle": "Most certs look good on paper. Not all of them open doors.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Hiring managers lurk in the same Discord servers",
-        "Helping others is a public portfolio",
-        "One solved problem beats ten 'open to work' posts",
-        "Be the person with answers, not just questions"
+        "Check if it shows up in real job listings you want",
+        "Employer demand beats prestige every time",
+        "One hands-on cert beats two passive ones in interviews"
       ]
     }
   ],
-  "caption": "The candidates getting hired from community spaces aren't the ones asking for jobs - they're the ones giving answers. Start there. #cybersecurity #cybersecuritycareers #community #cypherjobs #infosec"
+  "caption": "Not all certs are equal - and the wrong one can cost you months. Pick the ones employers actually ask for. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
