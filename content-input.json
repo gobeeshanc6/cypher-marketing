@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Ignoring Your Software Supply Chain",
-      "highlight": "Supply Chain",
-      "subtitle": "Huge demand. Almost no competition.",
+      "title": "Your Job Title Means Nothing in Cyber",
+      "highlight": "Nothing",
+      "subtitle": "What actually gets you ahead",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Supply chain attacks up 400% in 4 years",
-        "Most companies have zero dedicated defenders",
-        "Roles starting at $110K with far fewer applicants",
-        "Start with SBOMs, SLSA and dependency scanning"
+        "Two 'Analysts' at different companies do completely different jobs",
+        "Scope and exposure beat seniority every time",
+        "Build proof of work - not a fancier title"
       ]
     }
   ],
-  "caption": "Supply chain attacks keep climbing - and barely anyone is trained to defend against them. That gap is yours. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The job title on your CV is the most misleading thing in cyber. What actually moves your career forward is a lot simpler. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
