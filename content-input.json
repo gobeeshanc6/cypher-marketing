@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your Interview Prep Is Backwards",
-      "highlight": "Backwards",
-      "subtitle": "You're practicing the wrong things.",
+      "title": "60% of Cyber Roles Now List AI Skills",
+      "highlight": "AI Skills",
+      "subtitle": "The job spec changed. Have you?",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Hiring managers test how you think - not what you memorised",
-        "One real project beats 5 certs in a first round",
-        "Prep your stories, not just your acronyms",
-        "Google-able facts don't impress - your process does"
+        "AI threat landscape fundamentals",
+        "Securing LLM pipelines and APIs",
+        "Prompt injection and adversarial input defence",
+        "AI governance and risk frameworks"
       ]
     }
   ],
-  "caption": "Hot take - most cyber candidates tank interviews they should have nailed. Not because they aren't smart. Because they prepped for the wrong things. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "60% of cyber job listings now mention AI skills - and that number keeps climbing. The spec changed while most of us were still studying the old one. Time to catch up. #cybersecurity #AIcareers #cybersecuritycareers #cypherjobs #infosec"
 }
