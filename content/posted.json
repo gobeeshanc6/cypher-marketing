@@ -1892,5 +1892,16 @@
       "keyboard-03.jpg",
       "cozy-interior-04.jpg"
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Ignoring Cloud Security Posture",
+    "caption": "Everyone trains for attacks. Cloud misconfigs are behind half of enterprise breaches - and most teams still aren't monitoring for them. Close this gap before it shows up in an interview. #cybersecurity #cloud #CSPM #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-03.jpg",
+      "coffee-desk-02.jpg"
+    ]
   }
 ]
