@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "60% of Cyber Roles Now List AI Skills",
-      "highlight": "AI Skills",
-      "subtitle": "The job spec changed. Have you?",
+      "title": "Stop Ignoring Cloud Security Posture",
+      "highlight": "Cloud",
+      "subtitle": "Misconfigs cause more breaches than attacks",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AI threat landscape fundamentals",
-        "Securing LLM pipelines and APIs",
-        "Prompt injection and adversarial input defence",
-        "AI governance and risk frameworks"
+        "CSPM finds misconfigs in minutes",
+        "Most teams have zero posture monitoring",
+        "AWS, Azure and GCP all have free tiers"
       ]
     }
   ],
-  "caption": "60% of cyber job listings now mention AI skills - and that number keeps climbing. The spec changed while most of us were still studying the old one. Time to catch up. #cybersecurity #AIcareers #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone trains for attacks. Cloud misconfigs are behind half of enterprise breaches - and most teams still aren't monitoring for them. Close this gap before it shows up in an interview. #cybersecurity #cloud #CSPM #cybersecuritycareers #cypherjobs"
 }
