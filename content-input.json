@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Ignoring Cloud Security Posture",
-      "highlight": "Cloud",
-      "subtitle": "Misconfigs cause more breaches than attacks",
+      "title": "5 Signs of a Great Cyber Community",
+      "highlight": "Great",
+      "subtitle": "Not all communities move your career",
       "bullets": null
     },
     {
@@ -11,11 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "CSPM finds misconfigs in minutes",
-        "Most teams have zero posture monitoring",
-        "AWS, Azure and GCP all have free tiers"
+        "Jobs get shared before they're posted",
+        "Questions get real answers fast",
+        "Members celebrate each other publicly",
+        "Senior voices still show up and share",
+        "You leave every conversation smarter"
       ]
     }
   ],
-  "caption": "Everyone trains for attacks. Cloud misconfigs are behind half of enterprise breaches - and most teams still aren't monitoring for them. Close this gap before it shows up in an interview. #cybersecurity #cloud #CSPM #cybersecuritycareers #cypherjobs"
+  "caption": "Most cyber communities are just noise. These 5 things separate the ones that actually move your career forward. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
