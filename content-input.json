@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "5 Signs of a Great Cyber Community",
-      "highlight": "Great",
-      "subtitle": "Not all communities move your career",
+      "title": "Are You Picking the Wrong Starter Cert?",
+      "highlight": "Wrong",
+      "subtitle": "most people default to one that won't open doors",
       "bullets": null
     },
     {
@@ -11,13 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Jobs get shared before they're posted",
-        "Questions get real answers fast",
-        "Members celebrate each other publicly",
-        "Senior voices still show up and share",
-        "You leave every conversation smarter"
+        "Brand new to cyber? Start with Google Cybersecurity",
+        "Want entry-level roles? Security+ is your move",
+        "Going offensive? eJPT or TCM PNPT first",
+        "Already in IT? CySA+ moves you up faster",
+        "Pick by job listings - not by reputation"
       ]
     }
   ],
-  "caption": "Most cyber communities are just noise. These 5 things separate the ones that actually move your career forward. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
+  "caption": "Most people pick their first cert by name recognition. Here's how to pick the one that actually gets you hired. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
