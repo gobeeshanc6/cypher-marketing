@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Are You Picking the Wrong Starter Cert?",
-      "highlight": "Wrong",
-      "subtitle": "most people default to one that won't open doors",
+      "title": "Cloud Security Engineers Hit $145K by Year 3",
+      "highlight": "$145K",
+      "subtitle": "and most companies still can't find them",
       "bullets": null
     },
     {
@@ -11,13 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Brand new to cyber? Start with Google Cybersecurity",
-        "Want entry-level roles? Security+ is your move",
-        "Going offensive? eJPT or TCM PNPT first",
-        "Already in IT? CySA+ moves you up faster",
-        "Pick by job listings - not by reputation"
+        "Get hands-on with AWS Security Hub or Microsoft Defender",
+        "Build lab projects with Terraform - misconfigure, then fix it",
+        "AWS Security Specialty or AZ-500 cert sets you apart fast",
+        "Fintech and healthtech pay the most - target them first",
+        "Network skills transfer well - you don't need a dev background"
       ]
     }
   ],
-  "caption": "Most people pick their first cert by name recognition. Here's how to pick the one that actually gets you hired. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Cloud security is still wide open - and the pay reflects it. Here's how to position yourself now. #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
