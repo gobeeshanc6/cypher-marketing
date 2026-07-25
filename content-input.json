@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cloud Security Engineers Hit $145K by Year 3",
-      "highlight": "$145K",
-      "subtitle": "and most companies still can't find them",
+      "title": "1 in 2 SOC Analysts Burns Out in Year 1",
+      "highlight": "1 in 2",
+      "subtitle": "Here's what nobody says before you apply",
       "bullets": null
     },
     {
@@ -11,13 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Get hands-on with AWS Security Hub or Microsoft Defender",
-        "Build lab projects with Terraform - misconfigure, then fix it",
-        "AWS Security Specialty or AZ-500 cert sets you apart fast",
-        "Fintech and healthtech pay the most - target them first",
-        "Network skills transfer well - you don't need a dev background"
+        "Alert fatigue hits faster than most expect",
+        "Most Tier 1 roles have no real growth path",
+        "The ones who thrive treat SOC as a stepping stone",
+        "Start planning your next move from day one"
       ]
     }
   ],
-  "caption": "Cloud security is still wide open - and the pay reflects it. Here's how to position yourself now. #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "SOC is a great entry point - but the burnout is real and most people don't talk about it. Go in with a plan. #cybersecurity #soc #cybersecuritycareers #cypherjobs #infosec"
 }
