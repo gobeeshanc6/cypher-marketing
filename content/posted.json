@@ -1980,5 +1980,16 @@
       "person-coding-02.jpg",
       "keyboard-02.jpg"
     ]
+  },
+  {
+    "date": "2026-07-25",
+    "pillar": "community",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "1 in 2 SOC Analysts Burns Out in Year 1",
+    "caption": "SOC is a great entry point - but the burnout is real and most people don't talk about it. Go in with a plan. #cybersecurity #soc #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "cozy-interior-01.jpg",
+      "cozy-interior-06.jpg"
+    ]
   }
 ]
