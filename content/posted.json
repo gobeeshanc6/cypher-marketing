@@ -2057,5 +2057,16 @@
       "coffee-desk-03.jpg",
       "coffee-desk-07.jpg"
     ]
+  },
+  {
+    "date": "2026-07-28",
+    "pillar": "community",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Stop Triaging. Start Automating.",
+    "caption": "Hot take - the analysts who can configure SOAR rules already earn more than the ones who can't. Automation is the new baseline in cyber. #cybersecurity #SOAR #soc #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "person-coding-04.jpg",
+      "coffee-desk-09.jpg"
+    ]
   }
 ]
