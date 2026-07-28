@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cleared Cyber Roles Pay 20-40% More",
-      "highlight": "Cleared",
-      "subtitle": "And most people never apply",
+      "title": "Stop Triaging. Start Automating.",
+      "highlight": "Automating",
+      "subtitle": "The analysts who do both won't be replaced",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "DoD clearance adds $20-40k to your base salary",
-        "Many roles sponsor your clearance - no prior clearance needed",
-        "Job listings are fewer but competition is much lower",
-        "Federal cyber demand keeps growing every year"
+        "Alert triage is table stakes now",
+        "SOAR turns 1 analyst into a full team",
+        "Learn free: Shuffle, Tines or n8n",
+        "Add it to your CV before everyone else does"
       ]
     }
   ],
-  "caption": "Cleared cyber roles are quietly some of the best-paid in the field - and most people assume they can't apply. You might not need a clearance to get started. #cybersecurity #govtech #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - the analysts who can configure SOAR rules already earn more than the ones who can't. Automation is the new baseline in cyber. #cybersecurity #SOAR #soc #cybersecuritycareers #cypherjobs"
 }
