@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Triaging. Start Automating.",
-      "highlight": "Automating",
-      "subtitle": "The analysts who do both won't be replaced",
+      "title": "Moving Firms Adds $25K in Cyber",
+      "highlight": "$25K",
+      "subtitle": "Loyalty rarely pays what the market does",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Alert triage is table stakes now",
-        "SOAR turns 1 analyst into a full team",
-        "Learn free: Shuffle, Tines or n8n",
-        "Add it to your CV before everyone else does"
+        "Internal raises average 3% at most orgs",
+        "External moves average 15-20% salary jumps",
+        "After year 2, the market is on your side",
+        "Your current employer's best offer comes after you resign"
       ]
     }
   ],
-  "caption": "Hot take - the analysts who can configure SOAR rules already earn more than the ones who can't. Automation is the new baseline in cyber. #cybersecurity #SOAR #soc #cybersecuritycareers #cypherjobs"
+  "caption": "Staying loyal to one org in cybersecurity quietly costs you. The salary data is clear - moving is how most people close the gap. #cybersecurity #cybersecuritycareers #salary #careertips #cypherjobs"
 }
