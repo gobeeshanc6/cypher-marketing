@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Waiting to Feel 100% Ready",
-      "highlight": "100%",
-      "subtitle": "The spec is a wish list - not a checklist",
+      "title": "80% of Attacks Start With Phishing",
+      "highlight": "Phishing",
+      "subtitle": "What that means for your training",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Cyber job specs list everything they'd love, not what you need",
-        "Hiring managers expect to train the right person",
-        "Apply at 70% fit - close the gaps on the job",
-        "Confidence wins more offers than a longer cert list"
+        "Most breaches start with a simple email",
+        "Social engineering beats technical exploits",
+        "Defenders who understand people get hired faster",
+        "Master the basics - that's where the gaps are"
       ]
     }
   ],
-  "caption": "Most cyber candidates talk themselves out of applying before they even start. The spec is a wish list - not a requirement. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "Most real attacks aren't movie-level hacking. They're a dodgy email and one click. Train for what actually happens out there. #cybersecurity #infosec #cybersecuritycareers #cypherjobs #phishing"
 }
