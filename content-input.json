@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "80% of Attacks Start With Phishing",
-      "highlight": "Phishing",
-      "subtitle": "What that means for your training",
+      "title": "73% of Cyber Recruiters Check GitHub First",
+      "highlight": "GitHub",
+      "subtitle": "Your portfolio is louder than your CV.",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most breaches start with a simple email",
-        "Social engineering beats technical exploits",
-        "Defenders who understand people get hired faster",
-        "Master the basics - that's where the gaps are"
+        "Pin your best security project - even a small one",
+        "Document your home lab setup in a README",
+        "Show scripting work - log parsers, automation, tools",
+        "A live repo speaks louder than a cert list"
       ]
     }
   ],
-  "caption": "Most real attacks aren't movie-level hacking. They're a dodgy email and one click. Train for what actually happens out there. #cybersecurity #infosec #cybersecuritycareers #cypherjobs #phishing"
+  "caption": "Most candidates send a CV and wait. The ones getting callbacks have a GitHub that does the talking for them. Build yours. #cybersecurity #cybersecuritycareers #github #community #cypherjobs"
 }
