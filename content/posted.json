@@ -2145,5 +2145,16 @@
       "coffee-desk-07.jpg",
       "coffee-desk-02.jpg"
     ]
+  },
+  {
+    "date": "2026-08-01",
+    "pillar": "career-advice",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "73% of Cyber Recruiters Check GitHub First",
+    "caption": "Most candidates send a CV and wait. The ones getting callbacks have a GitHub that does the talking for them. Build yours. #cybersecurity #cybersecuritycareers #github #community #cypherjobs",
+    "photos": [
+      "laptop-warm-04.jpg",
+      "keyboard-07.jpg"
+    ]
   }
 ]
