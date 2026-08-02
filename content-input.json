@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "73% of Cyber Recruiters Check GitHub First",
-      "highlight": "GitHub",
-      "subtitle": "Your portfolio is louder than your CV.",
+      "title": "Free Certs Are Landing People Cyber Jobs",
+      "highlight": "Free",
+      "subtitle": "The barrier just got a lot lower",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Pin your best security project - even a small one",
-        "Document your home lab setup in a README",
-        "Show scripting work - log parsers, automation, tools",
-        "A live repo speaks louder than a cert list"
+        "ISC2 CC - free, backed by the CISSP people",
+        "Google Cyber Cert - 6 months to job-ready",
+        "Microsoft SC-900 - appears in Azure sec listings",
+        "Start with one and build from there"
       ]
     }
   ],
-  "caption": "Most candidates send a CV and wait. The ones getting callbacks have a GitHub that does the talking for them. Build yours. #cybersecurity #cybersecuritycareers #github #community #cypherjobs"
+  "caption": "Spending thousands on your first cert isn't necessary anymore. Free options are showing up in real job listings - and they work. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
