@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Free Certs Are Landing People Cyber Jobs",
-      "highlight": "Free",
-      "subtitle": "The barrier just got a lot lower",
+      "title": "Nobody Talks About Purple Team Jobs",
+      "highlight": "Purple Team",
+      "subtitle": "Where red and blue skills meet - and the pay is serious",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "ISC2 CC - free, backed by the CISSP people",
-        "Google Cyber Cert - 6 months to job-ready",
-        "Microsoft SC-900 - appears in Azure sec listings",
-        "Start with one and build from there"
+        "Purple teamers run real attack simulations AND improve defenses",
+        "Job listings hide it: look for detection engineer or adversarial simulation",
+        "Salary range: $95K-$135K with room to grow fast",
+        "Path in: SOC analyst - threat hunter - purple teamer"
       ]
     }
   ],
-  "caption": "Spending thousands on your first cert isn't necessary anymore. Free options are showing up in real job listings - and they work. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Purple team careers sit right between red and blue - and most candidates don't even know the roles exist. That gap is yours. #cybersecurity #purpleteam #cybersecuritycareers #cypherjobs #infosec"
 }
