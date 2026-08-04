@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About Purple Team Jobs",
-      "highlight": "Purple Team",
-      "subtitle": "Where red and blue skills meet - and the pay is serious",
+      "title": "92% of Cyber Pros Felt Like a Fraud",
+      "highlight": "92%",
+      "subtitle": "Imposter syndrome is the baseline - not a red flag.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Purple teamers run real attack simulations AND improve defenses",
-        "Job listings hide it: look for detection engineer or adversarial simulation",
-        "Salary range: $95K-$135K with room to grow fast",
-        "Path in: SOC analyst - threat hunter - purple teamer"
+        "Most experts still Google the basics daily",
+        "Feeling uncertain means you are learning",
+        "Confidence is a skill - not a starting point"
       ]
     }
   ],
-  "caption": "Purple team careers sit right between red and blue - and most candidates don't even know the roles exist. That gap is yours. #cybersecurity #purpleteam #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Imposter syndrome is almost universal in cybersecurity - and almost no one talks about it. If you feel like you don't belong yet, you're in good company. #cybersecurity #cybersecuritycareers #impostersyndrome #cypherjobs #infosec"
 }
