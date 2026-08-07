@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About Year-End Cyber Hiring",
-      "highlight": "Year-End",
-      "subtitle": "Q4 is when companies race to spend headcount budgets",
+      "title": "This Skill Adds $20K to Any Cyber Salary",
+      "highlight": "$20K",
+      "subtitle": "And most people skip it entirely",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Companies must fill roles before Dec 31 budget resets",
-        "Aug to Oct is cyber's busiest hiring window",
-        "Hiring managers have pressure to place people fast",
-        "Get your CV ready now - the rush starts soon"
+        "Learn one cloud platform - AWS, Azure or GCP",
+        "Get hands-on with a SIEM like Splunk or Sentinel",
+        "Add basic scripting - Python or Bash is enough",
+        "Document everything on GitHub or a blog"
       ]
     }
   ],
-  "caption": "Most candidates sleep on Q4 hiring season. The next 3 months are cyber's busiest window - don't miss it. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #careertips"
+  "caption": "Cloud skills show up in almost every senior cyber job spec - and they close the biggest pay gaps. Start with one platform and go deep. #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #techjobs"
 }
