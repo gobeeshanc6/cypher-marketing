@@ -2288,5 +2288,16 @@
       "laptop-warm-07.jpg",
       "coffee-desk-06.jpg"
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "pillar": "community",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Learning Cybersecurity Alone",
+    "caption": "Solo studying feels safe - but it's the slowest path into cyber. The people who break in fastest build in public and surround themselves with the right crowd. #cybersecurity #cybersecuritycareers #community #cypherjobs #networking",
+    "photos": [
+      "coffee-desk-03.jpg",
+      "laptop-warm-05.jpg"
+    ]
   }
 ]

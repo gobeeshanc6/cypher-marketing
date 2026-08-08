@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "This Skill Adds $20K to Any Cyber Salary",
-      "highlight": "$20K",
-      "subtitle": "And most people skip it entirely",
+      "title": "Stop Learning Cybersecurity Alone",
+      "highlight": "Alone",
+      "subtitle": "Your community is your career multiplier",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Learn one cloud platform - AWS, Azure or GCP",
-        "Get hands-on with a SIEM like Splunk or Sentinel",
-        "Add basic scripting - Python or Bash is enough",
-        "Document everything on GitHub or a blog"
+        "Join a CTF team - you'll learn 10x faster",
+        "Post your wins and your fails online",
+        "Follow people 1-2 steps ahead of you",
+        "Show up in Discord, not just LinkedIn"
       ]
     }
   ],
-  "caption": "Cloud skills show up in almost every senior cyber job spec - and they close the biggest pay gaps. Start with one platform and go deep. #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #techjobs"
+  "caption": "Solo studying feels safe - but it's the slowest path into cyber. The people who break in fastest build in public and surround themselves with the right crowd. #cybersecurity #cybersecuritycareers #community #cypherjobs #networking"
 }
