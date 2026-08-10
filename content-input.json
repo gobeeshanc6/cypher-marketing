@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Labs Beat Flashcards for Every Cert",
-      "highlight": "Labs",
-      "subtitle": "Active practice outperforms passive revision",
+      "title": "AI Security Roles Up 300% in 12 Months",
+      "highlight": "300%",
+      "subtitle": "And barely anyone's training for them",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Set up a lab before you open the study guide",
-        "30 mins of hands-on beats 2 hours of notes",
-        "Employers test what you can do, not what you memorise"
+        "LLMs can be hijacked, leaked and manipulated",
+        "Companies need AI red teamers - now",
+        "Your existing cyber skills transfer directly",
+        "Start free: OWASP LLM Top 10"
       ]
     }
   ],
-  "caption": "Every cert course says study harder. The candidates who pass and get hired practise smarter. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "AI security is the fastest-growing niche in cyber right now - and most candidates haven't pivoted yet. If you understand security fundamentals, you're already 90% of the way there. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
