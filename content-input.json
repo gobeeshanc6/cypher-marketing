@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Security Roles Up 300% in 12 Months",
-      "highlight": "300%",
-      "subtitle": "And barely anyone's training for them",
+      "title": "Hackers Stay Hidden for 207 Days",
+      "highlight": "207",
+      "subtitle": "Detection is the real gap in cyber",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "LLMs can be hijacked, leaked and manipulated",
-        "Companies need AI red teamers - now",
-        "Your existing cyber skills transfer directly",
-        "Start free: OWASP LLM Top 10"
+        "Most teams pour budget into prevention",
+        "Detection skills are rarer - and better paid",
+        "SOC analysts who hunt threats earn up to 35% more",
+        "Learn SIEM and EDR - that's where the jobs are"
       ]
     }
   ],
-  "caption": "AI security is the fastest-growing niche in cyber right now - and most candidates haven't pivoted yet. If you understand security fundamentals, you're already 90% of the way there. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone focuses on stopping attackers - but most companies can't even find them. Detection is the real gap in cyber right now. #cybersecurity #SOC #infosec #cybersecuritycareers #cypherjobs"
 }
