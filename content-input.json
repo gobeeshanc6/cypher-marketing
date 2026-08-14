@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Supply Chain Security Has the Fewest Applicants",
-      "highlight": "Fewest Applicants",
-      "subtitle": "And some of the highest salaries in cyber",
+      "title": "Can You Map Your Attack Surface?",
+      "highlight": "Map",
+      "subtitle": "Most candidates have never tried",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Roles tripled since 2023 - demand is real",
-        "No dedicated degree - generalists get hired",
-        "Vendors, regulators, and enterprises all hiring",
-        "One breach reshapes entire budgets overnight"
+        "Run nmap on your home lab - know every open port",
+        "Use Shodan to see what's exposed online",
+        "Document what talks to what - draw the diagram",
+        "Add it to your portfolio - it gets noticed"
       ]
     }
   ],
-  "caption": "Supply chain security is one of the fastest-growing paths in cyber - and almost nobody is positioning for it yet. The talent gap is wide open. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Theory gets you to the interview. Proof gets you the job. Map something real, document it, and watch how differently hiring managers treat you. #cybersecurity #cybersecuritycareers #ethicalhacking #cypherjobs #infosec"
 }
