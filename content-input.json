@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Can You Map Your Attack Surface?",
-      "highlight": "Map",
-      "subtitle": "Most candidates have never tried",
+      "title": "7 in 10 Cyber Hires Used Referrals",
+      "highlight": "7 in 10",
+      "subtitle": "Your network is the real job board.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Run nmap on your home lab - know every open port",
-        "Use Shodan to see what's exposed online",
-        "Document what talks to what - draw the diagram",
-        "Add it to your portfolio - it gets noticed"
+        "Show up in communities before you need anything",
+        "Comment, share, and start real conversations now",
+        "One genuine connection beats 100 cold applications"
       ]
     }
   ],
-  "caption": "Theory gets you to the interview. Proof gets you the job. Map something real, document it, and watch how differently hiring managers treat you. #cybersecurity #cybersecuritycareers #ethicalhacking #cypherjobs #infosec"
+  "caption": "Most cyber offers don't come from apply buttons - they come from people who already know you. Start building your community before you need it. #cybersecurity #cybersecuritycareers #networking #community #cypherjobs"
 }
