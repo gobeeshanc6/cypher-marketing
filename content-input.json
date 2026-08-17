@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "The Free Cert Nobody Is Chasing",
-      "highlight": "Free",
-      "subtitle": "ISC2 CC is reshaping entry-level hiring",
+      "title": "Red Team Jobs Are 1% of Cyber Roles",
+      "highlight": "1%",
+      "subtitle": "And that's actually good news",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "ISC2 CC costs nothing to earn",
-        "Hiring managers recognise it as genuine proof",
-        "Pairs perfectly with Security+ as a foundation",
-        "Most entry candidates still don't have it"
+        "Defensive roles outnumber red team 99 to 1",
+        "Blue team and IR pay just as well",
+        "Red teamers almost always start in blue",
+        "The gap companies can't fill? It's not offensive"
       ]
     }
   ],
-  "caption": "Hot take - the ISC2 CC is one of the most overlooked certs in cyber right now. It's free, respected, and most entry candidates are still sleeping on it. #cybersecurity #certifications #ISC2 #cybersecuritycareers #cypherjobs"
+  "caption": "Everyone wants to hack things. But the real talent gap - and the real money - is in defence. #cybersecurity #redteam #cybersecuritycareers #cypherjobs #infosec"
 }
