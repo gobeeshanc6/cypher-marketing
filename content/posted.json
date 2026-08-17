@@ -2497,5 +2497,16 @@
       "coffee-desk-02.jpg",
       "coffee-desk-11.jpg"
     ]
+  },
+  {
+    "date": "2026-08-17",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Red Team Jobs Are 1% of Cyber Roles",
+    "caption": "Everyone wants to hack things. But the real talent gap - and the real money - is in defence. #cybersecurity #redteam #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "person-coding-04.jpg",
+      "laptop-warm-04.jpg"
+    ]
   }
 ]
