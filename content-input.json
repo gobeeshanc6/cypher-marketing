@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Red Team Jobs Are 1% of Cyber Roles",
-      "highlight": "1%",
-      "subtitle": "And that's actually good news",
+      "title": "Remote Cyber Roles Outnumber On-Site 3 to 1",
+      "highlight": "3 to 1",
+      "subtitle": "Your postcode doesn't cap your earning potential",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Defensive roles outnumber red team 99 to 1",
-        "Blue team and IR pay just as well",
-        "Red teamers almost always start in blue",
-        "The gap companies can't fill? It's not offensive"
+        "Most security teams operate fully distributed",
+        "Remote-first was built into cyber long before COVID",
+        "You can land a $100K role without leaving your city"
       ]
     }
   ],
-  "caption": "Everyone wants to hack things. But the real talent gap - and the real money - is in defence. #cybersecurity #redteam #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The cyber job market doesn't care where you live. Distributed teams are the norm - not the exception. Stop limiting your search to a commute radius. #cybersecurity #remotework #cybersecuritycareers #cypherjobs #infosec"
 }
