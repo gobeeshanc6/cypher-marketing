@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Remote Cyber Roles Outnumber On-Site 3 to 1",
-      "highlight": "3 to 1",
-      "subtitle": "Your postcode doesn't cap your earning potential",
+      "title": "4 in 5 Hirers Check GitHub First",
+      "highlight": "GitHub",
+      "subtitle": "Before they even pick up the phone",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most security teams operate fully distributed",
-        "Remote-first was built into cyber long before COVID",
-        "You can land a $100K role without leaving your city"
+        "Recruiters vet profiles before reaching out",
+        "Even 3-5 repos sets you apart",
+        "Link GitHub from your CV and LinkedIn",
+        "Show your thinking - not just your certs"
       ]
     }
   ],
-  "caption": "The cyber job market doesn't care where you live. Distributed teams are the norm - not the exception. Stop limiting your search to a commute radius. #cybersecurity #remotework #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Most cyber candidates don't have a GitHub. That's exactly why yours matters. Start building yours today. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
 }
