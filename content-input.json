@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "4 in 5 Hirers Check GitHub First",
-      "highlight": "GitHub",
-      "subtitle": "Before they even pick up the phone",
+      "title": "AI Red Teaming Pays $120K+",
+      "highlight": "AI",
+      "subtitle": "And almost nobody is applying",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Recruiters vet profiles before reaching out",
-        "Even 3-5 repos sets you apart",
-        "Link GitHub from your CV and LinkedIn",
-        "Show your thinking - not just your certs"
+        "Companies must now test their own AI systems for vulnerabilities",
+        "It blends pentesting with prompt injection and model evasion",
+        "Barely any certified candidates exist yet - that gap is yours"
       ]
     }
   ],
-  "caption": "Most cyber candidates don't have a GitHub. That's exactly why yours matters. Start building yours today. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "AI red teaming is one of the most in-demand emerging specialisms in cyber - and the talent pool is almost empty. If you want to stand out, this is the moment. #cybersecurity #AIredteam #cybersecuritycareers #cypherjobs #infosec"
 }
