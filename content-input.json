@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Red Teaming Pays $120K+",
-      "highlight": "AI",
-      "subtitle": "And almost nobody is applying",
+      "title": "Nobody Talks About YARA Rules",
+      "highlight": "YARA",
+      "subtitle": "The detection skill hiding in plain sight",
       "bullets": null
     },
     {
@@ -11,11 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Companies must now test their own AI systems for vulnerabilities",
-        "It blends pentesting with prompt injection and model evasion",
-        "Barely any certified candidates exist yet - that gap is yours"
+        "YARA catches malware patterns signatures miss",
+        "Most blue teamers have never written a single rule",
+        "Threat intel roles list it - but rarely teach it",
+        "You can learn the basics in a weekend",
+        "Open-source rulesets are your starting point"
       ]
     }
   ],
-  "caption": "AI red teaming is one of the most in-demand emerging specialisms in cyber - and the talent pool is almost empty. If you want to stand out, this is the moment. #cybersecurity #AIredteam #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "YARA is in the job specs. Almost nobody can write a rule. That gap is your edge. #cybersecurity #yara #blueteam #cybersecuritycareers #cypherjobs"
 }
