@@ -2585,5 +2585,16 @@
       "cozy-interior-04.jpg",
       "coffee-desk-03.jpg"
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "pillar": "myth-busting",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Nobody Talks About YARA Rules",
+    "caption": "YARA is in the job specs. Almost nobody can write a rule. That gap is your edge. #cybersecurity #yara #blueteam #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "laptop-warm-05.jpg",
+      "cozy-interior-03.jpg"
+    ]
   }
 ]
