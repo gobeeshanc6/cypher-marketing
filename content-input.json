@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About YARA Rules",
-      "highlight": "YARA",
-      "subtitle": "The detection skill hiding in plain sight",
+      "title": "3 Places Cyber Pros Actually Hang Out",
+      "highlight": "3",
+      "subtitle": "And why LinkedIn is the wrong starting point",
       "bullets": null
     },
     {
@@ -11,13 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "YARA catches malware patterns signatures miss",
-        "Most blue teamers have never written a single rule",
-        "Threat intel roles list it - but rarely teach it",
-        "You can learn the basics in a weekend",
-        "Open-source rulesets are your starting point"
+        "Discord servers - where real threats get discussed live",
+        "BSides & local meetups - where hiring managers go off the clock",
+        "Slack communities - where job leads drop before any posting"
       ]
     }
   ],
-  "caption": "YARA is in the job specs. Almost nobody can write a rule. That gap is your edge. #cybersecurity #yara #blueteam #cybersecuritycareers #cypherjobs"
+  "caption": "Stop scrolling LinkedIn. The people who get hired fastest are already in rooms nobody else bothered to enter. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
