@@ -2618,5 +2618,16 @@
       "keyboard-02.jpg",
       "laptop-warm-05.jpg"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "pillar": "certs",
+    "hookStyle": "a direct question to the audience",
+    "hook": "CEH Won't Get You Hired",
+    "caption": "Hot take - CEH is one of the most expensive certs in cyber, and recruiters know it doesn't prove hands-on skills. Before you spend $1,500, here's what actually works. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "laptop-warm-01.jpg",
+      "laptop-warm-07.jpg"
+    ]
   }
 ]

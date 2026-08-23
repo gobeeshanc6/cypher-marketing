@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "3 Places Cyber Pros Actually Hang Out",
-      "highlight": "3",
-      "subtitle": "And why LinkedIn is the wrong starting point",
+      "title": "CEH Won't Get You Hired",
+      "highlight": "CEH",
+      "subtitle": "There are better options at every price point",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Discord servers - where real threats get discussed live",
-        "BSides & local meetups - where hiring managers go off the clock",
-        "Slack communities - where job leads drop before any posting"
+        "Security+ opens more doors for less money",
+        "PNPT is hands-on and respected by red teams",
+        "eJPT costs under $200 and proves real skills",
+        "Employers want proof - not prestige"
       ]
     }
   ],
-  "caption": "Stop scrolling LinkedIn. The people who get hired fastest are already in rooms nobody else bothered to enter. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
+  "caption": "Hot take - CEH is one of the most expensive certs in cyber, and recruiters know it doesn't prove hands-on skills. Before you spend $1,500, here's what actually works. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
