@@ -1,17 +1,21 @@
 {
   "slides": [
     {
-      "title": "The SOC Is Not Your Best First Job",
-      "highlight": "SOC",
-      "subtitle": "Here's what nobody tells you",
+      "title": "Nobody Warns You About Year-Three Stagnation",
+      "highlight": "Nobody",
+      "subtitle": "Your first role is not your finish line",
       "bullets": null
     },
     {
       "title": null,
       "highlight": null,
       "subtitle": null,
-      "bullets": ["GRC pays more at entry level", "AppSec has fewer candidates competing", "Cloud security roles sit unfilled for months", "Helpdesk-to-SOC is the long road"]
+      "bullets": [
+        "Document every win before your next review",
+        "Move up by moving across teams first",
+        "Build outside your job description"
+      ]
     }
   ],
-  "caption": "Every guide sends you to the SOC first. But there are faster, better-paid entry points most people never consider. Pick a lane that's actually open. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "Everyone grinds to break into cyber. Almost nobody talks about what happens at year three when the ceiling quietly appears. Here's how to keep climbing. #cybersecurity #cybersecuritycareers #cypherjobs #careertips #infosec"
 }
