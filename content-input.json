@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Warns You About Year-Three Stagnation",
-      "highlight": "Nobody",
-      "subtitle": "Your first role is not your finish line",
+      "title": "CompTIA Has a Salary Ceiling",
+      "highlight": "Ceiling",
+      "subtitle": "most people hit it at year two",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Document every win before your next review",
-        "Move up by moving across teams first",
-        "Build outside your job description"
+        "Security+ gets you in the door",
+        "CySA+ keeps you stuck at tier-1",
+        "SC-200 or AWS Security opens $100K+",
+        "Vendor certs signal real specialisation"
       ]
     }
   ],
-  "caption": "Everyone grinds to break into cyber. Almost nobody talks about what happens at year three when the ceiling quietly appears. Here's how to keep climbing. #cybersecurity #cybersecuritycareers #cypherjobs #careertips #infosec"
+  "caption": "CompTIA is a launchpad - not a ladder. Know when to switch lanes. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
