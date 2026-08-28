@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "CompTIA Has a Salary Ceiling",
-      "highlight": "Ceiling",
-      "subtitle": "most people hit it at year two",
+      "title": "Have You Heard of Purple Teaming?",
+      "highlight": "Purple",
+      "subtitle": "The hybrid role cyber teams actually need",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Security+ gets you in the door",
-        "CySA+ keeps you stuck at tier-1",
-        "SC-200 or AWS Security opens $100K+",
-        "Vendor certs signal real specialisation"
+        "Bridges red and blue team skills",
+        "Pays $90K-$140K at mid level",
+        "High demand, very low supply",
+        "Start with a home lab and CTFs"
       ]
     }
   ],
-  "caption": "CompTIA is a launchpad - not a ladder. Know when to switch lanes. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Purple team roles let you think like an attacker and defend like a pro - and most people still don't even know they exist. #cybersecurity #purpleteam #cybersecuritycareers #cypherjobs #infosec"
 }
