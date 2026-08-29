@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Have You Heard of Purple Teaming?",
-      "highlight": "Purple",
-      "subtitle": "The hybrid role cyber teams actually need",
+      "title": "Entry-Level Cyber Pays $70K From Day One",
+      "highlight": "$70K",
+      "subtitle": "The salary myth holding most people back",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Bridges red and blue team skills",
-        "Pays $90K-$140K at mid level",
-        "High demand, very low supply",
-        "Start with a home lab and CTFs"
+        "Most entry roles start at $65K-$85K",
+        "The talent gap means companies compete for you",
+        "You don't need years of IT first"
       ]
     }
   ],
-  "caption": "Purple team roles let you think like an attacker and defend like a pro - and most people still don't even know they exist. #cybersecurity #purpleteam #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The biggest lie in cyber? That the money only comes later. Entry-level pays well - if you know where to look. #cybersecurity #cybersecuritycareers #entrylevel #cypherjobs #infosec"
 }
