@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Specialising Too Early Kills Careers",
-      "highlight": "Early",
-      "subtitle": "Get broad first. Then go deep.",
+      "title": "Supply Chain Attacks Up 300% in 3 Years",
+      "highlight": "300%",
+      "subtitle": "and most companies have no one to stop them",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Early specialists get pigeonholed fast",
-        "Generalists spot gaps others miss",
-        "Breadth builds better leaders",
-        "Specialise after your first 2 years"
+        "Most orgs have zero dedicated supply chain security staff",
+        "SBOMs and vendor risk are now regulatory expectations",
+        "AppSec, GRC or DevSecOps backgrounds all qualify"
       ]
     }
   ],
-  "caption": "Hot take - the candidates who niche down before year two almost always regret it. Get broad first, then go deep. #cybersecurity #cybersecuritycareers #careertips #cypherjobs #infosec"
+  "caption": "Supply chain security is one of the fastest-growing paths in cyber - and most companies are still scrambling to fill the gap. That gap is yours. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
 }

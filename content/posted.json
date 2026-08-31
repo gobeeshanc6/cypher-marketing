@@ -2783,5 +2783,16 @@
       "laptop-warm-01.jpg",
       "laptop-warm-03.jpg"
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "pillar": "job-market",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Supply Chain Attacks Up 300% in 3 Years",
+    "caption": "Supply chain security is one of the fastest-growing paths in cyber - and most companies are still scrambling to fill the gap. That gap is yours. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-08.jpg",
+      "person-coding-07.jpg"
+    ]
   }
 ]
