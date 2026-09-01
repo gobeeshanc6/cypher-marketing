@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Supply Chain Attacks Up 300% in 3 Years",
-      "highlight": "300%",
-      "subtitle": "and most companies have no one to stop them",
+      "title": "Reading CVEs Beats Any Course",
+      "highlight": "CVEs",
+      "subtitle": "The free resource most candidates ignore",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most orgs have zero dedicated supply chain security staff",
-        "SBOMs and vendor risk are now regulatory expectations",
-        "AppSec, GRC or DevSecOps backgrounds all qualify"
+        "Pick 1 CVE per day - 15 mins max",
+        "Map it to a real attack or defence",
+        "Ask: what control would have stopped this?",
+        "Do it for 30 days - watch your interviews change"
       ]
     }
   ],
-  "caption": "Supply chain security is one of the fastest-growing paths in cyber - and most companies are still scrambling to fill the gap. That gap is yours. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Courses give you theory. CVEs give you the actual job. Start reading them today. #cybersecurity #infosec #cybersecuritycareers #cypherjobs #careertips"
 }
