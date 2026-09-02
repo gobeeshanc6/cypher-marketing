@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Reading CVEs Beats Any Course",
-      "highlight": "CVEs",
-      "subtitle": "The free resource most candidates ignore",
+      "title": "Stop Studying Cyber in Silence",
+      "highlight": "Silence",
+      "subtitle": "Your next job comes from your people",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Pick 1 CVE per day - 15 mins max",
-        "Map it to a real attack or defence",
-        "Ask: what control would have stopped this?",
-        "Do it for 30 days - watch your interviews change"
+        "Peers spot what solo study misses",
+        "Referrals beat job boards every time",
+        "Your community is your unfair advantage",
+        "Show up - even when you feel behind"
       ]
     }
   ],
-  "caption": "Courses give you theory. CVEs give you the actual job. Start reading them today. #cybersecurity #infosec #cybersecuritycareers #cypherjobs #careertips"
+  "caption": "The loneliest way to break into cyber is also the slowest. Find your people and move faster together. #cybersecurity #cybersecuritycareers #community #cypherjobs #infosec"
 }
