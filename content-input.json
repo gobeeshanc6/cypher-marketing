@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Studying Cyber in Silence",
-      "highlight": "Silence",
-      "subtitle": "Your next job comes from your people",
+      "title": "AI Security Is Now Every Cyber Job",
+      "highlight": "AI Security",
+      "subtitle": "Ignore it and get left behind",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Peers spot what solo study misses",
-        "Referrals beat job boards every time",
-        "Your community is your unfair advantage",
-        "Show up - even when you feel behind"
+        "Learn to spot prompt injection attacks",
+        "Understand AI model governance basics",
+        "Know how attackers target LLM systems",
+        "Add AI security to your next cert plan"
       ]
     }
   ],
-  "caption": "The loneliest way to break into cyber is also the slowest. Find your people and move faster together. #cybersecurity #cybersecuritycareers #community #cypherjobs #infosec"
+  "caption": "Hot take - AI security isn't a niche anymore. Every SOC analyst, pen tester and GRC pro needs this baseline now. The job listings are already shifting. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }

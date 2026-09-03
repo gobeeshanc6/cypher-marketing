@@ -2849,5 +2849,16 @@
       "keyboard-02.jpg",
       "keyboard-05.jpg"
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "pillar": "certs",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "AI Security Is Now Every Cyber Job",
+    "caption": "Hot take - AI security isn't a niche anymore. Every SOC analyst, pen tester and GRC pro needs this baseline now. The job listings are already shifting. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "person-coding-05.jpg",
+      "laptop-warm-06.jpg"
+    ]
   }
 ]
