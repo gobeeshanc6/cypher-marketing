@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Security Is Now Every Cyber Job",
-      "highlight": "AI Security",
-      "subtitle": "Ignore it and get left behind",
+      "title": "Nobody Talks About Malware Analyst Jobs",
+      "highlight": "Malware Analyst",
+      "subtitle": "One of cyber's best-kept career secrets",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Learn to spot prompt injection attacks",
-        "Understand AI model governance basics",
-        "Know how attackers target LLM systems",
-        "Add AI security to your next cert plan"
+        "Less competition than SOC - most people scroll past",
+        "Avg salary $95K-$130K for mid-level analysts",
+        "Tools are free: Ghidra, Cuckoo, IDA Free",
+        "Start small: malware CTFs build real skills fast"
       ]
     }
   ],
-  "caption": "Hot take - AI security isn't a niche anymore. Every SOC analyst, pen tester and GRC pro needs this baseline now. The job listings are already shifting. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Malware analysis is one of the most underrated paths in cyber. You're reverse-engineering actual threats - and barely anyone is chasing these roles. That gap is yours. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec"
 }
