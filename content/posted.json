@@ -2882,5 +2882,16 @@
       "coffee-desk-09.jpg",
       "cozy-interior-07.jpg"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Nobody Talks About Malware Analyst Jobs",
+    "caption": "Malware analysis is one of the most underrated paths in cyber. You're reverse-engineering actual threats - and barely anyone is chasing these roles. That gap is yours. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-01.jpg",
+      "person-coding-05.jpg"
+    ]
   }
 ]
