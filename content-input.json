@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About Malware Analyst Jobs",
-      "highlight": "Malware Analyst",
-      "subtitle": "One of cyber's best-kept career secrets",
+      "title": "3 Myths Killing Your Cyber Career",
+      "highlight": "Myths",
+      "subtitle": "Stop believing these - seriously",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Less competition than SOC - most people scroll past",
-        "Avg salary $95K-$130K for mid-level analysts",
-        "Tools are free: Ghidra, Cuckoo, IDA Free",
-        "Start small: malware CTFs build real skills fast"
+        "You need a degree - you don't, skills and a home lab speak louder",
+        "You need helpdesk first - there are faster routes in nobody talks about",
+        "You must feel ready to apply - waiting is the most expensive mistake"
       ]
     }
   ],
-  "caption": "Malware analysis is one of the most underrated paths in cyber. You're reverse-engineering actual threats - and barely anyone is chasing these roles. That gap is yours. #cybersecurity #malwareanalysis #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Most people break into cyber the hard way because nobody corrected these myths early enough. Which one held you back? #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel"
 }
