@@ -1,9 +1,11 @@
 {
+  "pillar": "career-advice",
+  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "3 Myths Killing Your Cyber Career",
-      "highlight": "Myths",
-      "subtitle": "Stop believing these - seriously",
+      "title": "3.5M Cyber Jobs Still Unfilled",
+      "highlight": "3.5M",
+      "subtitle": "Here's how you actually get one",
       "bullets": null
     },
     {
@@ -11,11 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "You need a degree - you don't, skills and a home lab speak louder",
-        "You need helpdesk first - there are faster routes in nobody talks about",
-        "You must feel ready to apply - waiting is the most expensive mistake"
+        "Build a home lab - not just watch tutorials",
+        "Get your CompTIA Security+ first, then specialise",
+        "Apply to SOC analyst roles before you feel ready",
+        "Your network opens doors faster than your CV"
       ]
     }
   ],
-  "caption": "Most people break into cyber the hard way because nobody corrected these myths early enough. Which one held you back? #cybersecurity #cybersecuritycareers #infosec #cypherjobs #entrylevel"
+  "caption": "The talent gap is real - the opportunity is right in front of you. Are you ready? #CybersecurityCareers #CyberJobs #InfoSec #CypherJobs #TechCareers"
 }
