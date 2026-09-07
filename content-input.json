@@ -1,11 +1,9 @@
 {
-  "pillar": "career-advice",
-  "hookStyle": "surprising statistic",
   "slides": [
     {
-      "title": "3.5M Cyber Jobs Still Unfilled",
-      "highlight": "3.5M",
-      "subtitle": "Here's how you actually get one",
+      "title": "Remote Cyber Jobs Pay 15% More",
+      "highlight": "Remote",
+      "subtitle": "and most people never filter for it",
       "bullets": null
     },
     {
@@ -13,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Build a home lab - not just watch tutorials",
-        "Get your CompTIA Security+ first, then specialise",
-        "Apply to SOC analyst roles before you feel ready",
-        "Your network opens doors faster than your CV"
+        "Filter every search by 'remote' or 'hybrid' first",
+        "Remote premium often isn't auto-applied - ask for it",
+        "Target companies with globally distributed security teams",
+        "Visible online presence gets you inbound recruiter DMs"
       ]
     }
   ],
-  "caption": "The talent gap is real - the opportunity is right in front of you. Are you ready? #CybersecurityCareers #CyberJobs #InfoSec #CypherJobs #TechCareers"
+  "caption": "Remote cyber roles consistently pay a premium - and most people never even filter for them. Search smarter. #cybersecurity #remotework #cybersecuritycareers #cypherjobs #jobsearch"
 }
