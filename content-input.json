@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Remote Cyber Jobs Pay 15% More",
-      "highlight": "Remote",
-      "subtitle": "and most people never filter for it",
+      "title": "You're Over-Tooled and Under-Skilled",
+      "highlight": "Under-Skilled",
+      "subtitle": "Master one tool. Then move on.",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Filter every search by 'remote' or 'hybrid' first",
-        "Remote premium often isn't auto-applied - ask for it",
-        "Target companies with globally distributed security teams",
-        "Visible online presence gets you inbound recruiter DMs"
+        "Pick one tool and go deep - not ten tools and stay shallow",
+        "Free tools land interviews. Paid stacks don't.",
+        "Employers want fluency, not a long list of names"
       ]
     }
   ],
-  "caption": "Remote cyber roles consistently pay a premium - and most people never even filter for them. Search smarter. #cybersecurity #remotework #cybersecuritycareers #cypherjobs #jobsearch"
+  "caption": "Hot take - most cyber candidates have too many tools open and not enough depth in any of them. One tool mastered beats ten half-learned every time. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
 }
