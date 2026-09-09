@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "You're Over-Tooled and Under-Skilled",
-      "highlight": "Under-Skilled",
-      "subtitle": "Master one tool. Then move on.",
+      "title": "Stop Hiding Your Cyber Skills",
+      "highlight": "Hiding",
+      "subtitle": "Your portfolio speaks louder than your CV",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Pick one tool and go deep - not ten tools and stay shallow",
-        "Free tools land interviews. Paid stacks don't.",
-        "Employers want fluency, not a long list of names"
+        "Document every home lab project you run",
+        "Share writeups - even the messy ones",
+        "Hiring managers Google you before replying"
       ]
     }
   ],
-  "caption": "Hot take - most cyber candidates have too many tools open and not enough depth in any of them. One tool mastered beats ten half-learned every time. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #careertips"
+  "caption": "A CV tells them what you've done. A portfolio shows them how you think. The candidates getting callbacks aren't better qualified - they're just more visible. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #portfolio"
 }
