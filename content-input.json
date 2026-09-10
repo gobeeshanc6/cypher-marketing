@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Hiding Your Cyber Skills",
-      "highlight": "Hiding",
-      "subtitle": "Your portfolio speaks louder than your CV",
+      "title": "$0 to Cert-Ready: Here's How",
+      "highlight": "$0",
+      "subtitle": "Free resources most people don't know about",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Document every home lab project you run",
-        "Share writeups - even the messy ones",
-        "Hiring managers Google you before replying"
+        "Professor Messer's Security+ videos - free on YouTube",
+        "TryHackMe and Hack The Box have solid free tiers",
+        "CompTIA's CertMaster Learn has free trial content",
+        "Your library card may unlock Cybrary or LinkedIn Learning"
       ]
     }
   ],
-  "caption": "A CV tells them what you've done. A portfolio shows them how you think. The candidates getting callbacks aren't better qualified - they're just more visible. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #portfolio"
+  "caption": "Most people assume getting cert-ready costs hundreds. It doesn't have to. Start here, go at your own pace. #cybersecurity #certifications #studytips #cybersecuritycareers #cypherjobs"
 }
