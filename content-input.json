@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "$0 to Cert-Ready: Here's How",
-      "highlight": "$0",
-      "subtitle": "Free resources most people don't know about",
+      "title": "60% of Firms Are Building AI Red Teams",
+      "highlight": "AI Red Teams",
+      "subtitle": "A role that barely existed 2 years ago",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Professor Messer's Security+ videos - free on YouTube",
-        "TryHackMe and Hack The Box have solid free tiers",
-        "CompTIA's CertMaster Learn has free trial content",
-        "Your library card may unlock Cybrary or LinkedIn Learning"
+        "Attack AI systems before adversaries do",
+        "6-figure salaries with a massive talent shortage",
+        "Security skills + LLM basics is enough to start",
+        "Dedicated AI attack teams are now standard at big tech"
       ]
     }
   ],
-  "caption": "Most people assume getting cert-ready costs hundreds. It doesn't have to. Start here, go at your own pace. #cybersecurity #certifications #studytips #cybersecuritycareers #cypherjobs"
+  "caption": "AI red teaming is one of the fastest-growing paths in cyber - and most people have never even heard of it yet. That gap is yours. #cybersecurity #AIredteam #cybersecuritycareers #cypherjobs #infosec"
 }
