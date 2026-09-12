@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "60% of Firms Are Building AI Red Teams",
-      "highlight": "AI Red Teams",
-      "subtitle": "A role that barely existed 2 years ago",
+      "title": "Nobody Talks About GRC Careers",
+      "highlight": "GRC",
+      "subtitle": "The low-code path into cybersecurity",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Attack AI systems before adversaries do",
-        "6-figure salaries with a massive talent shortage",
-        "Security skills + LLM basics is enough to start",
-        "Dedicated AI attack teams are now standard at big tech"
+        "GRC = Governance, Risk & Compliance",
+        "No deep coding skills required",
+        "Entry salaries from $60K-$80K",
+        "High demand, low competition"
       ]
     }
   ],
-  "caption": "AI red teaming is one of the fastest-growing paths in cyber - and most people have never even heard of it yet. That gap is yours. #cybersecurity #AIredteam #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Everyone thinks you need to hack to work in cyber. GRC roles are the industry's best-kept secret - and they're hiring. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec"
 }
