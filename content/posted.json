@@ -3080,5 +3080,16 @@
       "keyboard-06.jpg",
       "keyboard-03.jpg"
     ]
+  },
+  {
+    "date": "2026-09-13",
+    "pillar": "certs",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Nobody warns you about the first 90 days",
+    "caption": "Your first cyber role will surprise you - and that's a good thing. What nobody says out loud about breaking in. #cybersecurity #cybersecuritycareers #cypherjobs #infosec #entrylevel",
+    "photos": [
+      "keyboard-07.jpg",
+      "person-coding-06.jpg"
+    ]
   }
 ]
