@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About GRC Careers",
-      "highlight": "GRC",
-      "subtitle": "The low-code path into cybersecurity",
+      "title": "Nobody warns you about the first 90 days",
+      "highlight": "90 days",
+      "subtitle": "What actually happens in your first cyber role",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "GRC = Governance, Risk & Compliance",
-        "No deep coding skills required",
-        "Entry salaries from $60K-$80K",
-        "High demand, low competition"
+        "Week 1: You'll feel like a fraud. Everyone does.",
+        "Month 2: Incidents teach you more than any course",
+        "Day 90: Certs got you in - your mindset keeps you there"
       ]
     }
   ],
-  "caption": "Everyone thinks you need to hack to work in cyber. GRC roles are the industry's best-kept secret - and they're hiring. #cybersecurity #GRC #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Your first cyber role will surprise you - and that's a good thing. What nobody says out loud about breaking in. #cybersecurity #cybersecuritycareers #cypherjobs #infosec #entrylevel"
 }
