@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody warns you about the first 90 days",
-      "highlight": "90 days",
-      "subtitle": "What actually happens in your first cyber role",
+      "title": "Entry-Level Cyber Jobs Are a Lie",
+      "highlight": "Lie",
+      "subtitle": "Here's what's actually happening",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Week 1: You'll feel like a fraud. Everyone does.",
-        "Month 2: Incidents teach you more than any course",
-        "Day 90: Certs got you in - your mindset keeps you there"
+        "Most 'entry-level' roles ask for 2-5 years experience",
+        "Companies post junior titles but hire mid-level",
+        "Certs + projects beat job titles every time",
+        "Work around the system - don't wait for it"
       ]
     }
   ],
-  "caption": "Your first cyber role will surprise you - and that's a good thing. What nobody says out loud about breaking in. #cybersecurity #cybersecuritycareers #cypherjobs #infosec #entrylevel"
+  "caption": "Hot take - most 'entry-level' cyber jobs aren't actually entry-level. Here's how to get in anyway. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
 }
