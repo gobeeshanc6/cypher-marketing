@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Entry-Level Cyber Jobs Are a Lie",
-      "highlight": "Lie",
-      "subtitle": "Here's what's actually happening",
+      "title": "Most Analysts Skip MITRE ATT&CK",
+      "highlight": "MITRE",
+      "subtitle": "The framework behind every major SOC",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most 'entry-level' roles ask for 2-5 years experience",
-        "Companies post junior titles but hire mid-level",
-        "Certs + projects beat job titles every time",
-        "Work around the system - don't wait for it"
+        "ATT&CK maps real attacker behaviour - not just CVEs",
+        "Most SOC tools already use it under the hood",
+        "Junior analysts who can navigate it stand out immediately",
+        "It's free, updated constantly, and takes one weekend to learn"
       ]
     }
   ],
-  "caption": "Hot take - most 'entry-level' cyber jobs aren't actually entry-level. Here's how to get in anyway. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Most analysts work inside tools built on MITRE ATT&CK - but have never opened the framework itself. One weekend changes how you read every alert. #cybersecurity #MITRE #soc #cybersecuritycareers #cypherjobs"
 }
