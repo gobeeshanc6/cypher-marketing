@@ -3124,5 +3124,16 @@
       "cozy-interior-05.jpg",
       "laptop-warm-01.jpg"
     ]
+  },
+  {
+    "date": "2026-09-15",
+    "pillar": "myth-busting",
+    "hookStyle": "a counterintuitive claim that challenges assumptions",
+    "hook": "Most Analysts Skip MITRE ATT&CK",
+    "caption": "Most analysts work inside tools built on MITRE ATT&CK - but have never opened the framework itself. One weekend changes how you read every alert. #cybersecurity #MITRE #soc #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "person-coding-06.jpg",
+      "person-coding-02.jpg"
+    ]
   }
 ]
