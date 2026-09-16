@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Most Analysts Skip MITRE ATT&CK",
-      "highlight": "MITRE",
-      "subtitle": "The framework behind every major SOC",
+      "title": "Referrals Earn $15K More on Offer",
+      "highlight": "$15K",
+      "subtitle": "your network is your pay rise",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "ATT&CK maps real attacker behaviour - not just CVEs",
-        "Most SOC tools already use it under the hood",
-        "Junior analysts who can navigate it stand out immediately",
-        "It's free, updated constantly, and takes one weekend to learn"
+        "Show up in one cyber Discord or Slack - consistently",
+        "Post what you're learning, even if it feels small",
+        "Reply publicly, not just in DMs",
+        "One real connection beats 50 cold applications"
       ]
     }
   ],
-  "caption": "Most analysts work inside tools built on MITRE ATT&CK - but have never opened the framework itself. One weekend changes how you read every alert. #cybersecurity #MITRE #soc #cybersecuritycareers #cypherjobs"
+  "caption": "Referrals in cyber don't just land faster - they pay better. Build your community before you need it. #cybersecurity #cybersecuritycareers #community #cypherjobs #networking"
 }
