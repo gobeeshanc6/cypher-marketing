@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "The Metric Hiring Managers Check",
-      "highlight": "Metric",
-      "subtitle": "And it's not your cert list",
+      "title": "Purple Team Is the Hidden Path",
+      "highlight": "Purple",
+      "subtitle": "Red + blue skills = your competitive edge",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Hiring managers Google you before reading your CV",
-        "A visible project portfolio gets 3x more interview calls",
-        "Visible candidates get DMs - invisible ones get ghosted",
-        "Build one thing publicly. It changes everything."
+        "Most orgs have zero purple team coverage",
+        "Junior roles already starting at $85K+",
+        "Start from SOC or pentesting - both transfer",
+        "Attack + defence thinking is rare - own it"
       ]
     }
   ],
-  "caption": "The thing separating shortlisted candidates isn't secret - it's just never talked about. Your online presence matters more than your cert stack. Start building. #cybersecurity #jobsearch #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Nobody talks about purple teaming - but it's one of the fastest-growing roles in cyber. If you can speak attack AND defence, companies will fight over you. #cybersecurity #purpleteam #cybersecuritycareers #cypherjobs #infosec"
 }
