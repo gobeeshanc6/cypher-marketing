@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "3.5 Million Cyber Jobs Sit Empty",
-      "highlight": "3.5 Million",
-      "subtitle": "The talent gap is your opportunity",
+      "title": "Which Skills Actually Get You Hired?",
+      "highlight": "Actually",
+      "subtitle": "What hiring managers test in real cyber interviews",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Demand outpaces supply in every sector",
-        "Entry-level roles start at $70K+",
-        "Companies hire for skills, not degrees"
+        "SIEM hands-on beats classroom certs every time",
+        "Linux basics come up in almost every SOC interview",
+        "Python - even 20 mins a day builds a real edge",
+        "A home lab shows proof, not just potential"
       ]
     }
   ],
-  "caption": "The cybersecurity talent gap is real - and it's your opening. Build the skills, land the role. #CybersecurityCareers #TechJobs #InfoSec #CypherJobs #CareerAdvice"
+  "caption": "Most cyber candidates grind the wrong skills then wonder why interviews dry up. Here's what hiring managers actually test for. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
 }
