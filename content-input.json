@@ -1,9 +1,11 @@
 {
+  "pillar": "community",
+  "hookStyle": "a bold controversial opinion",
   "slides": [
     {
-      "title": "Which Skills Actually Get You Hired?",
-      "highlight": "Actually",
-      "subtitle": "What hiring managers test in real cyber interviews",
+      "title": "Lurkers Never Land Cyber Jobs",
+      "highlight": "Lurkers",
+      "subtitle": "showing up changes everything",
       "bullets": null
     },
     {
@@ -11,12 +13,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "SIEM hands-on beats classroom certs every time",
-        "Linux basics come up in almost every SOC interview",
-        "Python - even 20 mins a day builds a real edge",
-        "A home lab shows proof, not just potential"
+        "Post one insight a week - not an essay, just a thought",
+        "Reply to 3 people in your niche every day",
+        "Join one community and actually show up in it",
+        "Hiring managers notice who contributes, not who watches"
       ]
     }
   ],
-  "caption": "Most cyber candidates grind the wrong skills then wonder why interviews dry up. Here's what hiring managers actually test for. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
+  "caption": "Hot take - passive followers don't get hired. The candidates landing cyber roles are the ones creating conversations, not just consuming them. Start showing up. #cybersecurity #cybersecuritycareers #community #cypherjobs #networking"
 }
