@@ -1,11 +1,9 @@
 {
-  "pillar": "community",
-  "hookStyle": "a bold controversial opinion",
   "slides": [
     {
-      "title": "Lurkers Never Land Cyber Jobs",
-      "highlight": "Lurkers",
-      "subtitle": "showing up changes everything",
+      "title": "1 Cert Gets You 90% of Entry Roles",
+      "highlight": "90%",
+      "subtitle": "You don't need to stack them first",
       "bullets": null
     },
     {
@@ -13,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Post one insight a week - not an essay, just a thought",
-        "Reply to 3 people in your niche every day",
-        "Join one community and actually show up in it",
-        "Hiring managers notice who contributes, not who watches"
+        "Security+ unlocks most entry doors",
+        "3 months to interview-ready",
+        "Apply before you feel 100% ready",
+        "Stack more certs on the job"
       ]
     }
   ],
-  "caption": "Hot take - passive followers don't get hired. The candidates landing cyber roles are the ones creating conversations, not just consuming them. Start showing up. #cybersecurity #cybersecuritycareers #community #cypherjobs #networking"
+  "caption": "Everyone talks about cert stacks. But one focused cert gets you into more interviews than a half-finished list ever will. Start simple. Apply fast. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
