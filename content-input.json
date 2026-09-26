@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Ignoring AI Security Roles",
-      "highlight": "AI",
-      "subtitle": "The fastest-growing spec in cyber right now",
+      "title": "4 Things Cyber Jobs Test But Don't Advertise",
+      "highlight": "Test",
+      "subtitle": "most candidates get blindsided",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Every company shipping AI needs someone to secure it",
-        "Avg salary: $120K-$155K with demand exploding",
-        "Most teams have zero dedicated AI security coverage",
-        "Background in security OR AI is enough to start"
+        "Log analysis without a SIEM",
+        "Risk communication to non-tech stakeholders",
+        "Scripting a basic automation task on the spot",
+        "Writing a clear, concise incident report"
       ]
     }
   ],
-  "caption": "AI security is one of the fastest-growing paths in cyber right now - and almost no one is positioning for it. Your edge is right in front of you. #cybersecurity #aisecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Job specs list requirements. Interviews test something different. Here are four things cyber hiring managers actually assess - and almost nobody prepares for them. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
 }
