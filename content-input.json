@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "4 Things Cyber Jobs Test But Don't Advertise",
-      "highlight": "Test",
-      "subtitle": "most candidates get blindsided",
+      "title": "Help Desk Work IS Cybersecurity Experience",
+      "highlight": "IS",
+      "subtitle": "Stop underselling it on your resume",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Log analysis without a SIEM",
-        "Risk communication to non-tech stakeholders",
-        "Scripting a basic automation task on the spot",
-        "Writing a clear, concise incident report"
+        "SOC analysts need triage skills - you already have them",
+        "You know how breaches affect real end users",
+        "Network troubleshooting = attack surface knowledge",
+        "Most blue team leads started at the help desk"
       ]
     }
   ],
-  "caption": "Job specs list requirements. Interviews test something different. Here are four things cyber hiring managers actually assess - and almost nobody prepares for them. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #jobsearch"
+  "caption": "If you've worked help desk, you're closer to cybersecurity than you think. Don't sell yourself short. #CybersecurityCareers #CareerAdvice #HelpDesk #ITCareers #CypherJobs"
 }
