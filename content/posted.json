@@ -3278,5 +3278,16 @@
       "keyboard-02.jpg",
       "cozy-interior-03.jpg"
     ]
+  },
+  {
+    "date": "2026-09-29",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Nobody Teaches You to Read CVEs",
+    "caption": "Most cyber candidates know what a CVE is. Barely any can actually read one. This is the gap between raising an alert and understanding it. #cybersecurity #CVE #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "laptop-warm-06.jpg",
+      "laptop-warm-05.jpg"
+    ]
   }
 ]
