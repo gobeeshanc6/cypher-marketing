@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cyber Freelancers Earn 30% More",
-      "highlight": "30%",
-      "subtitle": "The path nobody tells you about",
+      "title": "Nobody Teaches You to Read CVEs",
+      "highlight": "CVEs",
+      "subtitle": "The skill most analysts skip completely",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Set a day rate, not a salary",
-        "Cloud and GRC skills convert fast",
-        "Start with one client, not twenty"
+        "Decode a CVSS score beyond just the number",
+        "Trace an exploit chain step by step",
+        "Explain impact to your team in plain language"
       ]
     }
   ],
-  "caption": "Full-time isn't the only track in cyber. Freelancers with the right specialisms are clearing more - with the flexibility most people only dream about. Worth considering? #cybersecurity #cybersecuritycareers #freelance #infosec #cypherjobs"
+  "caption": "Most cyber candidates know what a CVE is. Barely any can actually read one. This is the gap between raising an alert and understanding it. #cybersecurity #CVE #cybersecuritycareers #cypherjobs #infosec"
 }
