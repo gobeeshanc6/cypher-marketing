@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Teaches You to Read CVEs",
-      "highlight": "CVEs",
-      "subtitle": "The skill most analysts skip completely",
+      "title": "Mentored Cyber Pros Earn $20K More",
+      "highlight": "Mentored",
+      "subtitle": "Community pays - literally",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Decode a CVSS score beyond just the number",
-        "Trace an exploit chain step by step",
-        "Explain impact to your team in plain language"
+        "Find a mentor in your specialism early",
+        "Show up consistently in cyber communities",
+        "Give before you ask - share what you learn",
+        "Your network is your hidden job board"
       ]
     }
   ],
-  "caption": "Most cyber candidates know what a CVE is. Barely any can actually read one. This is the gap between raising an alert and understanding it. #cybersecurity #CVE #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The data is clear - cyber pros with active mentors and a strong community climb faster and earn more. Find your people at cypherjobs.io #cybersecurity #mentorship #community #cybersecuritycareers #cypherjobs"
 }
