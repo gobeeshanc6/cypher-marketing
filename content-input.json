@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Most Cyber Interviews Don't Test Tech",
-      "highlight": "Interviews",
-      "subtitle": "Here's what actually gets you hired",
+      "title": "AI Security Roles Tripled in 12 Months",
+      "highlight": "Tripled",
+      "subtitle": "The fastest-growing specialism in cyber right now",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Know your 'why' - every hiring manager asks",
-        "Explain risk in plain language, not jargon",
-        "Show you understand the business, not just the tech"
+        "Audit LLMs for prompt injection flaws",
+        "Red team AI systems before attackers do",
+        "One of the highest-paying entry points today"
       ]
     }
   ],
-  "caption": "Everyone preps the technical stuff. But most cyber interviews are won or lost on how you communicate - not your cert stack. Are you ready for that? #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "AI security is one of the most in-demand paths nobody's positioning for yet. The gap between demand and qualified candidates is massive - and it's only growing. Are you? #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
