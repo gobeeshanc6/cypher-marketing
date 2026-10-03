@@ -3355,5 +3355,16 @@
       "laptop-warm-03.jpg",
       "coffee-desk-09.jpg"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "pillar": "myth-busting",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "AWS Skills Beat Security+ in Cloud Roles",
+    "caption": "Hot take - hands-on AWS security skills will get you further than another cert badge in most cloud roles. Start building. #cybersecurity #cloudsecurity #AWS #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "keyboard-06.jpg",
+      "keyboard-02.jpg"
+    ]
   }
 ]
