@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AWS Skills Beat Security+ in Cloud Roles",
-      "highlight": "AWS",
-      "subtitle": "Hiring managers want hands-on, not exam scores",
+      "title": "Stop Bookmarking. Start Engaging.",
+      "highlight": "Engaging",
+      "subtitle": "Passive learners get left behind",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AWS Security Hub: free tier, start today",
-        "GuardDuty: threat detection in 10 minutes",
-        "IAM: every cloud breach starts here",
-        "CloudTrail: your audit log for everything"
+        "Post one thing you learned this week",
+        "Reply to 5 threads in your community",
+        "Help one person with a problem you solved"
       ]
     }
   ],
-  "caption": "Hot take - hands-on AWS security skills will get you further than another cert badge in most cloud roles. Start building. #cybersecurity #cloudsecurity #AWS #cybersecuritycareers #cypherjobs"
+  "caption": "You've saved 200 cybersecurity resources. How many have you actually used? The people landing jobs aren't the most prepared - they're the most engaged. Start showing up. #cybersecurity #community #cybersecuritycareers #cypherjobs #networking"
 }
