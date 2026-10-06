@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Right Certs. Right Order. $40K More.",
-      "highlight": "$40K",
-      "subtitle": "Most people cert-stack randomly and leave serious money on the table.",
+      "title": "Supply Chain Is Cyber's Blind Spot",
+      "highlight": "Supply Chain",
+      "subtitle": "Are you positioned for it?",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Security+ first - opens 70% of entry roles fast",
-        "Add a cloud cert (AWS/Azure) - jumps mid-level pay",
-        "Specialize with CISSP or CISM - unlocks senior salaries"
+        "Supply chain attacks bypass most perimeter defenses",
+        "Roles in this space grew 85% in 2 years",
+        "Average salary already hitting $115K",
+        "Under 3% of cyber pros specialize here"
       ]
     }
   ],
-  "caption": "The cert path you pick matters as much as the cert itself. Sequence it smart. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Most perimeter defenses don't catch supply chain attacks - and companies are scrambling for people who do. The talent gap is wide open right now. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
