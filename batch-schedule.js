@@ -1,6 +1,11 @@
 import 'dotenv/config'
 import { readFileSync, existsSync } from 'fs'
 
+if (process.env.HTTPS_PROXY) {
+  const { ProxyAgent, setGlobalDispatcher } = await import('undici')
+  setGlobalDispatcher(new ProxyAgent(process.env.HTTPS_PROXY))
+}
+
 const BUFFER_API_KEY = process.env.BUFFER_API_KEY
 const GITHUB_REPO = process.env.GITHUB_REPO || 'gobeeshanc6/cypher-marketing'
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main'

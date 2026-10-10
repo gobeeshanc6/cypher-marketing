@@ -3498,5 +3498,16 @@
       "coffee-desk-05.jpg",
       "cozy-interior-01.jpg"
     ]
+  },
+  {
+    "date": "2026-10-10",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "Stop Learning Kali Tools First",
+    "caption": "Most beginners rush straight to Kali. That's backwards - and it's slowing you down. Build the foundation first. #cybersecurity #kali #cybersecurityskills #cypherjobs #infosec",
+    "photos": [
+      "keyboard-03.jpg",
+      "cozy-interior-05.jpg"
+    ]
   }
 ]

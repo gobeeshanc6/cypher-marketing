@@ -15,5 +15,8 @@
     "@napi-rs/canvas": "^0.1.99",
     "dotenv": "^17.4.2",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "undici": "^8.11.2"
   }
 }

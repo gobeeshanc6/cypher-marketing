@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Applying to Jobs Already Filled",
-      "highlight": "Stop",
-      "subtitle": "The hidden job market is your edge",
+      "title": "Stop Learning Kali Tools First",
+      "highlight": "Kali",
+      "subtitle": "You're building on sand",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "70% of cyber roles fill through referrals",
-        "Job boards only show what's left over",
-        "Community gets you in before the listing"
+        "Master networking and OS fundamentals first",
+        "Tools amplify skills - they don't replace them",
+        "Employers test your thinking, not your toolbox"
       ]
     }
   ],
-  "caption": "The apply button is the slowest route to a cyber job. Work the hidden market instead. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Most beginners rush straight to Kali. That's backwards - and it's slowing you down. Build the foundation first. #cybersecurity #kali #cybersecurityskills #cypherjobs #infosec"
 }
