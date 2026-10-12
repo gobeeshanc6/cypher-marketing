@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Active Members Land Cyber Jobs 3x Faster",
-      "highlight": "3x Faster",
-      "subtitle": "Community is your edge - not a nice-to-have.",
+      "title": "Nobody Talks About CySA+",
+      "highlight": "CySA+",
+      "subtitle": "Your fastest path to a SOC analyst job",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Join spaces where hiring managers actually hang out",
-        "Share your learning publicly - even the small stuff",
-        "Ask questions openly - it builds your reputation fast"
+        "Proves you can analyze threats - not just recite theory",
+        "SOC hiring managers actively look for it on resumes",
+        "Less time and cost to get than CEH or OSCP"
       ]
     }
   ],
-  "caption": "Most cyber candidates apply in silence. The ones who land fastest show up consistently - in the right rooms. Are you? #cybersecurity #community #cybersecuritycareers #cypherjobs #networking"
+  "caption": "The cert flying under the radar for SOC careers. Worth a second look if you want in. #CybersecurityCareers #CompTIA #SOCAnalyst #CypherJobs"
 }

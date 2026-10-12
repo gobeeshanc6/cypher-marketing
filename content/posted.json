@@ -3542,5 +3542,16 @@
       "keyboard-02.jpg",
       "person-coding-06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "pillar": "certs",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Nobody Talks About CySA+",
+    "caption": "The cert flying under the radar for SOC careers. Worth a second look if you want in. #CybersecurityCareers #CompTIA #SOCAnalyst #CypherJobs",
+    "photos": [
+      "cozy-interior-06.jpg",
+      "laptop-warm-04.jpg"
+    ]
   }
 ]
