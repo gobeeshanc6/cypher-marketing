@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About CySA+",
-      "highlight": "CySA+",
-      "subtitle": "Your fastest path to a SOC analyst job",
+      "title": "Nobody Talks About AI Red Teaming",
+      "highlight": "AI",
+      "subtitle": "The fastest-growing spec in cyber right now",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Proves you can analyze threats - not just recite theory",
-        "SOC hiring managers actively look for it on resumes",
-        "Less time and cost to get than CEH or OSCP"
+        "Most companies have nobody securing their AI systems",
+        "Combines red team skills with AI - a rare combo",
+        "Entry points opening up fast - get in early"
       ]
     }
   ],
-  "caption": "The cert flying under the radar for SOC careers. Worth a second look if you want in. #CybersecurityCareers #CompTIA #SOCAnalyst #CypherJobs"
+  "caption": "AI red teaming is one of the hottest emerging paths in cyber - and barely anyone is positioning for it. The window is wide open right now. #cybersecurity #AIredteaming #cybersecuritycareers #cypherjobs #infosec"
 }
