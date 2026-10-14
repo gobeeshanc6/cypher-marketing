@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About AI Red Teaming",
-      "highlight": "AI",
-      "subtitle": "The fastest-growing spec in cyber right now",
+      "title": "Most Cyber Jobs Are 9-to-5",
+      "highlight": "9-to-5",
+      "subtitle": "The burnout myth is keeping people out",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most companies have nobody securing their AI systems",
-        "Combines red team skills with AI - a rare combo",
-        "Entry points opening up fast - get in early"
+        "GRC, architecture and compliance keep regular hours",
+        "Incident response is one path - not the only one",
+        "Burnout is a choice of role, not the field",
+        "Pick the right spec and protect your evenings"
       ]
     }
   ],
-  "caption": "AI red teaming is one of the hottest emerging paths in cyber - and barely anyone is positioning for it. The window is wide open right now. #cybersecurity #AIredteaming #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The hacker stereotype makes cyber look exhausting. Most roles don't work like that. Pick your path smart and your evenings are yours. #cybersecurity #cybersecuritycareers #worklifebalance #cypherjobs #infosec"
 }
