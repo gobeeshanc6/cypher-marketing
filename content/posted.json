@@ -3663,5 +3663,16 @@
       "keyboard-02.jpg",
       "coffee-desk-06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "AWS Shows Up in 6 in 10 Cyber Listings",
+    "caption": "Cloud skills aren't just for DevOps anymore. If you're building a cyber career and ignoring AWS, you're leaving real opportunities behind. Start free - the hands-on labs are right there. #cybersecurity #cloudsecurity #AWS #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-04.jpg",
+      "cozy-interior-03.jpg"
+    ]
   }
 ]
