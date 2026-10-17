@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "92% of CISO Teams Are Understaffed",
-      "highlight": "92%",
-      "subtitle": "and they're actively hiring right now",
+      "title": "AWS Shows Up in 6 in 10 Cyber Listings",
+      "highlight": "AWS",
+      "subtitle": "Cloud fluency isn't optional anymore",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Most cyber teams run lean by choice - and need to grow fast",
-        "Entry roles are easier to land than ever",
-        "The competition is low - the demand is high",
-        "Your window is open right now"
+        "AWS Security Hub is free to start",
+        "Cloud certs boost cyber salaries by 30%",
+        "Most teams now hire cloud + security together"
       ]
     }
   ],
-  "caption": "The talent shortage is your opportunity. Most cyber teams are actively hiring - and struggling to fill roles. Stop waiting for the perfect moment. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Cloud skills aren't just for DevOps anymore. If you're building a cyber career and ignoring AWS, you're leaving real opportunities behind. Start free - the hands-on labs are right there. #cybersecurity #cloudsecurity #AWS #cybersecuritycareers #cypherjobs"
 }
