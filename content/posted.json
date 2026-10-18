@@ -3674,5 +3674,16 @@
       "cozy-interior-04.jpg",
       "cozy-interior-03.jpg"
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "pillar": "community",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Stop Hiding Your Lab Work",
+    "caption": "Your home lab is your unfair advantage - only if you actually show it. Stop hiding your best work. #cybersecurity #cybersecuritycareers #homelab #jobsearch #cypherjobs",
+    "photos": [
+      "cozy-interior-07.jpg",
+      "laptop-warm-04.jpg"
+    ]
   }
 ]

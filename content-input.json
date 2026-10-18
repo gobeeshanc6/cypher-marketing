@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AWS Shows Up in 6 in 10 Cyber Listings",
-      "highlight": "AWS",
-      "subtitle": "Cloud fluency isn't optional anymore",
+      "title": "Stop Hiding Your Lab Work",
+      "highlight": "Lab Work",
+      "subtitle": "Your best CV entry is sitting on your hard drive",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AWS Security Hub is free to start",
-        "Cloud certs boost cyber salaries by 30%",
-        "Most teams now hire cloud + security together"
+        "Add your projects to GitHub",
+        "Write up what you built and why",
+        "Link it directly in applications",
+        "Hiring managers notice hands-on proof"
       ]
     }
   ],
-  "caption": "Cloud skills aren't just for DevOps anymore. If you're building a cyber career and ignoring AWS, you're leaving real opportunities behind. Start free - the hands-on labs are right there. #cybersecurity #cloudsecurity #AWS #cybersecuritycareers #cypherjobs"
+  "caption": "Your home lab is your unfair advantage - only if you actually show it. Stop hiding your best work. #cybersecurity #cybersecuritycareers #homelab #jobsearch #cypherjobs"
 }
