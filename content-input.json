@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cloud Certs Outperform Security+ by 40%",
-      "highlight": "40%",
-      "subtitle": "in interview callback rates",
+      "title": "AI Security Is This Decade's Pentesting",
+      "highlight": "AI Security",
+      "subtitle": "And barely anyone's trained for it yet",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AZ-500 and AWS Security Specialty appear in 1 in 3 senior cyber listings",
-        "Cloud + security cert combos rank above vendor-neutral certs alone",
-        "Hiring managers shortlist candidates who can demo hands-on cloud work"
+        "LLM prompt injection is a real attack vector",
+        "AI red teaming roles are emerging fast",
+        "Companies are hiring - training programs aren't ready"
       ]
     }
   ],
-  "caption": "Cloud security certs are quietly outperforming traditional picks in real interview pipelines. The data is clear - most candidates just aren't acting on it yet. #cybersecurity #certifications #cloudsecurity #cybersecuritycareers #cypherjobs"
+  "caption": "Hot take - AI security is where pentesting was 10 years ago. Early movers will own this space. Are you building the skills? #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
