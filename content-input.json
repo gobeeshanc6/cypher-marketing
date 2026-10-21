@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Security Is This Decade's Pentesting",
-      "highlight": "AI Security",
-      "subtitle": "And barely anyone's trained for it yet",
+      "title": "3 Myths Costing You Cyber Offers",
+      "highlight": "Myths",
+      "subtitle": "Stop letting these hold you back",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "LLM prompt injection is a real attack vector",
-        "AI red teaming roles are emerging fast",
-        "Companies are hiring - training programs aren't ready"
+        "You need 5+ years before anyone hires you",
+        "Technical skills beat everything else",
+        "Remote cyber roles barely exist"
       ]
     }
   ],
-  "caption": "Hot take - AI security is where pentesting was 10 years ago. Early movers will own this space. Are you building the skills? #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Still holding these myths? That's why the offer isn't landing. Drop them and start applying smarter. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #mythbusting"
 }
