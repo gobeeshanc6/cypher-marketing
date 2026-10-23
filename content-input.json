@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Nobody Talks About Consulting in Cyber",
-      "highlight": "Consulting",
-      "subtitle": "A side door most pros don't even see",
+      "title": "Cyber Hiring Up 23% This Year",
+      "highlight": "23%",
+      "subtitle": "While tech lays off, cyber keeps hiring",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Junior analysts go solo after 2-3 years",
-        "Day rates often beat full-time salaries",
-        "Start with one skill someone will pay for"
+        "Financial services and healthcare are scaling security teams fastest",
+        "Skip cold applications - get warm intros via LinkedIn and Discord",
+        "Tailor your CV to each role's threat model, not just the job title"
       ]
     }
   ],
-  "caption": "The exit route most cyber pros never consider - and it's been there the whole time. #cybersecurity #cybersecuritycareers #consulting #careertips #cypherjobs"
+  "caption": "Tech layoffs are everywhere. Cybersecurity hiring is moving the other way. Here's how to make the most of it. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
 }

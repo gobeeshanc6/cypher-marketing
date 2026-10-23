@@ -3784,5 +3784,16 @@
       "laptop-warm-06.jpg",
       "laptop-warm-07.jpg"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "pillar": "job-market",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "Cyber Hiring Up 23% This Year",
+    "caption": "Tech layoffs are everywhere. Cybersecurity hiring is moving the other way. Here's how to make the most of it. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec",
+    "photos": [
+      "cozy-interior-03.jpg",
+      "keyboard-06.jpg"
+    ]
   }
 ]
