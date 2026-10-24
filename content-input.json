@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cyber Hiring Up 23% This Year",
-      "highlight": "23%",
-      "subtitle": "While tech lays off, cyber keeps hiring",
+      "title": "Your GitHub Is Your Real CV",
+      "highlight": "GitHub",
+      "subtitle": "Not your cert list",
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Financial services and healthcare are scaling security teams fastest",
-        "Skip cold applications - get warm intros via LinkedIn and Discord",
-        "Tailor your CV to each role's threat model, not just the job title"
+        "Employers check GitHub before they call you",
+        "3 good repos beats 10 certs on most shortlists",
+        "Public work is proof - everything else is a claim"
       ]
     }
   ],
-  "caption": "Tech layoffs are everywhere. Cybersecurity hiring is moving the other way. Here's how to make the most of it. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "Hot take - a strong GitHub profile opens more cyber doors than another cert. Show your work. #cybersecurity #github #cybersecuritycareers #cypherjobs #infosec"
 }
