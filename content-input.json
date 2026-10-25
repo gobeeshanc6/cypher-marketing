@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your GitHub Is Your Real CV",
-      "highlight": "GitHub",
-      "subtitle": "Not your cert list",
+      "title": "Stop Lurking. Start Contributing.",
+      "highlight": "Lurking",
+      "subtitle": "Visibility beats qualifications every time.",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Employers check GitHub before they call you",
-        "3 good repos beats 10 certs on most shortlists",
-        "Public work is proof - everything else is a claim"
+        "Comment before you have all the answers",
+        "Share your progress - even the messy parts",
+        "Help someone one step behind you",
+        "Show up weekly, not when you feel ready"
       ]
     }
   ],
-  "caption": "Hot take - a strong GitHub profile opens more cyber doors than another cert. Show your work. #cybersecurity #github #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "Hot take - staying quiet in cyber communities is slowing your career down. The people getting DMs from recruiters aren't the most qualified. They're the most visible. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
