@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Lurking. Start Contributing.",
-      "highlight": "Lurking",
-      "subtitle": "Visibility beats qualifications every time.",
+      "title": "Are You Cert Shopping or Cert Climbing?",
+      "highlight": "Cert",
+      "subtitle": "The question nobody asks before spending £500",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Comment before you have all the answers",
-        "Share your progress - even the messy parts",
-        "Help someone one step behind you",
-        "Show up weekly, not when you feel ready"
+        "Match the cert to the job spec, not the hype",
+        "One cert done beats three in progress",
+        "Employer will pay - most people never ask"
       ]
     }
   ],
-  "caption": "Hot take - staying quiet in cyber communities is slowing your career down. The people getting DMs from recruiters aren't the most qualified. They're the most visible. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
+  "caption": "Most people buy certs. Smart people build a cert strategy. There's a difference - and it shows in interviews. #cybersecurity #certifications #cybersecuritycareers #cypherjobs #infosec"
 }
