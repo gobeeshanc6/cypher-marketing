@@ -3883,5 +3883,16 @@
       "laptop-warm-01.jpg",
       "keyboard-06.jpg"
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"stop doing X\" warning",
+    "hook": "AI Attacks Up 600% in Two Years",
+    "caption": "AI is reshaping the threat landscape faster than companies can hire for it. The first wave of AI security specialists is forming right now - are you in it? #cybersecurity #aisecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "person-coding-02.jpg",
+      "laptop-warm-02.jpg"
+    ]
   }
 ]
