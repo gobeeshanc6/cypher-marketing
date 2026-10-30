@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Your First Cyber Salary Sets Everything",
-      "highlight": "Salary",
-      "subtitle": "Negotiate now. Not next year.",
+      "title": "4 Signs a Cyber Role Is Worth Applying For",
+      "highlight": "Signs",
+      "subtitle": "Not all job listings are equal",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Research the market rate before you apply",
-        "Most employers expect you to negotiate",
-        "A 10% bump now compounds over your whole career"
+        "Salary range is listed up front",
+        "Mentions the team size and tools used",
+        "Doesn't demand 5+ years for entry level",
+        "Has a real human name to contact"
       ]
     }
   ],
-  "caption": "Most people accept the first offer in cyber. Don't. Your starting salary sets the floor for every job after it. #cybersecurity #cybersecuritycareers #salary #jobsearch #cypherjobs"
+  "caption": "Stop firing CVs into the void. Filter smarter and your response rate changes fast. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
 }
