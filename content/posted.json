@@ -3960,5 +3960,16 @@
       "coffee-desk-01.jpg",
       "laptop-warm-02.jpg"
     ]
+  },
+  {
+    "date": "2026-10-31",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Can You Secure an AI System?",
+    "caption": "AI is reshaping every enterprise stack - but almost nobody in cyber knows how to secure it yet. That gap is your next career move. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-01.jpg",
+      "coffee-desk-06.jpg"
+    ]
   }
 ]

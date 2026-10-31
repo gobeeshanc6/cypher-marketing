@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "4 Signs a Cyber Role Is Worth Applying For",
-      "highlight": "Signs",
-      "subtitle": "Not all job listings are equal",
+      "title": "Can You Secure an AI System?",
+      "highlight": "AI",
+      "subtitle": "Most cyber teams can't. That's your edge.",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Salary range is listed up front",
-        "Mentions the team size and tools used",
-        "Doesn't demand 5+ years for entry level",
-        "Has a real human name to contact"
+        "AI adoption outpaces AI security 3 to 1",
+        "Most SecOps teams have zero AI-specific skills",
+        "AI security roles pay 20-30% above market",
+        "Start with model risk and data poisoning basics"
       ]
     }
   ],
-  "caption": "Stop firing CVs into the void. Filter smarter and your response rate changes fast. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #infosec"
+  "caption": "AI is reshaping every enterprise stack - but almost nobody in cyber knows how to secure it yet. That gap is your next career move. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
