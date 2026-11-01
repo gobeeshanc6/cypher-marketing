@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Can You Secure an AI System?",
-      "highlight": "AI",
-      "subtitle": "Most cyber teams can't. That's your edge.",
+      "title": "72% of Cyber Jobs Fill Through Connections",
+      "highlight": "72%",
+      "subtitle": "The hidden job market is the real job market.",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "AI adoption outpaces AI security 3 to 1",
-        "Most SecOps teams have zero AI-specific skills",
-        "AI security roles pay 20-30% above market",
-        "Start with model risk and data poisoning basics"
+        "Join 2-3 active cyber Discord or Slack communities",
+        "Engage - comment, ask, share, don't just lurk",
+        "One real conversation beats 50 cold applications",
+        "Show up weekly - recruiters notice consistency"
       ]
     }
   ],
-  "caption": "AI is reshaping every enterprise stack - but almost nobody in cyber knows how to secure it yet. That gap is your next career move. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The apply button is the slow road. Start where the real conversations happen. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
