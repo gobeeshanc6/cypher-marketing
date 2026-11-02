@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "72% of Cyber Jobs Fill Through Connections",
-      "highlight": "72%",
-      "subtitle": "The hidden job market is the real job market.",
+      "title": "AI Security Certs Don't Exist Yet",
+      "highlight": "AI Security",
+      "subtitle": "That gap is your advantage",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Join 2-3 active cyber Discord or Slack communities",
-        "Engage - comment, ask, share, don't just lurk",
-        "One real conversation beats 50 cold applications",
-        "Show up weekly - recruiters notice consistency"
+        "Study OWASP AI Security Top 10",
+        "Build hands-on AI threat model projects",
+        "Document skills before certs do it for you",
+        "First movers always own the category"
       ]
     }
   ],
-  "caption": "The apply button is the slow road. Start where the real conversations happen. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
+  "caption": "The next big cert category in cyber is still forming - and that's actually the best time to get in. #cybersecurity #AIsecurity #certifications #cybersecuritycareers #cypherjobs"
 }
