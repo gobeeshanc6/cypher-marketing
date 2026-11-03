@@ -4037,5 +4037,16 @@
       "coffee-desk-02.jpg",
       "coffee-desk-08.jpg"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Stop Ignoring KQL Skills",
+    "caption": "KQL shows up in almost every enterprise SOC stack - and most candidates can't write a single query. That gap is yours. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "laptop-warm-05.jpg",
+      "coffee-desk-11.jpg"
+    ]
   }
 ]
