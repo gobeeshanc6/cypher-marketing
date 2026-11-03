@@ -4026,5 +4026,16 @@
       "person-coding-02.jpg",
       "keyboard-02.jpg"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "pillar": "specialism-spotlight",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "Stop Ignoring KQL Skills",
+    "caption": "KQL shows up in almost every enterprise SOC stack - and most candidates can't write a single query. That gap is yours. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "coffee-desk-02.jpg",
+      "coffee-desk-08.jpg"
+    ]
   }
 ]

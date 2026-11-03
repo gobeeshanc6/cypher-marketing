@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "AI Security Certs Don't Exist Yet",
-      "highlight": "AI Security",
-      "subtitle": "That gap is your advantage",
+      "title": "Stop Ignoring KQL Skills",
+      "highlight": "KQL",
+      "subtitle": "Microsoft Sentinel runs on it",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Study OWASP AI Security Top 10",
-        "Build hands-on AI threat model projects",
-        "Document skills before certs do it for you",
-        "First movers always own the category"
+        "Sentinel and Defender both run on KQL",
+        "Most SOC analysts have never written a query",
+        "Learn it free on Microsoft Learn in days",
+        "Add it to your CV before your next application"
       ]
     }
   ],
-  "caption": "The next big cert category in cyber is still forming - and that's actually the best time to get in. #cybersecurity #AIsecurity #certifications #cybersecuritycareers #cypherjobs"
+  "caption": "KQL shows up in almost every enterprise SOC stack - and most candidates can't write a single query. That gap is yours. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs"
 }
