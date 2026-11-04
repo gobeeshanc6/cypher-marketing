@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Stop Ignoring KQL Skills",
-      "highlight": "KQL",
-      "subtitle": "Microsoft Sentinel runs on it",
+      "title": "Stop Underselling Your Blue Team Skills",
+      "highlight": "Blue Team",
+      "subtitle": "defence pays just as well as offence",
       "bullets": null
     },
     {
@@ -11,12 +11,13 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Sentinel and Defender both run on KQL",
-        "Most SOC analysts have never written a query",
-        "Learn it free on Microsoft Learn in days",
-        "Add it to your CV before your next application"
+        "SOC analyst roles are always open - demand doesn't slow down",
+        "Detection engineers are rarer than pentesters and paid more",
+        "Blue teamers move into leadership faster than red teamers",
+        "Incident response entry salaries average $90K-$100K",
+        "Every company needs defence - only some need red team"
       ]
     }
   ],
-  "caption": "KQL shows up in almost every enterprise SOC stack - and most candidates can't write a single query. That gap is yours. #cybersecurity #KQL #microsoftsentinel #cybersecuritycareers #cypherjobs"
+  "caption": "Everyone chases the hacking path - but the people defending the perimeter are the ones companies can't hire fast enough. #cybersecurity #blueteam #cybersecuritycareers #cypherjobs #infosec"
 }
