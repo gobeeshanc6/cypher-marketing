@@ -4114,5 +4114,16 @@
       "laptop-warm-01.jpg",
       "coffee-desk-03.jpg"
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Cloud CLI Is Now a Cyber Basic",
+    "caption": "Hot take - if you can't navigate a cloud environment from the command line, most cloud security roles will quietly pass you over. It's not hard to fix. Start this week. #cybersecurity #cloudsecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "keyboard-01.jpg",
+      "coffee-desk-04.jpg"
+    ]
   }
 ]
