@@ -4213,5 +4213,16 @@
       "cozy-interior-01.jpg",
       "cozy-interior-02.jpg"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "pillar": "community",
+    "hookStyle": "a \"X things you need to know\" list tease",
+    "hook": "Only 15% of Cyber Jobs Are Red Team",
+    "caption": "Everyone wants to be a hacker. But most cyber jobs are GRC, SOC, and cloud. The unglamorous paths are where most of the work - and the money - actually live. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #mythbusting",
+    "photos": [
+      "coffee-desk-11.jpg",
+      "coffee-desk-01.jpg"
+    ]
   }
 ]
