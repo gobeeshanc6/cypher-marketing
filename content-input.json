@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Only 15% of Cyber Jobs Are Red Team",
-      "highlight": "15%",
-      "subtitle": "So what are the other 85% doing?",
+      "title": "Most Cyber Listings Close in a Week",
+      "highlight": "Week",
+      "subtitle": "Speed beats perfection in job hunting",
       "bullets": null
     },
     {
@@ -11,13 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "SOC & detection: 30% of roles",
-        "GRC & compliance: 25% of roles",
-        "Cloud & identity security: 20% of roles",
-        "Red team & pen testing: 15% of roles",
-        "The quiet paths pay just as well"
+        "Set job alerts on LinkedIn and Indeed",
+        "Apply within 48 hours of a posting",
+        "Have a CV ready before you need it",
+        "Follow up once - then move on"
       ]
     }
   ],
-  "caption": "Everyone wants to be a hacker. But most cyber jobs are GRC, SOC, and cloud. The unglamorous paths are where most of the work - and the money - actually live. #cybersecurity #cybersecuritycareers #infosec #cypherjobs #mythbusting"
+  "caption": "Most cyber job listings get flooded in the first 72 hours. If you're waiting to feel ready, the role is already gone. Speed is a skill. #cybersecurity #cybersecuritycareers #jobsearch #cypherjobs #careertips"
 }
