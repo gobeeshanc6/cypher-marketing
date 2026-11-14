@@ -1,17 +1,22 @@
 {
   "slides": [
     {
-      "title": "Stop Ignoring Government Cyber Jobs",
-      "highlight": "Government",
-      "subtitle": "The most overlooked path in cyber hiring",
+      "title": "PowerShell Gets You Hired Faster Than Python",
+      "highlight": "PowerShell",
+      "subtitle": "in enterprise cyber roles",
       "bullets": null
     },
     {
       "title": null,
       "highlight": null,
       "subtitle": null,
-      "bullets": ["Clearance-eligible roles pay 20-30% more", "Less competition than private sector", "Most agencies sponsor your clearance", "Stable work, serious real-world impact"]
+      "bullets": [
+        "90% of enterprise breaches involve Windows environments",
+        "Blue team roles test PowerShell - not Python",
+        "Incident response runs on PowerShell scripting",
+        "Start free - TryHackMe has beginner rooms"
+      ]
     }
   ],
-  "caption": "Government cyber roles are overlooked by almost every candidate - and that gap is your advantage. Clearance-eligible talent is in serious demand right now. #cybersecurity #cybersecuritycareers #govtech #cypherjobs #infosec"
+  "caption": "Everyone says learn Python first. But in enterprise cyber, PowerShell is what hiring managers actually test for - and most candidates can't write a line. That gap is yours. #cybersecurity #powershell #cybersecuritycareers #cypherjobs #blueteam"
 }
