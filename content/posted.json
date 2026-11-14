@@ -4279,5 +4279,16 @@
       "laptop-warm-06.jpg",
       "laptop-warm-04.jpg"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "pillar": "myth-busting",
+    "hookStyle": "a \"nobody talks about X\" reveal",
+    "hook": "PowerShell Gets You Hired Faster Than Python",
+    "caption": "Everyone says learn Python first. But in enterprise cyber, PowerShell is what hiring managers actually test for - and most candidates can't write a line. That gap is yours. #cybersecurity #powershell #cybersecuritycareers #cypherjobs #blueteam",
+    "photos": [
+      "laptop-warm-03.jpg",
+      "laptop-warm-07.jpg"
+    ]
   }
 ]
