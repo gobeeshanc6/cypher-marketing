@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "PowerShell Gets You Hired Faster Than Python",
-      "highlight": "PowerShell",
-      "subtitle": "in enterprise cyber roles",
+      "title": "Your Cert Stack Can't Replace Community",
+      "highlight": "Community",
+      "subtitle": "The real career multiplier nobody uses",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "90% of enterprise breaches involve Windows environments",
-        "Blue team roles test PowerShell - not Python",
-        "Incident response runs on PowerShell scripting",
-        "Start free - TryHackMe has beginner rooms"
+        "Find one community - show up consistently",
+        "Comment before you cold DM anyone",
+        "Share what you're learning, not just what you need",
+        "Your next job comes from someone who knows you"
       ]
     }
   ],
-  "caption": "Everyone says learn Python first. But in enterprise cyber, PowerShell is what hiring managers actually test for - and most candidates can't write a line. That gap is yours. #cybersecurity #powershell #cybersecuritycareers #cypherjobs #blueteam"
+  "caption": "Bold take - your community is worth more to your cyber career than any cert stack. The candidates who build real relationships land 3x faster. #cybersecurity #community #cybersecuritycareers #cypherjobs #networking"
 }
