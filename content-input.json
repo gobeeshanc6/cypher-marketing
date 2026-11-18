@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Supply Chain Attacks Up 430% in 3 Years",
-      "highlight": "430%",
-      "subtitle": "And companies can't find anyone who understands why",
+      "title": "Security Architects Clear $150K Without Code",
+      "highlight": "$150K",
+      "subtitle": null,
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "No offensive skills needed - it's all vendor risk and SBOM",
-        "Mid-level roles pay $100K+ in most markets",
-        "Barely any trained candidates competing for these jobs",
-        "One of the fastest-growing specs in cyber right now"
+        "Architecture is design, review, and decisions - not code",
+        "Cloud knowledge + communication gets you there fast",
+        "Most architects land the role within 4 years",
+        "It's the most overlooked salary ceiling in cyber"
       ]
     }
   ],
-  "caption": "Supply chain security is the most underhired niche in cyber right now - and most candidates have never even looked at it. That gap is yours. #cybersecurity #supplychainsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The hacker salary ceiling is a myth. Security architects design the whole system - and get paid like it. #cybersecurity #securityarchitecture #cybersecuritycareers #cypherjobs #salary"
 }
