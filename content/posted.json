@@ -4367,5 +4367,16 @@
       "person-coding-05.jpg",
       "coffee-desk-05.jpg"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "pillar": "community",
+    "hookStyle": "a bold controversial opinion",
+    "hook": "Security Architects Clear $150K Without Code",
+    "caption": "The hacker salary ceiling is a myth. Security architects design the whole system - and get paid like it. #cybersecurity #securityarchitecture #cybersecuritycareers #cypherjobs #salary",
+    "photos": [
+      "person-coding-01.jpg",
+      "cozy-interior-01.jpg"
+    ]
   }
 ]
