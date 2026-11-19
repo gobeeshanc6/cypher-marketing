@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Security Architects Clear $150K Without Code",
-      "highlight": "$150K",
-      "subtitle": null,
+      "title": "Your Fastest Cyber Move Is Internal",
+      "highlight": "Internal",
+      "subtitle": "Nobody talks about this shortcut",
       "bullets": null
     },
     {
@@ -11,12 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Architecture is design, review, and decisions - not code",
-        "Cloud knowledge + communication gets you there fast",
-        "Most architects land the role within 4 years",
-        "It's the most overlooked salary ceiling in cyber"
+        "Most companies post cyber roles internally first",
+        "Internal hires skip the resume black hole",
+        "You already have trust - use it",
+        "One conversation with your security team changes everything"
       ]
     }
   ],
-  "caption": "The hacker salary ceiling is a myth. Security architects design the whole system - and get paid like it. #cybersecurity #securityarchitecture #cybersecuritycareers #cypherjobs #salary"
+  "caption": "Everyone applies externally - but the fastest path into cyber is often already inside your current company. Have you asked? #cybersecurity #cybersecuritycareers #careertips #cypherjobs #infosec"
 }
