@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Cyber Hiring Is Up. Job Posts Are Down.",
-      "highlight": "Up",
-      "subtitle": "Here's what that means for you",
+      "title": "Only 8% Know AI Attack Vectors",
+      "highlight": "8%",
+      "subtitle": "AI security skills are the new gap in every team",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Companies skip public posts to dodge 500+ bad-fit CVs",
-        "Roles fill through referrals before they go live",
-        "The best jobs never hit LinkedIn",
-        "Your network is now your job board"
+        "Learn prompt injection and LLM exploitation basics",
+        "Study OWASP Top 10 for LLM Applications",
+        "Build a lab - tools like Garak are free to start"
       ]
     }
   ],
-  "caption": "The cyber job market is thriving - job boards just can't see it anymore. Build your community and get there first. #cybersecurity #cybersecuritycareers #jobmarket #cypherjobs #infosec"
+  "caption": "AI is everywhere - and barely anyone securing it knows how it actually gets attacked. That gap is yours to fill. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
 }
