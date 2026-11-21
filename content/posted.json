@@ -4433,5 +4433,16 @@
       "person-coding-02.jpg",
       "cozy-interior-04.jpg"
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "pillar": "myth-busting",
+    "hookStyle": "a surprising statistic or number",
+    "hook": "Only 8% Know AI Attack Vectors",
+    "caption": "AI is everywhere - and barely anyone securing it knows how it actually gets attacked. That gap is yours to fill. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec",
+    "photos": [
+      "coffee-desk-11.jpg",
+      "laptop-warm-04.jpg"
+    ]
   }
 ]
