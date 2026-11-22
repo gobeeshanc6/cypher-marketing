@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Only 8% Know AI Attack Vectors",
-      "highlight": "8%",
-      "subtitle": "AI security skills are the new gap in every team",
+      "title": "Community Members Earn $12K More",
+      "highlight": "$12K",
+      "subtitle": "The referral premium is real",
       "bullets": null
     },
     {
@@ -11,11 +11,12 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Learn prompt injection and LLM exploitation basics",
-        "Study OWASP Top 10 for LLM Applications",
-        "Build a lab - tools like Garak are free to start"
+        "Show up in niche Discord servers",
+        "Comment on hiring managers' posts",
+        "Help others before you need help",
+        "Let your work be visible"
       ]
     }
   ],
-  "caption": "AI is everywhere - and barely anyone securing it knows how it actually gets attacked. That gap is yours to fill. #cybersecurity #AIsecurity #cybersecuritycareers #cypherjobs #infosec"
+  "caption": "The cyber professionals who build community don't just get hired faster - they get paid more. Referrals come with leverage. Start building now. #cybersecurity #community #cybersecuritycareers #networking #cypherjobs"
 }
