@@ -4499,5 +4499,16 @@
       "coffee-desk-01.jpg",
       "cozy-interior-04.jpg"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "pillar": "tools-and-skills",
+    "hookStyle": "a salary or money figure",
+    "hook": "Prompt Injection Is the New SQL Injection",
+    "caption": "AI is everywhere. The people who know how to attack and defend it are going to have their pick of roles. #cybersecurity #AIsecurity #LLMsecurity #cybersecuritycareers #cypherjobs",
+    "photos": [
+      "cozy-interior-02.jpg",
+      "keyboard-06.jpg"
+    ]
   }
 ]
