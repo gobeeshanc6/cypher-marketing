@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Skip Network+. Go Straight to Security+",
-      "highlight": "Security+",
-      "subtitle": null,
+      "title": "Prompt Injection Is the New SQL Injection",
+      "highlight": "Prompt Injection",
+      "subtitle": "And almost no one is securing against it",
       "bullets": null
     },
     {
@@ -11,12 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "Network+ costs time most entry candidates can't spare",
-        "Employers hiring analysts ask for Security+, not networking badges",
-        "You'll cover networking basics inside Security+ prep",
-        "Get certified in 90 days, not 180"
+        "LLMs are being shipped faster than they're being secured",
+        "AI red-teaming is a brand-new career path with almost no competition",
+        "Orgs are desperate - and paying top rates - for people who get it"
       ]
     }
   ],
-  "caption": "Hot take - most people spend months on Network+ when Security+ is what gets you in the door. Work smarter. #cybersecurity #certifications #securityplus #cybersecuritycareers #cypherjobs"
+  "caption": "AI is everywhere. The people who know how to attack and defend it are going to have their pick of roles. #cybersecurity #AIsecurity #LLMsecurity #cybersecuritycareers #cypherjobs"
 }
