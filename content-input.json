@@ -1,9 +1,9 @@
 {
   "slides": [
     {
-      "title": "Prompt Injection Is the New SQL Injection",
-      "highlight": "Prompt Injection",
-      "subtitle": "And almost no one is securing against it",
+      "title": "3 Cyber Career Myths Costing You Time",
+      "highlight": "Myths",
+      "subtitle": null,
       "bullets": null
     },
     {
@@ -11,11 +11,11 @@
       "highlight": null,
       "subtitle": null,
       "bullets": [
-        "LLMs are being shipped faster than they're being secured",
-        "AI red-teaming is a brand-new career path with almost no competition",
-        "Orgs are desperate - and paying top rates - for people who get it"
+        "You need a degree or IT background first",
+        "Helpdesk is the only entry point",
+        "Cyber is mostly hacking and exploits"
       ]
     }
   ],
-  "caption": "AI is everywhere. The people who know how to attack and defend it are going to have their pick of roles. #cybersecurity #AIsecurity #LLMsecurity #cybersecuritycareers #cypherjobs"
+  "caption": "Three things most people believe that just aren't true anymore. Which one almost put you off? #cybersecurity #cybersecuritycareers #infosec #cypherjobs #mythbusting"
 }
